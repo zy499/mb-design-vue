@@ -1,9 +1,9 @@
 <template>
   <aside-anchor
     v-if="anchors && anchors.length > 0"
-    :show="collapseCtx.showAnchor"
+    :show="collapseCtx?.showAnchor"
     :anchors="anchors"
-    @button-click="collapseCtx.toggleAnchor"
+    @button-click="collapseCtx?.toggleAnchor"
   />
   <main :class="cls">
     <article class="mb-vue-article">
