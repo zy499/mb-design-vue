@@ -71,16 +71,25 @@
             </div>
             <div class="changelog-content">
               <ul v-if="item.extra && item.extra.length">
-                <li v-for="(text, index) of item.extra" :key="index">{{
-                  text
-                }}</li>
+                <!-- eslint-disable vue/no-v-html -->
+
+                <li
+                  v-for="(text, index) of item.extra"
+                  :key="index"
+                  v-html="text"
+                />
+                <!--eslint-enable-->
               </ul>
               <section v-for="content of item.list" :key="content.type">
                 <h3 class="changelog-content-type">{{ content.typeText }}</h3>
                 <ul class="changelog-content-list">
-                  <li v-for="(text, index) of content.list" :key="index">{{
-                    text
-                  }}</li>
+                  <!-- eslint-disable vue/no-v-html -->
+                  <li
+                    v-for="(text, index) of content.list"
+                    :key="index"
+                    v-html="text"
+                  />
+                  <!--eslint-enable-->
                 </ul>
               </section>
             </div>

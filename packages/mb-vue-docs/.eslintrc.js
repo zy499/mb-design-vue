@@ -66,5 +66,6 @@ module.exports = {
     'no-continue': 0,
     '@typescript-eslint/no-unused-vars': 0,
     '@typescript-eslint/no-empty-function': 0,
+    'vue/no-template-shadow': 'off',
   },
 };

@@ -110,7 +110,7 @@ export default defineComponent({
       };
     });
 
-    const getMessage = (zh, en) => {
+    const getMessage = (zh: any, en: any) => {
       return locale.value === 'zh-CN' ? zh : en;
     };
 
