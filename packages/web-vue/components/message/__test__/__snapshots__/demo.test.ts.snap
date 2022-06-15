@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<message> demo: render [basic] correctly 1`] = `
+"<button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+  <!--v-if-->Info Message
+</button>"
+`;
+
+exports[`<message> demo: render [closeable] correctly 1`] = `
+"<button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+  <!--v-if-->Closeable Message
+</button>"
+`;
+
+exports[`<message> demo: render [icon] correctly 1`] = `
+"<button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+  <!--v-if-->Info Message
+</button>"
+`;
+
+exports[`<message> demo: render [position] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+      <!--v-if-->Top Message
+    </button></div>
+  <div class=\\"mb-space-item\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+      <!--v-if-->Bottom Message
+    </button></div>
+</div>"
+`;
+
+exports[`<message> demo: render [type] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+      <!--v-if-->Info Message
+    </button></div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-success\\" type=\\"button\\">
+      <!--v-if-->Success Message
+    </button></div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-warning\\" type=\\"button\\">
+      <!--v-if-->Warning Message
+    </button></div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-danger\\" type=\\"button\\">
+      <!--v-if-->Error Message
+    </button></div>
+  <div class=\\"mb-space-item\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-primary\\" type=\\"button\\">
+      <!--v-if-->Loading Message
+    </button></div>
+</div>"
+`;
+
+exports[`<message> demo: render [update] correctly 1`] = `
+"<button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+  <!--v-if-->Update Info Message
+</button>"
+`;

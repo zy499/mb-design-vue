@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<breadcrumb> demo: render [basic] correctly 1`] = `
+"<div role=\\"list\\" class=\\"mb-breadcrumb\\">
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">Home</div>
+  <div aria-hidden=\\"true\\" class=\\"mb-breadcrumb-item-separator\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-oblique-line\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"M29.506 6.502 18.493 41.498\\"></path>
+    </svg></div>
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">Channel</div>
+  <div aria-hidden=\\"true\\" class=\\"mb-breadcrumb-item-separator\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-oblique-line\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"M29.506 6.502 18.493 41.498\\"></path>
+    </svg></div>
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">News</div>
+  <!---->
+</div>"
+`;
+
+exports[`<breadcrumb> demo: render [ellipsis] correctly 1`] = `
+"<div role=\\"list\\" class=\\"mb-breadcrumb\\">
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">Home</div>
+  <div aria-hidden=\\"true\\" class=\\"mb-breadcrumb-item-separator\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-oblique-line\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"M29.506 6.502 18.493 41.498\\"></path>
+    </svg></div>
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\" aria-label=\\"ellipses of breadcrumb items\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-more\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path>
+      <path d=\\"M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z\\"></path>
+    </svg></div>
+  <div aria-hidden=\\"true\\" class=\\"mb-breadcrumb-item-separator\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-oblique-line\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"M29.506 6.502 18.493 41.498\\"></path>
+    </svg></div>
+  <!---->
+  <!---->
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">News</div>
+  <div aria-hidden=\\"true\\" class=\\"mb-breadcrumb-item-separator\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-oblique-line\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"M29.506 6.502 18.493 41.498\\"></path>
+    </svg></div>
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">Post</div>
+  <!---->
+</div>"
+`;
+
+exports[`<breadcrumb> demo: render [icon] correctly 1`] = `
+"<div role=\\"list\\" class=\\"mb-breadcrumb\\">
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-home\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"M7 17 24 7l17 10v24H7V17Z\\"></path>
+      <path d=\\"M20 28h8v13h-8V28Z\\"></path>
+    </svg></div>
+  <div aria-hidden=\\"true\\" class=\\"mb-breadcrumb-item-separator\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-oblique-line\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"M29.506 6.502 18.493 41.498\\"></path>
+    </svg></div>
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">Channel</div>
+  <div aria-hidden=\\"true\\" class=\\"mb-breadcrumb-item-separator\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-oblique-line\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"M29.506 6.502 18.493 41.498\\"></path>
+    </svg></div>
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">News</div>
+  <!---->
+</div>"
+`;
+
+exports[`<breadcrumb> demo: render [separator] correctly 1`] = `
+"<div role=\\"list\\" class=\\"mb-breadcrumb\\">
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">Home</div>
+  <div aria-hidden=\\"true\\" class=\\"mb-breadcrumb-item-separator\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-right\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"m16 39.513 15.556-15.557L16 8.4\\"></path>
+    </svg></div>
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">Channel</div>
+  <div aria-hidden=\\"true\\" class=\\"mb-breadcrumb-item-separator\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-right\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"m16 39.513 15.556-15.557L16 8.4\\"></path>
+    </svg></div>
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">News</div>
+  <!---->
+</div>"
+`;
+
+exports[`<breadcrumb> demo: render [size] correctly 1`] = `
+"<div role=\\"list\\" class=\\"mb-breadcrumb\\" style=\\"font-size: 12px;\\">
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">Home</div>
+  <div aria-hidden=\\"true\\" class=\\"mb-breadcrumb-item-separator\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-oblique-line\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"M29.506 6.502 18.493 41.498\\"></path>
+    </svg></div>
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">Channel</div>
+  <div aria-hidden=\\"true\\" class=\\"mb-breadcrumb-item-separator\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-oblique-line\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+      <path d=\\"M29.506 6.502 18.493 41.498\\"></path>
+    </svg></div>
+  <div role=\\"listitem\\" class=\\"mb-breadcrumb-item\\">News</div>
+  <!---->
+</div>"
+`;

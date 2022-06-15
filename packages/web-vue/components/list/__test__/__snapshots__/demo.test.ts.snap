@@ -1,0 +1,898 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<list> demo: render [basic] correctly 1`] = `
+"<div class=\\"mb-list-wrapper\\">
+  <div class=\\"mb-spin mb-list-spin\\">
+    <div class=\\"mb-list mb-list-medium mb-list-bordered mb-list-split\\">
+      <div class=\\"mb-list-header\\"> List title </div>
+      <div role=\\"list\\" class=\\"mb-list-content\\">
+        <div role=\\"listitem\\" class=\\"mb-list-item\\">
+          <div class=\\"mb-list-item-main\\">
+            <!---->
+            <div class=\\"mb-list-item-content\\">Beijing Bytedance Technology Co., Ltd.</div>
+            <!---->
+          </div>
+          <!---->
+          <!---->
+        </div>
+        <div role=\\"listitem\\" class=\\"mb-list-item\\">
+          <div class=\\"mb-list-item-main\\">
+            <!---->
+            <div class=\\"mb-list-item-content\\">Bytedance Technology Co., Ltd.</div>
+            <!---->
+          </div>
+          <!---->
+          <!---->
+        </div>
+        <div role=\\"listitem\\" class=\\"mb-list-item\\">
+          <div class=\\"mb-list-item-main\\">
+            <!---->
+            <div class=\\"mb-list-item-content\\">Beijing Toutiao Technology Co., Ltd.</div>
+            <!---->
+          </div>
+          <!---->
+          <!---->
+        </div>
+        <div role=\\"listitem\\" class=\\"mb-list-item\\">
+          <div class=\\"mb-list-item-main\\">
+            <!---->
+            <div class=\\"mb-list-item-content\\">Beijing Volcengine Technology Co., Ltd.</div>
+            <!---->
+          </div>
+          <!---->
+          <!---->
+        </div>
+        <div role=\\"listitem\\" class=\\"mb-list-item\\">
+          <div class=\\"mb-list-item-main\\">
+            <!---->
+            <div class=\\"mb-list-item-content\\">China Beijing Bytedance Technology Co., Ltd.</div>
+            <!---->
+          </div>
+          <!---->
+          <!---->
+        </div>
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <!---->
+  </div>
+</div>"
+`;
+
+exports[`<list> demo: render [grid] correctly 1`] = `
+"<div class=\\"mb-list-wrapper\\">
+  <div class=\\"mb-spin mb-list-spin\\">
+    <div class=\\"mb-list mb-list-medium mb-list-split\\">
+      <!---->
+      <div role=\\"list\\" class=\\"mb-list-content\\">
+        <div class=\\"mb-row mb-row-align-start mb-row-justify-start mb-list-row\\">
+          <div class=\\"mb-col mb-col-6 mb-list-col\\">
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-wrapper\\">
+                    <div class=\\"mb-spin mb-list-spin\\">
+                      <div class=\\"mb-list mb-list-medium mb-list-bordered mb-list-split\\">
+                        <div class=\\"mb-list-header\\">Platform</div>
+                        <div role=\\"list\\" class=\\"mb-list-content\\">
+                          <div role=\\"listitem\\" class=\\"mb-list-item\\">
+                            <div class=\\"mb-list-item-main\\">
+                              <!---->
+                              <div class=\\"mb-list-item-content\\">iOS</div>
+                              <!---->
+                            </div>
+                            <!---->
+                            <!---->
+                          </div>
+                          <div role=\\"listitem\\" class=\\"mb-list-item\\">
+                            <div class=\\"mb-list-item-main\\">
+                              <!---->
+                              <div class=\\"mb-list-item-content\\">iOS</div>
+                              <!---->
+                            </div>
+                            <!---->
+                            <!---->
+                          </div>
+                          <div role=\\"listitem\\" class=\\"mb-list-item\\">
+                            <div class=\\"mb-list-item-main\\">
+                              <!---->
+                              <div class=\\"mb-list-item-content\\">iOS</div>
+                              <!---->
+                            </div>
+                            <!---->
+                            <!---->
+                          </div>
+                          <!---->
+                        </div>
+                        <!---->
+                      </div>
+                      <!---->
+                      <!---->
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+          </div>
+          <div class=\\"mb-col mb-col-6 mb-list-col\\">
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-wrapper\\">
+                    <div class=\\"mb-spin mb-list-spin\\">
+                      <div class=\\"mb-list mb-list-medium mb-list-bordered mb-list-split\\">
+                        <div class=\\"mb-list-header\\">Framework</div>
+                        <div role=\\"list\\" class=\\"mb-list-content\\">
+                          <div role=\\"listitem\\" class=\\"mb-list-item\\">
+                            <div class=\\"mb-list-item-main\\">
+                              <!---->
+                              <div class=\\"mb-list-item-content\\">Angular</div>
+                              <!---->
+                            </div>
+                            <!---->
+                            <!---->
+                          </div>
+                          <div role=\\"listitem\\" class=\\"mb-list-item\\">
+                            <div class=\\"mb-list-item-main\\">
+                              <!---->
+                              <div class=\\"mb-list-item-content\\">Vue</div>
+                              <!---->
+                            </div>
+                            <!---->
+                            <!---->
+                          </div>
+                          <div role=\\"listitem\\" class=\\"mb-list-item\\">
+                            <div class=\\"mb-list-item-main\\">
+                              <!---->
+                              <div class=\\"mb-list-item-content\\">React</div>
+                              <!---->
+                            </div>
+                            <!---->
+                            <!---->
+                          </div>
+                          <!---->
+                        </div>
+                        <!---->
+                      </div>
+                      <!---->
+                      <!---->
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+          </div>
+          <div class=\\"mb-col mb-col-6 mb-list-col\\">
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-wrapper\\">
+                    <div class=\\"mb-spin mb-list-spin\\">
+                      <div class=\\"mb-list mb-list-medium mb-list-bordered mb-list-split\\">
+                        <div class=\\"mb-list-header\\">Language</div>
+                        <div role=\\"list\\" class=\\"mb-list-content\\">
+                          <div role=\\"listitem\\" class=\\"mb-list-item\\">
+                            <div class=\\"mb-list-item-main\\">
+                              <!---->
+                              <div class=\\"mb-list-item-content\\">C++</div>
+                              <!---->
+                            </div>
+                            <!---->
+                            <!---->
+                          </div>
+                          <div role=\\"listitem\\" class=\\"mb-list-item\\">
+                            <div class=\\"mb-list-item-main\\">
+                              <!---->
+                              <div class=\\"mb-list-item-content\\">JavaScript</div>
+                              <!---->
+                            </div>
+                            <!---->
+                            <!---->
+                          </div>
+                          <div role=\\"listitem\\" class=\\"mb-list-item\\">
+                            <div class=\\"mb-list-item-main\\">
+                              <!---->
+                              <div class=\\"mb-list-item-content\\">Python</div>
+                              <!---->
+                            </div>
+                            <!---->
+                            <!---->
+                          </div>
+                          <!---->
+                        </div>
+                        <!---->
+                      </div>
+                      <!---->
+                      <!---->
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+          </div>
+          <div class=\\"mb-col mb-col-6 mb-list-col\\">
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-wrapper\\">
+                    <div class=\\"mb-spin mb-list-spin\\">
+                      <div class=\\"mb-list mb-list-medium mb-list-bordered mb-list-split\\">
+                        <div class=\\"mb-list-header\\">Component</div>
+                        <div role=\\"list\\" class=\\"mb-list-content\\">
+                          <div role=\\"listitem\\" class=\\"mb-list-item\\">
+                            <div class=\\"mb-list-item-main\\">
+                              <!---->
+                              <div class=\\"mb-list-item-content\\">Button</div>
+                              <!---->
+                            </div>
+                            <!---->
+                            <!---->
+                          </div>
+                          <div role=\\"listitem\\" class=\\"mb-list-item\\">
+                            <div class=\\"mb-list-item-main\\">
+                              <!---->
+                              <div class=\\"mb-list-item-content\\">Breadcrumb</div>
+                              <!---->
+                            </div>
+                            <!---->
+                            <!---->
+                          </div>
+                          <div role=\\"listitem\\" class=\\"mb-list-item\\">
+                            <div class=\\"mb-list-item-main\\">
+                              <!---->
+                              <div class=\\"mb-list-item-content\\">Transfer</div>
+                              <!---->
+                            </div>
+                            <!---->
+                            <!---->
+                          </div>
+                          <!---->
+                        </div>
+                        <!---->
+                      </div>
+                      <!---->
+                      <!---->
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <!---->
+  </div>
+</div>"
+`;
+
+exports[`<list> demo: render [meta] correctly 1`] = `
+"<div class=\\"mb-list-wrapper\\">
+  <div class=\\"mb-spin mb-list-spin\\">
+    <div class=\\"mb-list mb-list-medium mb-list-bordered mb-list-split\\">
+      <!---->
+      <div role=\\"list\\" class=\\"mb-list-content\\">
+        <div role=\\"listitem\\" class=\\"mb-list-item\\">
+          <div class=\\"mb-list-item-main\\">
+            <!---->
+            <div class=\\"mb-list-item-content\\">
+              <div class=\\"mb-list-item-meta\\">
+                <div class=\\"mb-list-item-meta-avatar\\">
+                  <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"><img alt=\\"avatar\\" src=\\"https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp\\"></span>
+                    <!--v-if-->
+                  </div>
+                </div>
+                <div class=\\"mb-list-item-meta-content\\">
+                  <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                  <div class=\\"mb-list-item-meta-description\\">Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                </div>
+              </div>
+            </div>
+            <!---->
+          </div>
+          <!---->
+          <!---->
+        </div>
+        <div role=\\"listitem\\" class=\\"mb-list-item\\">
+          <div class=\\"mb-list-item-main\\">
+            <!---->
+            <div class=\\"mb-list-item-content\\">
+              <div class=\\"mb-list-item-meta\\">
+                <div class=\\"mb-list-item-meta-avatar\\">
+                  <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"><img alt=\\"avatar\\" src=\\"https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp\\"></span>
+                    <!--v-if-->
+                  </div>
+                </div>
+                <div class=\\"mb-list-item-meta-content\\">
+                  <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                  <div class=\\"mb-list-item-meta-description\\">Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                </div>
+              </div>
+            </div>
+            <!---->
+          </div>
+          <!---->
+          <!---->
+        </div>
+        <div role=\\"listitem\\" class=\\"mb-list-item\\">
+          <div class=\\"mb-list-item-main\\">
+            <!---->
+            <div class=\\"mb-list-item-content\\">
+              <div class=\\"mb-list-item-meta\\">
+                <div class=\\"mb-list-item-meta-avatar\\">
+                  <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"><img alt=\\"avatar\\" src=\\"https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp\\"></span>
+                    <!--v-if-->
+                  </div>
+                </div>
+                <div class=\\"mb-list-item-meta-content\\">
+                  <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                  <div class=\\"mb-list-item-meta-description\\">Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                </div>
+              </div>
+            </div>
+            <!---->
+          </div>
+          <!---->
+          <!---->
+        </div>
+        <div role=\\"listitem\\" class=\\"mb-list-item\\">
+          <div class=\\"mb-list-item-main\\">
+            <!---->
+            <div class=\\"mb-list-item-content\\">
+              <div class=\\"mb-list-item-meta\\">
+                <div class=\\"mb-list-item-meta-avatar\\">
+                  <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"><img alt=\\"avatar\\" src=\\"https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp\\"></span>
+                    <!--v-if-->
+                  </div>
+                </div>
+                <div class=\\"mb-list-item-meta-content\\">
+                  <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                  <div class=\\"mb-list-item-meta-description\\">Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                </div>
+              </div>
+            </div>
+            <!---->
+          </div>
+          <!---->
+          <!---->
+        </div>
+        <!---->
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <!---->
+  </div>
+</div>"
+`;
+
+exports[`<list> demo: render [scroll] correctly 1`] = `
+"<div class=\\"mb-list-wrapper\\">
+  <div class=\\"mb-spin mb-list-spin\\">
+    <div class=\\"mb-list mb-list-medium mb-list-bordered mb-list-split\\" style=\\"max-height: 200px;\\">
+      <div class=\\"mb-list-header\\"> List title </div>
+      <div role=\\"list\\" class=\\"mb-list-content\\">
+        <!---->
+        <div class=\\"mb-list-item mb-list-scroll-loading\\">
+          <div class=\\"mb-spin\\">
+            <div class=\\"mb-spin-icon\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-loading mb-icon-spin\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\">
+                <path d=\\"M42 24c0 9.941-8.059 18-18 18S6 33.941 6 24 14.059 6 24 6\\"></path>
+              </svg></div>
+            <!---->
+          </div>
+        </div>
+      </div>
+      <!---->
+    </div>
+    <!---->
+    <!---->
+  </div>
+</div>"
+`;
+
+exports[`<list> demo: render [size] correctly 1`] = `
+"<div class=\\"mb-space mb-space-vertical\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 24px;\\"><span class=\\"mb-radio-group-button mb-radio-group-size-undefined mb-radio-group-direction-horizontal\\"><label class=\\"mb-radio-button\\"><input type=\\"radio\\" class=\\"mb-radio-target\\" value=\\"small\\"><span class=\\"mb-radio-button-content\\">Small</span></label><label class=\\"mb-radio-button mb-radio-checked\\"><input type=\\"radio\\" class=\\"mb-radio-target\\" value=\\"medium\\"><span class=\\"mb-radio-button-content\\">Medium</span></label><label class=\\"mb-radio-button\\"><input type=\\"radio\\" class=\\"mb-radio-target\\" value=\\"large\\"><span class=\\"mb-radio-button-content\\">Large</span></label></span></div>
+  <div class=\\"mb-space-item\\">
+    <div class=\\"mb-list-wrapper\\">
+      <div class=\\"mb-spin mb-list-spin\\">
+        <div class=\\"mb-list mb-list-medium mb-list-bordered mb-list-split\\">
+          <div class=\\"mb-list-header\\"> List title </div>
+          <div role=\\"list\\" class=\\"mb-list-content\\">
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">Beijing Bytedance Technology Co., Ltd.</div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">Bytedance Technology Co., Ltd.</div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">Beijing Toutiao Technology Co., Ltd.</div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">Beijing Volcengine Technology Co., Ltd.</div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">China Beijing Bytedance Technology Co., Ltd.</div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <!---->
+          </div>
+          <!---->
+        </div>
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`<list> demo: render [virtual-list] correctly 1`] = `
+"<h3>10000 items</h3>
+<div class=\\"mb-list-wrapper\\" style=\\"width: 600px;\\">
+  <div class=\\"mb-spin mb-list-spin\\">
+    <div class=\\"mb-list mb-list-medium mb-list-bordered mb-list-split\\">
+      <!---->
+      <div class=\\"mb-list-content mb-list-virtual\\" style=\\"overflow-y: auto; max-height: 560px;\\">
+        <div style=\\"height: 320000px; position: relative; z-index: 0;\\">
+          <div style=\\"display: flex; flex-direction: column; transform: translateY(0px); position: absolute; left: 0px; right: 0px; top: 0px;\\">
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00000) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00001) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00002) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00003) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00004) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00005) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00006) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00007) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00008) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00009) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00010) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00011) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00012) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00013) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00014) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00015) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00016) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00017) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+            <div role=\\"listitem\\" class=\\"mb-list-item\\">
+              <div class=\\"mb-list-item-main\\">
+                <!---->
+                <div class=\\"mb-list-item-content\\">
+                  <div class=\\"mb-list-item-meta\\">
+                    <div class=\\"mb-list-item-meta-avatar\\">
+                      <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"> A </span>
+                        <!--v-if-->
+                      </div>
+                    </div>
+                    <div class=\\"mb-list-item-meta-content\\">
+                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00018) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                    </div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+              <!---->
+              <!---->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!---->
+      <!---->
+    </div>
+    <!---->
+    <!---->
+  </div>
+</div>"
+`;

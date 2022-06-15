@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Space Size should work 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 4px;\\">
+    <div>aaa</div>
+  </div>
+  <div class=\\"mb-space-item\\">
+    <div>bbb</div>
+  </div>
+</div>"
+`;
+
+exports[`Space Size should work 2`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\">
+    <div>aaa</div>
+  </div>
+  <div class=\\"mb-space-item\\">
+    <div>bbb</div>
+  </div>
+</div>"
+`;
+
+exports[`Space Size should work 3`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 16px;\\">
+    <div>aaa</div>
+  </div>
+  <div class=\\"mb-space-item\\">
+    <div>bbb</div>
+  </div>
+</div>"
+`;
+
+exports[`Space Size should work 4`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\">
+    <div>aaa</div>
+  </div>
+  <div class=\\"mb-space-item\\">
+    <div>bbb</div>
+  </div>
+</div>"
+`;

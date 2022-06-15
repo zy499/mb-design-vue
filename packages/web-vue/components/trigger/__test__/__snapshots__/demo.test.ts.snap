@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<trigger> demo: render [align-point] correctly 1`] = `
+"<div class=\\"demo-point-trigger\\">
+  <div>Click Me</div>
+</div>
+<!---->"
+`;
+
+exports[`<trigger> demo: render [arrow] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+      <!--v-if-->Click Me
+    </button>
+    <!---->
+  </div>
+  <div class=\\"mb-space-item\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+      <!--v-if-->Click Me (Arrow)
+    </button>
+    <!---->
+  </div>
+</div>"
+`;
+
+exports[`<trigger> demo: render [basic] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><span>Hover Me</span>
+    <!---->
+  </div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+      <!--v-if-->Click Me
+    </button>
+    <!---->
+  </div>
+  <div class=\\"mb-space-item\\"><span class=\\"mb-input-wrapper\\"><!----><input class=\\"mb-input mb-input-size-medium\\" type=\\"text\\" placeholder=\\"Focus on me\\"><!----><!----></span>
+    <!---->
+  </div>
+</div>"
+`;
+
+exports[`<trigger> demo: render [nest] correctly 1`] = `
+"<button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+  <!--v-if-->Click Me
+</button>
+<!---->"
+`;
+
+exports[`<trigger> demo: render [scroll] correctly 1`] = `
+"<div style=\\"height: 100px; overflow-y: scroll;\\">
+  <div style=\\"height: 200px;\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\" style=\\"margin-top: 80px;\\">
+      <!--v-if-->Click Me
+    </button>
+    <!---->
+  </div>
+</div>"
+`;
+
+exports[`<trigger> demo: render [translate] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+      <!--v-if-->BOTTOM
+    </button>
+    <!---->
+  </div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+      <!--v-if-->BOTTOM OFFSET[100, 20]
+    </button>
+    <!---->
+  </div>
+  <div class=\\"mb-space-item\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+      <!--v-if-->BOTTOM OFFSET[-100, 20]
+    </button>
+    <!---->
+  </div>
+</div>"
+`;
+
+exports[`<trigger> demo: render [triggers] correctly 1`] = `
+"<span class=\\"mb-input-wrapper\\"><!----><input class=\\"mb-input mb-input-size-medium\\" type=\\"text\\" placeholder=\\"Click/Hover/Focus on me\\"><!----><!----></span>
+<!---->"
+`;

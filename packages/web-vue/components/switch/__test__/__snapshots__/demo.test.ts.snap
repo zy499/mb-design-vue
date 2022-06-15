@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<switch> demo: render [basic] correctly 1`] = `
+"<button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-circle\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+  <!--v-if-->
+</button>"
+`;
+
+exports[`<switch> demo: render [color] correctly 1`] = `
+"<button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-circle\\" style=\\"background-color: rgb(20, 201, 201);\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+  <!--v-if-->
+</button>"
+`;
+
+exports[`<switch> demo: render [disabled] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-circle mb-switch-disabled\\" disabled=\\"\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"true\\" class=\\"mb-switch mb-switch-type-circle mb-switch-checked mb-switch-disabled\\" disabled=\\"\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-round mb-switch-disabled\\" disabled=\\"\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"true\\" class=\\"mb-switch mb-switch-type-round mb-switch-checked mb-switch-disabled\\" disabled=\\"\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-line mb-switch-disabled\\" disabled=\\"\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"true\\" class=\\"mb-switch mb-switch-type-line mb-switch-checked mb-switch-disabled\\" disabled=\\"\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+</div>"
+`;
+
+exports[`<switch> demo: render [icon] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-circle\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-close\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142\\"></path></svg></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-round\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-close\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142\\"></path></svg></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-line\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-close\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142\\"></path></svg></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+</div>"
+`;
+
+exports[`<switch> demo: render [loading] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-circle mb-switch-loading\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-loading\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M42 24c0 9.941-8.059 18-18 18S6 33.941 6 24 14.059 6 24 6\\"></path></svg></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-round mb-switch-loading\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-loading\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M42 24c0 9.941-8.059 18-18 18S6 33.941 6 24 14.059 6 24 6\\"></path></svg></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-line mb-switch-loading\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-loading\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M42 24c0 9.941-8.059 18-18 18S6 33.941 6 24 14.059 6 24 6\\"></path></svg></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+</div>"
+`;
+
+exports[`<switch> demo: render [size] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-circle\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-circle mb-switch-small\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+</div>"
+`;
+
+exports[`<switch> demo: render [text] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-circle\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  --><span class=\\"mb-switch-text-holder\\"> OFF </span><span class=\\"mb-switch-text\\"> OFF </span></button></div>
+  <div class=\\"mb-space-item\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-round\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  --><span class=\\"mb-switch-text-holder\\"> OFF </span><span class=\\"mb-switch-text\\"> OFF </span></button></div>
+</div>"
+`;
+
+exports[`<switch> demo: render [type] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-circle\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-round\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-line\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+</div>"
+`;
+
+exports[`<switch> demo: render [value] correctly 1`] = `
+"<div class=\\"mb-space mb-space-vertical\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 24px;\\"><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-circle\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+      <!--v-if-->
+    </button></div>
+  <div class=\\"mb-space-item\\">
+    <div>Current Value: </div>
+  </div>
+</div>"
+`;

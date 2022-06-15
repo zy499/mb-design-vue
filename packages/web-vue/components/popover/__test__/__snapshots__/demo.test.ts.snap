@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<popover> demo: render [basic] correctly 1`] = `
+"<button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+  <!--v-if-->Hover
+</button>
+<!---->"
+`;
+
+exports[`<popover> demo: render [position] correctly 1`] = `
+"<div style=\\"position: relative; width: 440px; height: 280px;\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal button\\" type=\\"button\\" style=\\"position: absolute; top: 0px; left: 70px;\\">
+    <!--v-if-->TL
+  </button>
+  <!----><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal button\\" type=\\"button\\" style=\\"position: absolute; top: 0px; left: 180px;\\">
+    <!--v-if-->TOP
+  </button>
+  <!----><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal button\\" type=\\"button\\" style=\\"position: absolute; top: 0px; left: 290px;\\">
+    <!--v-if-->TR
+  </button>
+  <!----><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal button\\" type=\\"button\\" style=\\"position: absolute; top: 240px; left: 70px;\\">
+    <!--v-if-->BL
+  </button>
+  <!----><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal button\\" type=\\"button\\" style=\\"position: absolute; top: 240px; left: 180px;\\">
+    <!--v-if-->BOTTOM
+  </button>
+  <!----><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal button\\" type=\\"button\\" style=\\"position: absolute; top: 240px; left: 290px;\\">
+    <!--v-if-->BR
+  </button>
+  <!----><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal button\\" type=\\"button\\" style=\\"position: absolute; top: 60px; left: 10px;\\">
+    <!--v-if-->LT
+  </button>
+  <!----><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal button\\" type=\\"button\\" style=\\"position: absolute; top: 120px; left: 10px;\\">
+    <!--v-if-->LEFT
+  </button>
+  <!----><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal button\\" type=\\"button\\" style=\\"position: absolute; top: 180px; left: 10px;\\">
+    <!--v-if-->LB
+  </button>
+  <!----><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal button\\" type=\\"button\\" style=\\"position: absolute; top: 60px; left: 350px;\\">
+    <!--v-if-->RT
+  </button>
+  <!----><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal button\\" type=\\"button\\" style=\\"position: absolute; top: 120px; left: 350px;\\">
+    <!--v-if-->RIGHT
+  </button>
+  <!----><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal button\\" type=\\"button\\" style=\\"position: absolute; top: 180px; left: 350px;\\">
+    <!--v-if-->RB
+  </button>
+  <!---->
+</div>"
+`;
+
+exports[`<popover> demo: render [trigger] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+      <!--v-if-->Hover Me
+    </button>
+    <!---->
+  </div>
+  <div class=\\"mb-space-item\\"><button class=\\"mb-btn mb-btn-secondary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+      <!--v-if-->Click Me
+    </button>
+    <!---->
+  </div>
+</div>"
+`;

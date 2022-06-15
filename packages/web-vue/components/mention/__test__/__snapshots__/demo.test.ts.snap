@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<mention> demo: render [basic] correctly 1`] = `
+"<div class=\\"mb-space mb-space-vertical\\" style=\\"width: 100%;\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 24px;\\"><span class=\\"mb-input-wrapper\\"><!----><input class=\\"mb-input mb-input-size-medium\\" type=\\"text\\" placeholder=\\"enter something\\"><!----><!----></span>
+    <!---->
+  </div>
+  <div class=\\"mb-space-item\\">
+    <div class=\\"mb-mention\\">
+      <div class=\\"mb-textarea-wrapper\\">
+        <!--v-if--><textarea class=\\"mb-textarea\\" placeholder=\\"enter something\\"></textarea>
+        <!--v-if-->
+        <!--v-if-->
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`<mention> demo: render [prefix] correctly 1`] = `
+"<div class=\\"mb-space mb-space-vertical\\" style=\\"width: 100%;\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 24px;\\"><span class=\\"mb-input-wrapper\\"><!----><input class=\\"mb-input mb-input-size-medium\\" type=\\"text\\" placeholder=\\"input @\\"><!----><!----></span>
+    <!---->
+  </div>
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 24px;\\"><span class=\\"mb-input-wrapper\\"><!----><input class=\\"mb-input mb-input-size-medium\\" type=\\"text\\" placeholder=\\"input #\\"><!----><!----></span>
+    <!---->
+  </div>
+  <div class=\\"mb-space-item\\"><span class=\\"mb-input-wrapper\\"><!----><input class=\\"mb-input mb-input-size-medium\\" type=\\"text\\" placeholder=\\"input $\\"><!----><!----></span>
+    <!---->
+  </div>
+</div>"
+`;

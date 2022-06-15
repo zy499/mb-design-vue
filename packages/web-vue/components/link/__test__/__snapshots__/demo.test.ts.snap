@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<link> demo: render [basic] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><a href=\\"link\\" class=\\"mb-link mb-link-status-normal\\">
+      <!--v-if-->Link
+    </a></div>
+  <div class=\\"mb-space-item\\"><a class=\\"mb-link mb-link-status-normal mb-link-disabled\\">
+      <!--v-if-->Link
+    </a></div>
+</div>"
+`;
+
+exports[`<link> demo: render [hoverable] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><a href=\\"link\\" class=\\"mb-link mb-link-status-normal mb-link-hoverless\\">
+      <!--v-if-->Link
+    </a></div>
+  <div class=\\"mb-space-item\\"><a href=\\"link\\" class=\\"mb-link mb-link-status-danger mb-link-hoverless\\">
+      <!--v-if-->Link
+    </a></div>
+</div>"
+`;
+
+exports[`<link> demo: render [icon] correctly 1`] = `
+"<div>
+  <div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+    <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><a href=\\"link\\" class=\\"mb-link mb-link-status-normal mb-link-with-icon\\"><span class=\\"mb-link-icon\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-link\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"m14.1 25.414-4.95 4.95a6 6 0 0 0 8.486 8.485l8.485-8.485a6 6 0 0 0 0-8.485m7.779.707 4.95-4.95a6 6 0 1 0-8.486-8.485l-8.485 8.485a6 6 0 0 0 0 8.485\\"></path></svg></span>Link</a></div>
+    <div class=\\"mb-space-item\\"><a class=\\"mb-link mb-link-status-normal mb-link-disabled mb-link-with-icon\\"><span class=\\"mb-link-icon\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-link\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"m14.1 25.414-4.95 4.95a6 6 0 0 0 8.486 8.485l8.485-8.485a6 6 0 0 0 0-8.485m7.779.707 4.95-4.95a6 6 0 1 0-8.486-8.485l-8.485 8.485a6 6 0 0 0 0 8.485\\"></path></svg></span>Link</a></div>
+  </div>
+</div>
+<div>
+  <div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+    <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><a href=\\"link\\" class=\\"mb-link mb-link-status-normal mb-link-with-icon\\"><span class=\\"mb-link-icon\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-edit\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"m30.48 19.038 5.733-5.734a1 1 0 0 0 0-1.414l-5.586-5.586a1 1 0 0 0-1.414 0l-5.734 5.734m7 7L15.763 33.754a1 1 0 0 1-.59.286l-6.048.708a1 1 0 0 1-1.113-1.069l.477-6.31a1 1 0 0 1 .29-.631l14.7-14.7m7 7-7-7M6 42h36\\"></path></svg></span> Link </a></div>
+    <div class=\\"mb-space-item\\"><a class=\\"mb-link mb-link-status-normal mb-link-disabled mb-link-with-icon\\"><span class=\\"mb-link-icon\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-edit\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"m30.48 19.038 5.733-5.734a1 1 0 0 0 0-1.414l-5.586-5.586a1 1 0 0 0-1.414 0l-5.734 5.734m7 7L15.763 33.754a1 1 0 0 1-.59.286l-6.048.708a1 1 0 0 1-1.113-1.069l.477-6.31a1 1 0 0 1 .29-.631l14.7-14.7m7 7-7-7M6 42h36\\"></path></svg></span> Link </a></div>
+  </div>
+</div>"
+`;
+
+exports[`<link> demo: render [status] correctly 1`] = `
+"<div class=\\"mb-space mb-space-vertical\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 8px;\\">
+    <div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+      <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><a href=\\"link\\" class=\\"mb-link mb-link-status-normal\\">
+          <!--v-if-->Normal Link
+        </a></div>
+      <div class=\\"mb-space-item\\"><a class=\\"mb-link mb-link-status-normal mb-link-disabled\\">
+          <!--v-if-->Normal Link
+        </a></div>
+    </div>
+  </div>
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 8px;\\">
+    <div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+      <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><a href=\\"link\\" class=\\"mb-link mb-link-status-success\\">
+          <!--v-if-->Success Link
+        </a></div>
+      <div class=\\"mb-space-item\\"><a class=\\"mb-link mb-link-status-success mb-link-disabled\\">
+          <!--v-if-->Success Link
+        </a></div>
+    </div>
+  </div>
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 8px;\\">
+    <div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+      <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><a href=\\"link\\" class=\\"mb-link mb-link-status-warning\\">
+          <!--v-if-->Warning Link
+        </a></div>
+      <div class=\\"mb-space-item\\"><a class=\\"mb-link mb-link-status-warning mb-link-disabled\\">
+          <!--v-if-->Warning Link
+        </a></div>
+    </div>
+  </div>
+  <div class=\\"mb-space-item\\">
+    <div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+      <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><a href=\\"link\\" class=\\"mb-link mb-link-status-danger\\">
+          <!--v-if-->Danger Link
+        </a></div>
+      <div class=\\"mb-space-item\\"><a class=\\"mb-link mb-link-status-danger mb-link-disabled\\">
+          <!--v-if-->Danger Link
+        </a></div>
+    </div>
+  </div>
+</div>"
+`;

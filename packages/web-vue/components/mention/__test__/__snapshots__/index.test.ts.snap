@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mention mention correctly 1`] = `
+"<div class=\\"mb-select-dropdown\\">
+  <!--v-if-->
+  <!--v-if-->
+  <div class=\\"mb-select-dropdown-list-wrapper\\">
+    <ul class=\\"mb-select-dropdown-list\\">
+      <li class=\\"mb-select-option mb-select-option-active\\">
+        <!--v-if--><span class=\\"mb-select-option-content\\">Bytedance</span>
+        <!--v-if-->
+      </li>
+      <li class=\\"mb-select-option\\">
+        <!--v-if--><span class=\\"mb-select-option-content\\">Bytedesign</span>
+        <!--v-if-->
+      </li>
+      <li class=\\"mb-select-option\\">
+        <!--v-if--><span class=\\"mb-select-option-content\\">Bytenumner</span>
+        <!--v-if-->
+      </li>
+    </ul>
+  </div>
+  <!--v-if-->
+</div>"
+`;

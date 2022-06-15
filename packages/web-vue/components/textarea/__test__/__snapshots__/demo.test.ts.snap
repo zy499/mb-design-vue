@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<textarea> demo: render [auto-size] correctly 1`] = `
+"<div class=\\"mb-textarea-wrapper\\">
+  <div class=\\"mb-textarea-mirror\\">This is the contents of the textarea. This is the contents of the textarea. This is the contents of the textarea.
+  </div><textarea class=\\"mb-textarea\\"></textarea>
+  <!--v-if-->
+  <!--v-if-->
+</div>
+<div style=\\"margin-top: 20px;\\" class=\\"mb-textarea-wrapper\\">
+  <div class=\\"mb-textarea-mirror\\">This is the contents of the textarea. This is the contents of the textarea. This is the contents of the textarea.
+  </div><textarea class=\\"mb-textarea\\"></textarea>
+  <!--v-if-->
+  <!--v-if-->
+</div>"
+`;
+
+exports[`<textarea> demo: render [basic] correctly 1`] = `
+"<div class=\\"mb-textarea-wrapper\\">
+  <!--v-if--><textarea class=\\"mb-textarea\\" placeholder=\\"Please enter something\\"></textarea>
+  <!--v-if-->
+  <!--v-if-->
+</div>"
+`;
+
+exports[`<textarea> demo: render [status] correctly 1`] = `
+"<div class=\\"mb-space mb-space-vertical\\" style=\\"width: 100%;\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 24px;\\">
+    <div class=\\"mb-textarea-wrapper mb-textarea-disabled\\">
+      <!--v-if--><textarea disabled=\\"\\" class=\\"mb-textarea\\" placeholder=\\"Disabled status\\"></textarea>
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+  </div>
+  <div class=\\"mb-space-item\\">
+    <div class=\\"mb-textarea-wrapper mb-textarea-error\\">
+      <!--v-if--><textarea class=\\"mb-textarea\\" placeholder=\\"Error status\\"></textarea>
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`<textarea> demo: render [word-limit] correctly 1`] = `
+"<div class=\\"mb-space mb-space-vertical mb-space-fill\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 24px;\\">
+    <div class=\\"mb-textarea-wrapper\\">
+      <!--v-if--><textarea class=\\"mb-textarea\\" placeholder=\\"Please enter something\\"></textarea>
+      <div class=\\"mb-textarea-word-limit\\">0/10</div>
+      <!--v-if-->
+    </div>
+  </div>
+  <div class=\\"mb-space-item\\">
+    <div class=\\"mb-textarea-wrapper\\">
+      <!--v-if--><textarea class=\\"mb-textarea\\" placeholder=\\"Please enter something\\"></textarea>
+      <div class=\\"mb-textarea-word-limit\\">0/10</div>
+      <!--v-if-->
+    </div>
+  </div>
+</div>"
+`;

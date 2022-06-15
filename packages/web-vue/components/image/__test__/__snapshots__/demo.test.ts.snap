@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<image> demo: render [basic] correctly 1`] = `
+"<div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 200px;\\"><img class=\\"mb-image-img\\" style=\\"width: 200px;\\">
+  <div class=\\"mb-image-overlay\\">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <!--v-if-->
+  <!--v-if-->
+</div>"
+`;
+
+exports[`<image> demo: render [caption] correctly 1`] = `
+"<div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 200px;\\"><img class=\\"mb-image-img\\" style=\\"width: 200px;\\" title=\\"A user’s avatar\\">
+  <div class=\\"mb-image-overlay\\">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <!--v-if-->
+  <!--v-if-->
+</div>
+<div class=\\"mb-image mb-image-with-footer-outer\\" style=\\"width: 200px; margin-left: 67px; vertical-align: top;\\"><img class=\\"mb-image-img\\" style=\\"width: 200px;\\" title=\\"A user’s avatar\\">
+  <div class=\\"mb-image-overlay\\">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <!--v-if-->
+  <!--v-if-->
+</div>"
+`;
+
+exports[`<image> demo: render [component-preview] correctly 1`] = `
+"<button class=\\"mb-btn mb-btn-primary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+  <!--v-if-->Click me to preview image
+</button>
+<!--teleport start-->
+<!--teleport end-->"
+`;
+
+exports[`<image> demo: render [component-preview-group] correctly 1`] = `
+"<button class=\\"mb-btn mb-btn-primary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\">
+  <!--v-if-->Click me to preview multiple image
+</button>
+<!--teleport start-->
+<!--teleport end-->"
+`;
+
+exports[`<image> demo: render [custom-preview-actions] correctly 1`] = `
+"<div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 200px;\\"><img class=\\"mb-image-img\\" style=\\"width: 200px;\\">
+  <div class=\\"mb-image-overlay\\">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <!--v-if-->
+  <!--v-if-->
+</div>"
+`;
+
+exports[`<image> demo: render [error] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 20px;\\">
+    <div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 400px; height: 300px;\\"><img class=\\"mb-image-img\\" style=\\"width: 400px; height: 300px;\\">
+      <div class=\\"mb-image-overlay\\">
+        <!--v-if-->
+        <!--v-if-->
+      </div>
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+  </div>
+  <div class=\\"mb-space-item\\">
+    <div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 400px; height: 300px;\\"><img class=\\"mb-image-img\\" style=\\"width: 400px; height: 300px;\\" alt=\\"This is a picture of humans eating ice cream. The humans on the screen are very happy just now. The ice cream is green, it seems to be flavored with matcha. The gender of the human is unknown. It has very long hair and the human hair is brown.\\">
+      <div class=\\"mb-image-overlay\\">
+        <!--v-if-->
+        <!--v-if-->
+      </div>
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`<image> demo: render [extra] correctly 1`] = `
+"<div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 260px; margin-right: 67px; vertical-align: top;\\"><img class=\\"mb-image-img\\" style=\\"width: 260px;\\" title=\\"A user’s avatar\\">
+  <div class=\\"mb-image-overlay\\">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <!--v-if-->
+  <!--v-if-->
+</div>
+<div class=\\"mb-image mb-image-with-footer-outer\\" style=\\"width: 260px;\\"><img class=\\"mb-image-img\\" style=\\"width: 260px;\\" title=\\"A user’s avatar\\">
+  <div class=\\"mb-image-overlay\\">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <!--v-if-->
+  <!--v-if-->
+</div>"
+`;
+
+exports[`<image> demo: render [loader] correctly 1`] = `
+"<div><button class=\\"mb-btn mb-btn-primary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\" style=\\"margin-bottom: 20px;\\">
+    <!--v-if--> reload
+  </button></div>
+<div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 200px; height: 200px;\\"><img class=\\"mb-image-img\\" style=\\"width: 200px; height: 200px;\\">
+  <div class=\\"mb-image-overlay\\">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <!--v-if-->
+  <!--v-if-->
+</div>
+<div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 200px; height: 200px; margin-left: 67px;\\"><img class=\\"mb-image-img\\" style=\\"width: 200px; height: 200px;\\">
+  <div class=\\"mb-image-overlay\\">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <!--v-if-->
+  <!--v-if-->
+</div>"
+`;
+
+exports[`<image> demo: render [preview-group] correctly 1`] = `
+"<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\">
+    <div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 200px;\\"><img class=\\"mb-image-img\\" style=\\"width: 200px;\\">
+      <div class=\\"mb-image-overlay\\">
+        <!--v-if-->
+        <!--v-if-->
+      </div>
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+  </div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\">
+    <div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 200px;\\"><img class=\\"mb-image-img\\" style=\\"width: 200px;\\">
+      <div class=\\"mb-image-overlay\\">
+        <!--v-if-->
+        <!--v-if-->
+      </div>
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+  </div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\">
+    <div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 200px;\\"><img class=\\"mb-image-img\\" style=\\"width: 200px;\\">
+      <div class=\\"mb-image-overlay\\">
+        <!--v-if-->
+        <!--v-if-->
+      </div>
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+  </div>
+  <div class=\\"mb-space-item\\">
+    <div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 200px;\\"><img class=\\"mb-image-img\\" style=\\"width: 200px;\\">
+      <div class=\\"mb-image-overlay\\">
+        <!--v-if-->
+        <!--v-if-->
+      </div>
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+  </div>
+</div>
+<!--teleport start-->
+<!--teleport end-->"
+`;
+
+exports[`<image> demo: render [preview-popup-container] correctly 1`] = `
+"<div id=\\"image-demo-preview-popup-container\\" style=\\"width: 100%; height: 400px; position: relative; overflow: hidden; line-height: 400px; text-align: center;\\">
+  <div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 200px;\\"><img class=\\"mb-image-img\\" style=\\"width: 200px;\\">
+    <div class=\\"mb-image-overlay\\">
+      <!--v-if-->
+      <!--v-if-->
+    </div>
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+</div>"
+`;
+
+exports[`<image> demo: render [progressive-loader] correctly 1`] = `
+"<div><button class=\\"mb-btn mb-btn-primary mb-btn-shape-square mb-btn-size-medium mb-btn-status-normal\\" type=\\"button\\" style=\\"margin-bottom: 20px;\\">
+    <!--v-if--> reload
+  </button></div>
+<div class=\\"mb-image mb-image-with-footer-inner\\" style=\\"width: 200px; height: 200px;\\"><img class=\\"mb-image-img\\" style=\\"width: 200px; height: 200px;\\">
+  <div class=\\"mb-image-overlay\\">
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <!--v-if-->
+  <!--v-if-->
+</div>"
+`;

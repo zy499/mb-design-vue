@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<config-provider> demo: render [basic] correctly 1`] = `
+"<div class=\\"mb-pagination mb-pagination-size-medium\\"><span class=\\"mb-pagination-total\\">Total: 50</span>
+  <ul class=\\"mb-pagination-list\\"><span class=\\"mb-pagination-item mb-pagination-item-previous mb-pagination-item-disabled\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-left\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M32 8.4 16.444 23.956 32 39.513\\"></path></svg></span>
+    <li class=\\"mb-pagination-item mb-pagination-item-active\\" pages=\\"5\\">1</li>
+    <li class=\\"mb-pagination-item\\" pages=\\"5\\">2</li>
+    <li class=\\"mb-pagination-item\\" pages=\\"5\\">3</li>
+    <li class=\\"mb-pagination-item\\" pages=\\"5\\">4</li>
+    <li class=\\"mb-pagination-item\\" pages=\\"5\\">5</li>
+    <!----><span class=\\"mb-pagination-item mb-pagination-item-next\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-right\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"m16 39.513 15.556-15.557L16 8.4\\"></path></svg></span>
+  </ul><span class=\\"mb-pagination-options\\"><span class=\\"mb-select-view-single mb-select mb-select-view mb-select-view-size-medium\\"><!----><input class=\\"mb-select-view-input mb-select-view-input-hidden\\" readonly=\\"\\"><span class=\\"mb-select-view-value\\">10  / Page</span><span class=\\"mb-select-view-suffix\\"><!----><span class=\\"mb-select-view-icon\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-down mb-select-view-arrow-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M39.6 17.443 24.043 33 8.487 17.443\\"></path></svg></span>
+  <!----></span></span>
+  <!----></span><span class=\\"mb-pagination-jumper\\"><span class=\\"mb-pagination-jumper-prepend mb-pagination-jumper-text-goto\\">Goto</span><span class=\\"mb-input-wrapper mb-input-number mb-input-number-mode-embed mb-input-number-size-medium mb-pagination-jumper-input\\"><!----><input role=\\"spinbutton\\" aria-valuemax=\\"5\\" aria-valuemin=\\"1\\" aria-valuenow=\\"\\" class=\\"mb-input mb-input-size-medium\\" type=\\"text\\"><!----><!----></span>
+  <!--v-if-->
+  <!--v-if--></span>
+</div>"
+`;
+
+exports[`<config-provider> demo: render [empty] correctly 1`] = `
+"<div class=\\"mb-table mb-table-size-large mb-table-border mb-table-hover mb-table-empty\\">
+  <!---->
+  <div class=\\"mb-spin\\">
+    <!---->
+    <div class=\\"mb-table-container\\">
+      <div class=\\"mb-table-content mb-table-content-scroll-x\\">
+        <table class=\\"mb-table-element\\" cellpadding=\\"0\\" cellspacing=\\"0\\">
+          <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+          </colgroup>
+          <thead>
+            <tr class=\\"mb-table-tr\\">
+              <th class=\\"mb-table-th\\"><span class=\\"mb-table-cell mb-table-cell-align-left\\"><span class=\\"mb-table-th-title\\">Name</span>
+                <!---->
+                <!----></span>
+                <!---->
+                <!---->
+              </th>
+              <th class=\\"mb-table-th\\"><span class=\\"mb-table-cell mb-table-cell-align-left\\"><span class=\\"mb-table-th-title\\">Salary</span>
+                <!---->
+                <!----></span>
+                <!---->
+                <!---->
+              </th>
+              <th class=\\"mb-table-th\\"><span class=\\"mb-table-cell mb-table-cell-align-left\\"><span class=\\"mb-table-th-title\\">Address</span>
+                <!---->
+                <!----></span>
+                <!---->
+                <!---->
+              </th>
+              <th class=\\"mb-table-th\\"><span class=\\"mb-table-cell mb-table-cell-align-left\\"><span class=\\"mb-table-th-title\\">Email</span>
+                <!---->
+                <!----></span>
+                <!---->
+                <!---->
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class=\\"mb-table-tr mb-table-tr-empty\\">
+              <td class=\\"mb-table-td\\" colspan=\\"4\\"><span class=\\"mb-table-cell mb-table-cell-align-left\\"><!----><!----><span class=\\"mb-table-td-content\\"><div class=\\"my-empty\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-trophy\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M24 33c-6.075 0-11-4.925-11-11m11 11c6.075 0 11-4.925 11-11M24 33v8M13 22V7h22v15m-22 0V9H7v7a6 6 0 0 0 6 6Zm22 0V9h6v7a6 6 0 0 1-6 6ZM12 41h24\\"></path></svg></div></span></span></td>
+            </tr>
+          </tbody>
+          <!---->
+        </table>
+      </div>
+    </div>
+    <!---->
+    <!---->
+    <!---->
+  </div>
+</div>"
+`;

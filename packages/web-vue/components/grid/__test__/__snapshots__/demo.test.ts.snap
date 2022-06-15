@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<grid> demo: render [adaptation] correctly 1`] = `
+"<div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\">
+  <div class=\\"mb-col mb-col-xs-2 mb-col-sm-4 mb-col-md-6 mb-col-lg-8 mb-col-xl-10 mb-col-xxl-8\\"> Col </div>
+  <div class=\\"mb-col mb-col-xs-20 mb-col-sm-16 mb-col-md-12 mb-col-lg-8 mb-col-xl-4 mb-col-xxl-8\\"> Col </div>
+  <div class=\\"mb-col mb-col-xs-2 mb-col-sm-4 mb-col-md-6 mb-col-lg-8 mb-col-xl-10 mb-col-xxl-8\\"> Col </div>
+</div>"
+`;
+
+exports[`<grid> demo: render [adaptation-object] correctly 1`] = `
+"<div>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\">
+    <div class=\\"mb-col mb-col-xs-5 mb-col-xs-offset-1 mb-col-lg-6 mb-col-lg-offset-2\\"> Col </div>
+    <div class=\\"mb-col mb-col-xs-11 mb-col-xs-offset-1 mb-col-lg-6 mb-col-lg-offset-2\\"> Col </div>
+    <div class=\\"mb-col mb-col-xs-5 mb-col-xs-offset-1 mb-col-lg-6 mb-col-lg-offset-2\\"> Col </div>
+  </div>
+</div>"
+`;
+
+exports[`<grid> demo: render [basic] correctly 1`] = `
+"<div class=\\"grid-demo-background\\">
+  <div class=\\"mb-space mb-space-vertical\\" style=\\"display: block;\\">
+    <div class=\\"mb-space-item\\" style=\\"margin-bottom: 16px;\\">
+      <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\">
+        <div class=\\"mb-col mb-col-24\\">
+          <div>24 - 100%</div>
+        </div>
+      </div>
+    </div>
+    <div class=\\"mb-space-item\\" style=\\"margin-bottom: 16px;\\">
+      <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\">
+        <div class=\\"mb-col mb-col-12\\">
+          <div>12 - 50%</div>
+        </div>
+        <div class=\\"mb-col mb-col-12\\">
+          <div>12 - 50%</div>
+        </div>
+      </div>
+    </div>
+    <div class=\\"mb-space-item\\" style=\\"margin-bottom: 16px;\\">
+      <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\">
+        <div class=\\"mb-col mb-col-8\\">
+          <div>8 - 33.33%</div>
+        </div>
+        <div class=\\"mb-col mb-col-8\\">
+          <div>8 - 33.33%</div>
+        </div>
+        <div class=\\"mb-col mb-col-8\\">
+          <div>8 - 33.33%</div>
+        </div>
+      </div>
+    </div>
+    <div class=\\"mb-space-item\\" style=\\"margin-bottom: 16px;\\">
+      <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\">
+        <div class=\\"mb-col mb-col-6\\">
+          <div>6 - 25%</div>
+        </div>
+        <div class=\\"mb-col mb-col-6\\">
+          <div>6 - 25%</div>
+        </div>
+        <div class=\\"mb-col mb-col-6\\">
+          <div>6 - 25%</div>
+        </div>
+        <div class=\\"mb-col mb-col-6\\">
+          <div>6 - 25%</div>
+        </div>
+      </div>
+    </div>
+    <div class=\\"mb-space-item\\">
+      <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\">
+        <div class=\\"mb-col mb-col-4\\">
+          <div>4 - 16.66%</div>
+        </div>
+        <div class=\\"mb-col mb-col-4\\">
+          <div>4 - 16.66%</div>
+        </div>
+        <div class=\\"mb-col mb-col-4\\">
+          <div>4 - 16.66%</div>
+        </div>
+        <div class=\\"mb-col mb-col-4\\">
+          <div>4 - 16.66%</div>
+        </div>
+        <div class=\\"mb-col mb-col-4\\">
+          <div>4 - 16.66%</div>
+        </div>
+        <div class=\\"mb-col mb-col-4\\">
+          <div>4 - 16.66%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`<grid> demo: render [flex] correctly 1`] = `
+"<div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\" style=\\"margin-bottom: 16px;\\">
+  <div class=\\"mb-col\\" style=\\"flex: 0 0 100px;\\">
+    <div>100px</div>
+  </div>
+  <div class=\\"mb-col\\" style=\\"flex-basis: auto;\\">
+    <div>auto</div>
+  </div>
+</div>
+<div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\" style=\\"margin-bottom: 16px;\\">
+  <div class=\\"mb-col\\" style=\\"flex: 0 0 100px;\\">
+    <div>100px</div>
+  </div>
+  <div class=\\"mb-col\\" style=\\"flex-basis: auto;\\">
+    <div>auto</div>
+  </div>
+  <div class=\\"mb-col\\" style=\\"flex: 0 0 100px;\\">
+    <div>100px</div>
+  </div>
+</div>
+<div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\" style=\\"margin-bottom: 16px;\\">
+  <div class=\\"mb-col\\" style=\\"flex: 3;\\">
+    <div>3 / 12</div>
+  </div>
+  <div class=\\"mb-col\\" style=\\"flex: 4;\\">
+    <div>4 / 12</div>
+  </div>
+  <div class=\\"mb-col\\" style=\\"flex: 5;\\">
+    <div>5 / 12</div>
+  </div>
+</div>"
+`;
+
+exports[`<grid> demo: render [flex-align] correctly 1`] = `
+"<div>
+  <p>Arrange top</p>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\">
+    <div class=\\"mb-col mb-col-6\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\">
+      <div>col - 6</div>
+    </div>
+  </div>
+  <p>Arrange center</p>
+  <div class=\\"mb-row mb-row-align-center mb-row-justify-start grid-demo\\">
+    <div class=\\"mb-col mb-col-6\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\">
+      <div>col - 6</div>
+    </div>
+  </div>
+  <p>Arrange bottom</p>
+  <div class=\\"mb-row mb-row-align-end mb-row-justify-start grid-demo\\">
+    <div class=\\"mb-col mb-col-6\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\">
+      <div>col - 6</div>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`<grid> demo: render [flex-justify] correctly 1`] = `
+"<div>
+  <p>Arrange left</p>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\">
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+  </div>
+  <p>Arrange center</p>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-center grid-demo\\">
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+  </div>
+  <p>Arrange right</p>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-end grid-demo\\">
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+  </div>
+  <p>Space around</p>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-space-around grid-demo\\">
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+  </div>
+  <p>Space between</p>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-space-between grid-demo\\">
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+    <div class=\\"mb-col mb-col-4\\">
+      <div>col - 4</div>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`<grid> demo: render [grid] correctly 1`] = `
+"<div style=\\"margin-bottom: 20px;\\"><span class=\\"mb-typography\\">折叠：<!----><!--v-if--><!--v-if--><!--v-if--></span><button type=\\"button\\" role=\\"switch\\" aria-checked=\\"false\\" class=\\"mb-switch mb-switch-type-circle\\" checked=\\"false\\"><span class=\\"mb-switch-handle\\"><span class=\\"mb-switch-handle-icon\\"></span></span><!--  prettier-ignore  -->
+    <!--v-if-->
+  </button></div>
+<div class=\\"mb-grid grid-demo-grid\\" style=\\"gap: 16px 12px; grid-template-columns: repeat(3, minmax(0px, 1fr));\\">
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 1 / span 1; display: none;\\">item</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 1 / span 1; display: none;\\">item</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 1 / span 1; display: none;\\">item</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 2 / span 2; display: none;\\">item | offset - 1</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 1 / span 1; display: none;\\">item</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 3 / span 3; display: none;\\">item | span - 3</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 1 / span 1; display: none;\\">item</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 1 / span 1; display: none;\\">item</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: 3 / span 1; display: none;\\"> suffix | overflow: false</div>
+</div>"
+`;
+
+exports[`<grid> demo: render [grid-responsive] correctly 1`] = `
+"<div class=\\"mb-grid grid-demo-grid\\" style=\\"gap: 16px 12px; grid-template-columns: repeat(6, minmax(0px, 1fr));\\">
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 1 / span 1; display: none;\\">item</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 1 / span 1; display: none;\\">item</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 1 / span 1; display: none;\\">item</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 1 / span 1; display: none;\\">item</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 1 / span 1; display: none;\\">item</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: span 1 / span 1; display: none;\\">item</div>
+  <div class=\\"mb-grid-item demo-item\\" style=\\"grid-column: 1 / span 6; display: none;\\"> suffix </div>
+</div>"
+`;
+
+exports[`<grid> demo: render [gutter] correctly 1`] = `
+"<div>
+  <p>Horizontal</p>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\" style=\\"margin-left: -12px; margin-right: -12px;\\">
+    <div class=\\"mb-col mb-col-12\\" style=\\"padding-left: 12px; padding-right: 12px;\\">
+      <div>col - 12</div>
+    </div>
+    <div class=\\"mb-col mb-col-12\\" style=\\"padding-left: 12px; padding-right: 12px;\\">
+      <div>col - 12</div>
+    </div>
+  </div>
+  <p>Responsive</p>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\" style=\\"margin-left: -16px; margin-right: -16px;\\">
+    <div class=\\"mb-col mb-col-6\\" style=\\"padding-left: 16px; padding-right: 16px;\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\" style=\\"padding-left: 16px; padding-right: 16px;\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\" style=\\"padding-left: 16px; padding-right: 16px;\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\" style=\\"padding-left: 16px; padding-right: 16px;\\">
+      <div>col - 6</div>
+    </div>
+  </div>
+  <p>Horizontal and Vertical</p>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\" style=\\"margin: -6px -12px -6px -12px;\\">
+    <div class=\\"mb-col mb-col-6\\" style=\\"padding: 6px 12px 6px 12px;\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\" style=\\"padding: 6px 12px 6px 12px;\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\" style=\\"padding: 6px 12px 6px 12px;\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\" style=\\"padding: 6px 12px 6px 12px;\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\" style=\\"padding: 6px 12px 6px 12px;\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\" style=\\"padding: 6px 12px 6px 12px;\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\" style=\\"padding: 6px 12px 6px 12px;\\">
+      <div>col - 6</div>
+    </div>
+    <div class=\\"mb-col mb-col-6\\" style=\\"padding: 6px 12px 6px 12px;\\">
+      <div>col - 6</div>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`<grid> demo: render [offset] correctly 1`] = `
+"<div>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\" style=\\"margin-bottom: 16px;\\">
+    <div class=\\"mb-col mb-col-8\\">col - 8</div>
+    <div class=\\"mb-col mb-col-8 mb-col-offset-8\\"> col - 8 | offset - 8 </div>
+  </div>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\" style=\\"margin-bottom: 16px;\\">
+    <div class=\\"mb-col mb-col-6 mb-col-offset-8\\"> col - 6 | offset - 8 </div>
+    <div class=\\"mb-col mb-col-6 mb-col-offset-4\\"> col - 6 | offset - 4 </div>
+  </div>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\">
+    <div class=\\"mb-col mb-col-12 mb-col-offset-8\\"> col - 12 | offset - 8 </div>
+  </div>
+</div>"
+`;
+
+exports[`<grid> demo: render [order] correctly 1`] = `
+"<div>
+  <div class=\\"mb-row mb-row-align-start mb-row-justify-start grid-demo\\">
+    <div class=\\"mb-col mb-col-order-4 mb-col-6\\">
+      <div>1 col-order-4</div>
+    </div>
+    <div class=\\"mb-col mb-col-order-3 mb-col-6\\">
+      <div>2 col-order-3</div>
+    </div>
+    <div class=\\"mb-col mb-col-order-2 mb-col-6\\">
+      <div>3 col-order-2</div>
+    </div>
+    <div class=\\"mb-col mb-col-order-1 mb-col-6\\">
+      <div>4 col-order-1</div>
+    </div>
+  </div>
+</div>"
+`;

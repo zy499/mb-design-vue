@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<input-tag> demo: render [basic] correctly 1`] = `
+"<span class=\\"mb-input-tag mb-input-tag-size-medium mb-input-tag-has-tag mb-input-tag-has-suffix\\" style=\\"width: 320px;\\"><span class=\\"mb-input-tag-mirror\\"></span>
+<!---->
+<transition-group-stub><span class=\\"mb-tag mb-tag-size-medium mb-tag-checked mb-input-tag-tag\\"><!--v-if-->test<span class=\\"mb-icon-hover mb-tag-icon-hover mb-tag-close-btn\\" role=\\"button\\" aria-label=\\"Close\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-close\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142\\"></path></svg></span>
+  <!--v-if--></span><input class=\\"mb-input-tag-input\\" style=\\"width: 12px;\\">
+</transition-group-stub><span class=\\"mb-icon-hover mb-input-tag-clear-btn\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-close\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142\\"></path></svg></span>
+<!----></span>"
+`;
+
+exports[`<input-tag> demo: render [max] correctly 1`] = `
+"<span class=\\"mb-input-tag mb-input-tag-size-medium mb-input-tag-has-tag mb-input-tag-has-suffix\\" style=\\"width: 380px;\\"><span class=\\"mb-input-tag-mirror\\"></span>
+<!---->
+<transition-group-stub><span class=\\"mb-tag mb-tag-size-medium mb-tag-checked mb-input-tag-tag\\"><!--v-if-->one<span class=\\"mb-icon-hover mb-tag-icon-hover mb-tag-close-btn\\" role=\\"button\\" aria-label=\\"Close\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-close\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142\\"></path></svg></span>
+  <!--v-if--></span><span class=\\"mb-tag mb-tag-size-medium mb-tag-checked mb-input-tag-tag\\"><!--v-if-->two<span class=\\"mb-icon-hover mb-tag-icon-hover mb-tag-close-btn\\" role=\\"button\\" aria-label=\\"Close\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-close\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142\\"></path></svg></span>
+  <!--v-if--></span><span class=\\"mb-tag mb-tag-size-medium mb-tag-checked mb-input-tag-tag\\"><!--v-if-->three<span class=\\"mb-icon-hover mb-tag-icon-hover mb-tag-close-btn\\" role=\\"button\\" aria-label=\\"Close\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-close\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142\\"></path></svg></span>
+  <!--v-if--></span><span class=\\"mb-tag mb-tag-size-medium mb-tag-checked mb-input-tag-tag\\"><!--v-if-->+1...<!--v-if--><!--v-if--></span><input class=\\"mb-input-tag-input\\" style=\\"width: 12px;\\">
+</transition-group-stub><span class=\\"mb-icon-hover mb-input-tag-clear-btn\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-close\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142\\"></path></svg></span>
+<!----></span>"
+`;
+
+exports[`<input-tag> demo: render [size] correctly 1`] = `
+"<div class=\\"mb-space mb-space-vertical\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 24px;\\"><span class=\\"mb-radio-group-button mb-radio-group-size-undefined mb-radio-group-direction-horizontal\\"><label class=\\"mb-radio-button\\"><input type=\\"radio\\" class=\\"mb-radio-target\\" value=\\"mini\\"><span class=\\"mb-radio-button-content\\">mini</span></label><label class=\\"mb-radio-button\\"><input type=\\"radio\\" class=\\"mb-radio-target\\" value=\\"small\\"><span class=\\"mb-radio-button-content\\">small</span></label><label class=\\"mb-radio-button mb-radio-checked\\"><input type=\\"radio\\" class=\\"mb-radio-target\\" value=\\"medium\\"><span class=\\"mb-radio-button-content\\">medium</span></label><label class=\\"mb-radio-button\\"><input type=\\"radio\\" class=\\"mb-radio-target\\" value=\\"large\\"><span class=\\"mb-radio-button-content\\">large</span></label></span></div>
+  <div class=\\"mb-space-item\\"><span class=\\"mb-input-tag mb-input-tag-size-medium mb-input-tag-has-tag mb-input-tag-has-suffix\\" style=\\"width: 320px;\\"><span class=\\"mb-input-tag-mirror\\"></span>
+    <!---->
+    <transition-group-stub><span class=\\"mb-tag mb-tag-size-medium mb-tag-checked mb-input-tag-tag\\"><!--v-if-->one<span class=\\"mb-icon-hover mb-tag-icon-hover mb-tag-close-btn\\" role=\\"button\\" aria-label=\\"Close\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-close\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142\\"></path></svg></span>
+      <!--v-if--></span><input class=\\"mb-input-tag-input\\" style=\\"width: 12px;\\">
+    </transition-group-stub><span class=\\"mb-icon-hover mb-input-tag-clear-btn\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-close\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142\\"></path></svg></span>
+    <!----></span>
+  </div>
+</div>"
+`;
+
+exports[`<input-tag> demo: render [status] correctly 1`] = `
+"<div class=\\"mb-space mb-space-vertical\\">
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 24px;\\"><span class=\\"mb-input-tag mb-input-tag-size-medium mb-input-tag-disabled mb-input-tag-has-tag\\" style=\\"width: 320px;\\"><span class=\\"mb-input-tag-mirror\\"></span>
+    <!---->
+    <transition-group-stub><span class=\\"mb-tag mb-tag-size-medium mb-tag-checked mb-input-tag-tag\\"><!--v-if-->test<!--v-if--><!--v-if--></span><input class=\\"mb-input-tag-input\\" style=\\"width: 12px;\\" disabled=\\"\\"></transition-group-stub>
+    <!---->
+    <!----></span>
+  </div>
+  <div class=\\"mb-space-item\\" style=\\"margin-bottom: 24px;\\"><span class=\\"mb-input-tag mb-input-tag-size-medium mb-input-tag-readonly mb-input-tag-has-tag\\" style=\\"width: 320px;\\"><span class=\\"mb-input-tag-mirror\\"></span>
+    <!---->
+    <transition-group-stub><span class=\\"mb-tag mb-tag-size-medium mb-tag-checked mb-input-tag-tag\\"><!--v-if-->test<!--v-if--><!--v-if--></span><input class=\\"mb-input-tag-input\\" style=\\"width: 12px;\\" readonly=\\"\\"></transition-group-stub>
+    <!---->
+    <!----></span>
+  </div>
+  <div class=\\"mb-space-item\\"><span class=\\"mb-input-tag mb-input-tag-size-medium mb-input-tag-error mb-input-tag-has-tag\\" style=\\"width: 320px;\\"><span class=\\"mb-input-tag-mirror\\"></span>
+    <!---->
+    <transition-group-stub><span class=\\"mb-tag mb-tag-size-medium mb-tag-checked mb-input-tag-tag\\"><!--v-if-->test<span class=\\"mb-icon-hover mb-tag-icon-hover mb-tag-close-btn\\" role=\\"button\\" aria-label=\\"Close\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-close\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142\\"></path></svg></span>
+      <!--v-if--></span><input class=\\"mb-input-tag-input\\" style=\\"width: 12px;\\">
+    </transition-group-stub>
+    <!---->
+    <!----></span>
+  </div>
+</div>"
+`;
