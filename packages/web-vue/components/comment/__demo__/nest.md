@@ -61,7 +61,7 @@ Comments can be nested.
 </template>
 
 <script>
-import { IconHeart, IconMessage, IconStar } from '@arco-design/web-vue/es/icon';
+import { IconHeart, IconMessage, IconStar } from '@mb-design/web-vue/es/icon';
 
 export default {
   components: {

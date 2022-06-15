@@ -42,7 +42,7 @@ Multiple Selection
 </template>
 <script>
   import { h, ref } from 'vue';
-  import { IconCalendar } from '@arco-design/web-vue/es/icon';
+  import { IconCalendar } from '@mb-design/web-vue/es/icon';
 
   export default {
     setup() {

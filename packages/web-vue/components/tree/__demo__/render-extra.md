@@ -35,7 +35,7 @@ title:
 </template>
 <script>
  import {ref} from 'vue';
- import { IconPlus } from '@arco-design/web-vue/es/icon';
+ import { IconPlus } from '@mb-design/web-vue/es/icon';
 
  export default {
    components: {

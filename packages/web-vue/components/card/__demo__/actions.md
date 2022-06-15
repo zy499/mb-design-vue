@@ -58,7 +58,7 @@ import {
   IconThumbUp,
   IconShareInternal,
   IconMore,
-} from '@arco-design/web-vue/es/icon';
+} from '@mb-design/web-vue/es/icon';
 
 export default {
   components: { IconThumbUp, IconShareInternal, IconMore },

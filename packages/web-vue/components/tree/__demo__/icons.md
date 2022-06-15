@@ -27,7 +27,7 @@ The node icons `loadingIcon`, `switcherIcon`, support customization at the two l
 
 <script>
   import { h } from 'vue';
-  import { IconDriveFile, IconDown } from '@arco-design/web-vue/es/icon';
+  import { IconDriveFile, IconDown } from '@mb-design/web-vue/es/icon';
 
   export default {
     components: {

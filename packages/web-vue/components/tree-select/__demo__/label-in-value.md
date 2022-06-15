@@ -29,7 +29,7 @@ When `labelInValue` is `true`, the format of `value` is: `{ label: string, value
 </template>
 <script>
   import { h } from 'vue';
-  import { IconCalendar } from '@arco-design/web-vue/es/icon';
+  import { IconCalendar } from '@mb-design/web-vue/es/icon';
 
   export default {
     setup() {

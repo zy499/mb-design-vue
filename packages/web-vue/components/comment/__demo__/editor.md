@@ -47,7 +47,7 @@ Use with replay
 </template>
 
 <script>
-import { IconMessage } from '@arco-design/web-vue/es/icon';
+import { IconMessage } from '@mb-design/web-vue/es/icon';
 
 export default {
   components: {

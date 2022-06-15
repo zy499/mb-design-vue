@@ -38,7 +38,7 @@ All features
 </template>
 
 <script>
-import { IconFaceFrownFill } from '@arco-design/web-vue/es/icon';
+import { IconFaceFrownFill } from '@mb-design/web-vue/es/icon';
 
 export default {
   components: {

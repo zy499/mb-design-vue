@@ -32,7 +32,7 @@ Customize form components with `useFormItem`. Available since version 2.18.0.
 
 <script lang="ts">
 import { h, reactive, ref } from 'vue';
-import { Form, FormItem, useFormItem } from '@arco-design/web-vue';
+import { Form, FormItem, useFormItem } from '@mb-design/web-vue';
 
 const MyInput = {
   emits: ['update:modelValue'],
