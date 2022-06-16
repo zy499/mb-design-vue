@@ -273,7 +273,7 @@ const getBetaVersions = (content: string) => {
 };
 
 const run = async () => {
-  let version = '2.0.0';
+  let version = '1.0.0';
   if (fs.existsSync('package.json')) {
     try {
       const packageJson = await fs.readFile('package.json', 'utf8');
