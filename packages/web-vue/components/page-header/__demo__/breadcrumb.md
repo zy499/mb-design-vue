@@ -18,7 +18,7 @@ Show breadcrumbs in the header.
 
 ```vue
 <template>
-  <a-page-header title="MbDesign" subtitle="MbDesign Vue 2.0" :show-back="false">
+  <a-page-header title="MbDesign" subtitle="MbDesign Vue 1.0" :show-back="false">
     <template #breadcrumb>
       <a-breadcrumb>
         <a-breadcrumb-item>Home</a-breadcrumb-item>

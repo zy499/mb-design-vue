@@ -299,7 +299,7 @@ exports[`<list> demo: render [meta] correctly 1`] = `
             <div class=\\"mb-list-item-content\\">
               <div class=\\"mb-list-item-meta\\">
                 <div class=\\"mb-list-item-meta-avatar\\">
-                  <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"><img alt=\\"avatar\\" src=\\"https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp\\"></span>
+                  <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"><img alt=\\"avatar\\" src=\\"https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp\\"></span>
                     <!--v-if-->
                   </div>
                 </div>
@@ -320,7 +320,7 @@ exports[`<list> demo: render [meta] correctly 1`] = `
             <div class=\\"mb-list-item-content\\">
               <div class=\\"mb-list-item-meta\\">
                 <div class=\\"mb-list-item-meta-avatar\\">
-                  <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"><img alt=\\"avatar\\" src=\\"https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp\\"></span>
+                  <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"><img alt=\\"avatar\\" src=\\"https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp\\"></span>
                     <!--v-if-->
                   </div>
                 </div>
@@ -341,7 +341,7 @@ exports[`<list> demo: render [meta] correctly 1`] = `
             <div class=\\"mb-list-item-content\\">
               <div class=\\"mb-list-item-meta\\">
                 <div class=\\"mb-list-item-meta-avatar\\">
-                  <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"><img alt=\\"avatar\\" src=\\"https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp\\"></span>
+                  <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"><img alt=\\"avatar\\" src=\\"https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp\\"></span>
                     <!--v-if-->
                   </div>
                 </div>
@@ -362,7 +362,7 @@ exports[`<list> demo: render [meta] correctly 1`] = `
             <div class=\\"mb-list-item-content\\">
               <div class=\\"mb-list-item-meta\\">
                 <div class=\\"mb-list-item-meta-avatar\\">
-                  <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"><img alt=\\"avatar\\" src=\\"https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp\\"></span>
+                  <div class=\\"mb-avatar mb-avatar-square\\"><span class=\\"mb-avatar-text\\"><img alt=\\"avatar\\" src=\\"https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp\\"></span>
                     <!--v-if-->
                   </div>
                 </div>

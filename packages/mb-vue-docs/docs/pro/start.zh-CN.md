@@ -52,7 +52,7 @@ mb init hello-mb-pro
 
 看到以下输出就是创建成功了
 
-![](https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/8b78dd4bbdba4bf7939bd0a131357b31~tplv-uwbnlip3yd-image.image)
+![](https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/8b78dd4bbdba4bf7939bd0a131357b31~tplv-uwbnlip3yd-image.image)
 
 ## 开发
 
@@ -66,4 +66,4 @@ npm run dev
 
 打开 [localhost:3000](http://localhost:3000) 就能看到如下页面
 
-![](https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/1e331a3b8e2446e2be6c78b1c86e5e50~tplv-uwbnlip3yd-image.image)
+![](https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/1e331a3b8e2446e2be6c78b1c86e5e50~tplv-uwbnlip3yd-image.image)

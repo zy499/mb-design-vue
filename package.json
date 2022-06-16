@@ -1,6 +1,6 @@
 {
   "name": "mb-design-vue-monorepo",
-  "description": "Mb Design Vue 2.0 Monorepo",
+  "description": "Mb Design Vue 1.0 Monorepo",
   "private": true,
   "scripts": {
     "postinstall": "husky install",

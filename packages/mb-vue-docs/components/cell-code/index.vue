@@ -28,7 +28,7 @@
           <icon-copy />
         </a-button>
       </a-tooltip>
-      <a-tooltip :content="t('tooltip.stackblitz')">
+      <!-- <a-tooltip :content="t('tooltip.stackblitz')">
         <a-button
           class="cell-code-operation-btn"
           shape="circle"
@@ -47,7 +47,7 @@
         >
           <icon-code-sandbox />
         </a-button>
-      </a-tooltip>
+      </a-tooltip> -->
     </div>
     <div ref="contentRef" class="cell-code-content" :style="style">
       <slot />

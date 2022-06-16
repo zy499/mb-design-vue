@@ -16,7 +16,3 @@ document.body.setAttribute('mb-theme', 'dark')
 // 恢复亮色主题
 document.body.removeAttribute('mb-theme');
 ```
-
-## 原理和内置颜色
-
-可参考 [暗黑模式](https://mb.design/react/docs/palette) 和 [颜色](https://mb.design/react/docs/palette)

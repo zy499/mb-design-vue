@@ -101,9 +101,45 @@ app.mount('#app');
 
 贡献之前请先阅读 [行为准则](./CODE_OF_CONDUCT.md) 和 [贡献指南](./CONTRIBUTING.zh-CN.md)。
 
+---
+### 示范
+
+## 1.0.0
+
+`2022-06-15`
+
+### 🐛 问题修复
+
+- **table:** 修复 align='left' 时表头居中的问题 ([#1278](https://github.com/arco-design/arco-design-vue/pull/1278))
+
+### 💎 功能优化
+
+- **table:** 无展开按钮时不再显示缩进 ([#1278](https://github.com/mb-design/mb-design-vue/pull/1278))
+  
+### 💅 样式更新
+
+- **space:** 仅在横向模式使用 flex 布局的 item ([#1277](https://github.com/mb-design/mb-design-vue/pull/1277))
+  
+### ⚠️ 重点注意
+
+- **table:** 由于功能需要，`mb-table-cell` 改为 flex 布局，且在表格内容外新增 `mb-table-td-content`  包裹层，如有自定义样式请留意 DOM 结构的改变 ([#1248](https://github.com/mb-design/mb-design-vue/pull/1248))
+  
+### 🆕 新增功能
+
+- **table:** 增加 `sticky-header` 表头吸顶功能 ([#1248](https://github.com/mb-design/mb-design-vue/pull/1248))
+- **table:** 表格列配置增加 `summaryCellStyle` 属性 ([#1248](https://github.com/mb-design/mb-design-vue/pull/1248))
+
+### 🆎 类型修正
+
+- 修正全部组件事件相关 TS 类型 ([#1160](https://github.com/mb-design/mb-design-vue/pull/1160))
+---
+
 感谢所有为 MbDesign 做过贡献的人!
 
-<a href="https://github.com/mb-design/mb-design-vue/graphs/contributors"><img src="https://contrib.rocks/image?repo=mb-design/mb-design-vue" /></a>
+
+- **table:** 无展开按钮时不再显示缩进 ([#1278](https://github.com/arco-design/arco-design-vue/pull/1278))
+
+<a href="https://github.com/arco-design/arco-design-vue/graphs/contributors"><img src="https://contrib.rocks/image?repo=arco-design/arco-design-vue" /></a>
 
 # License
 

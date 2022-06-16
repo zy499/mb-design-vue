@@ -18,7 +18,3 @@ document.body.setAttribute('mb-theme', 'dark')
 // Restore light theme
 document.body.removeAttribute('mb-theme');
 ```
-
-## Principle and built-in colors
-
-Refer to [Dark Mode](https://mb.design/react/docs/palette) and [Color](https://mb.design/react/docs/palette)

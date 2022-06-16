@@ -1,7 +1,7 @@
 {
   "name": "@mb-design/web-vue",
-  "version": "1.0.0",
-  "description": "Mb Design Vue 2.0: A Vue.js 3 UI Library",
+  "version": "1.0.2",
+  "description": "Mb Design Vue 1.0: A Vue.js 3 UI Library",
   "author": "zy499 <hqh499@gmail.com>",
   "homepage": "",
   "license": "ISC",
@@ -80,6 +80,7 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
     "typescript": "^4.2.4",
+    "unplugin-vue-components": "^0.19.6",
     "vue-jest": "^5.0.0-alpha.10"
   },
   "dependencies": {

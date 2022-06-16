@@ -75,6 +75,7 @@ import Switch from './switch';
 import Table, { Thead, Td, Th, Tr, Tbody, TableColumn } from './table';
 import Tabs, { TabPane } from './tabs';
 import Tag from './tag';
+import Tee from './tee';
 import Textarea from './textarea';
 import TimePicker from './time-picker';
 import Timeline, { TimelineItem } from './timeline';
@@ -115,6 +116,7 @@ const components: Record<string, Plugin> = {
   Table,
   Tabs,
   Tag,
+  Tee,
   Timeline,
   Tooltip,
   AutoComplete,

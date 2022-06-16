@@ -9,6 +9,7 @@
           </div>
           <div class="changelog-content">
             <ul v-if="item.extra && item.extra.length">
+              <!-- eslint-disable vue/no-v-html -->
               <li
                 v-for="(text, index) of item.extra"
                 :key="index"

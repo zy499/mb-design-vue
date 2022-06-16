@@ -19,18 +19,6 @@ description: Used for the selection, screening and classification of information
 
 @import ./__demo__/basic.md
 
-@import ./__demo__/closeable.md
-
-@import ./__demo__/checkable.md
-
-@import ./__demo__/color.md
-
-@import ./__demo__/size.md
-
-@import ./__demo__/loading.md
-
-@import ./__demo__/icon.md
-
 ## API
 
-%%API(tag.vue)%%
+%%API(tee.vue)%%

@@ -140,6 +140,8 @@ export type {
 export { default as Tabs, TabPane } from './tabs';
 export { default as Tag } from './tag';
 export type { TagProps, TagColor } from './tag';
+export { default as Tee } from './tee';
+
 export { default as Textarea } from './textarea';
 export { default as TimePicker } from './time-picker';
 export { default as Timeline, TimelineItem } from './timeline';
@@ -172,5 +174,7 @@ export type {
 } from './upload';
 // hooks
 export { useFormItem } from './_hooks/use-form-item';
+// utils
+export { default as MbResolver } from './_utils/viteComPluginUtil';
 // components.d.ts
 export type {} from './components';

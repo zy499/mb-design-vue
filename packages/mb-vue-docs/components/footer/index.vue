@@ -50,11 +50,11 @@
             <span>ⓒ Copyright ByteDance 2019-{{ latestYear }}</span>
           </div>
         </div>
-        <div class="mb-site-footer-bottom-right">
+        <!-- <div class="mb-site-footer-bottom-right">
           <a target="_blank" rel="noreferrer" href="https://beian.miit.gov.cn/">
             京ICP备19059916号-18
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
@@ -80,19 +80,19 @@ export default defineComponent({
     const { t } = useI18n();
 
     const relevant = [
-      {
-        title: 'design',
-        list: [
-          {
-            text: 'spec',
-            link: '/docs/spec/introduce',
-          },
-          {
-            text: 'principle',
-            link: '/docs/spec/philosophy',
-          },
-        ],
-      },
+      // {
+      //   title: 'design',
+      //   list: [
+      //     {
+      //       text: 'spec',
+      //       link: '/docs/spec/introduce',
+      //     },
+      //     {
+      //       text: 'principle',
+      //       link: '/docs/spec/philosophy',
+      //     },
+      //   ],
+      // },
       {
         title: 'component',
         list: [
@@ -113,14 +113,14 @@ export default defineComponent({
       {
         title: 'ecosystem',
         list: [
-          {
-            text: 'designLab',
-            link: '/themes/stores',
-          },
-          {
-            text: 'material',
-            link: '/material',
-          },
+          // {
+          //   text: 'designLab',
+          //   link: '/themes/stores',
+          // },
+          // {
+          //   text: 'material',
+          //   link: '/material',
+          // },
           {
             text: 'pro',
             link: '/pro',
@@ -132,11 +132,11 @@ export default defineComponent({
         list: [
           {
             text: 'componentFigma',
-            link: 'https://www.figma.com/file/M66cTiLXHa4SVyZIlfY5Pb/mb-Design-System?node-id=7945%3A44563',
+            link: '/',
           },
           {
             text: 'iconFigma',
-            link: 'https://www.figma.com/file/1ohmb16op4ogbI09ojLR5W/Mb-Design-IconsFigma',
+            link: '/',
           },
         ],
       },

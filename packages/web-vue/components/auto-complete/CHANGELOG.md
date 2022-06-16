@@ -2,27 +2,27 @@
 changelog: true
 ```
 
-## 2.23.0
+## 1.0.0
 
-`2022-04-08`
+`2022-06-14`
 
 ### 🆕 Feature
 
 - Added allow-clear property and event ([#951](https://github.com/arco-design/arco-design-vue/pull/951))
 
 
-## 2.13.0
+## 1.0.0
 
-`2021-12-31`
+`2022-06-14`
 
 ### 🆕 Feature
 
 - Increase input slot and option slot support ([#482](https://github.com/arco-design/arco-design-vue/pull/482))
 
 
-## 2.8.0
+## 1.0.0
 
-`2021-12-01`
+`2022-06-13`
 
 ### 🐛 BugFix
 

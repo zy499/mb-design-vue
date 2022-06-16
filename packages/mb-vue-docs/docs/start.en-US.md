@@ -39,13 +39,12 @@ app.mount('#app');
 
 If you use the template method for development, you can use the [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) plug-in to enable on-demand import support.
 The plug-in will automatically parse the components used in the template, and import the components and corresponding style files.
-Requires component library `version >= 2.11.0`.
 
 ```ts
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite';
-import { MbResolver } from 'unplugin-vue-components/resolvers';
+import { MbResolver } from '@mb-design/web-vue';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -70,12 +69,12 @@ You can also use manual import to load components on demand. The component libra
 ```ts
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import styleImport from 'vite-plugin-style-import'
+import { createStyleImportPlugin } from 'vite-plugin-style-import'
 
 export default defineConfig({
   plugins: [
     vue(),
-    styleImport({
+    createStyleImportPlugin({
       libs: [
         {
           libraryName: '@mb-design/web-vue',

@@ -19,7 +19,7 @@ The component provides a named slot `extra` for users to customize additional co
 ```vue
 <template>
   <a-image
-    src='https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/a8c8cdb109cb051163646151a4a5083b.png~tplv-uwbnlip3yd-webp.webp'
+    src='https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/a8c8cdb109cb051163646151a4a5083b.png~tplv-uwbnlip3yd-webp.webp'
     title='A user’s avatar'
     description='Present by Mb Design'
     width="260"
@@ -38,7 +38,7 @@ The component provides a named slot `extra` for users to customize additional co
     </template>
   </a-image>
   <a-image
-    src='https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/a8c8cdb109cb051163646151a4a5083b.png~tplv-uwbnlip3yd-webp.webp'
+    src='https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/a8c8cdb109cb051163646151a4a5083b.png~tplv-uwbnlip3yd-webp.webp'
     title='A user’s avatar'
     description='Present by Mb Design'
     width="260"

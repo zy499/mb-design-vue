@@ -28,7 +28,7 @@ The basic use of avatars. If the avatar is text, the font size will be automatic
     <a-avatar>
       <img
         alt="avatar"
-        src="https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp"
+        src="https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/3ee5f13fb09879ecb5185e440cef6eb9.png~tplv-uwbnlip3yd-webp.webp"
       />
     </a-avatar>
   </a-space>

@@ -121,7 +121,7 @@
     <template v-if="theme" #footer>
       <div class="theme-box-footer">
         <TypographyText bold>
-          {{ t('themeBox.currentTheme') }}: {{ theme.themeName }}
+          {{ t('themeBox.currentTheme') }}: {{ theme?.themeName }}
         </TypographyText>
         <Button
           type="primary"

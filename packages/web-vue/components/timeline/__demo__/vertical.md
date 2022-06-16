@@ -33,7 +33,7 @@ The vertical time axis.
           <img
             width="40"
             :style="{ marginRight: '16px', marginBottom: '12px' }"
-            src="https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/b5d834b83708a269b4562924436eac48.png~tplv-uwbnlip3yd-png.png"
+            src="https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/b5d834b83708a269b4562924436eac48.png~tplv-uwbnlip3yd-png.png"
           />
           <div :style="{ marginBottom: '12px' }">
             Toutiao
@@ -48,7 +48,7 @@ The vertical time axis.
           <img
             width="40"
             :style="{ marginRight: '16px', marginBottom: '12px' }"
-            src="https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/385ed540c359ec8a9b9ce2b5fe89b098.png~tplv-uwbnlip3yd-png.png"
+            src="https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/385ed540c359ec8a9b9ce2b5fe89b098.png~tplv-uwbnlip3yd-png.png"
           />
           <div :style="{ marginBottom: '12px' }">
             Xigua Video
@@ -63,7 +63,7 @@ The vertical time axis.
           <img
             width="40"
             :style="{ marginRight: '16px', marginBottom: '12px' }"
-            src="https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/385ed540c359ec8a9b9ce2b5fe89b098.png~tplv-uwbnlip3yd-png.png"
+            src="https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/385ed540c359ec8a9b9ce2b5fe89b098.png~tplv-uwbnlip3yd-png.png"
           />
           <div :style="{ marginBottom: '12px' }">
             Pipidance

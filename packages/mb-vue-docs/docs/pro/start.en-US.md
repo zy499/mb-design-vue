@@ -54,7 +54,7 @@ Wait for the dependencies to be installed. . .
 
 When you see the following output, the creation is successful
 
-![](https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/8b78dd4bbdba4bf7939bd0a131357b31~tplv-uwbnlip3yd-image.image)
+![](https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/8b78dd4bbdba4bf7939bd0a131357b31~tplv-uwbnlip3yd-image.image)
 
 ## Development
 
@@ -68,4 +68,4 @@ npm run dev
 
 Open [localhost:3000](http://localhost:3000) and you will see the following page
 
-![](https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/1e331a3b8e2446e2be6c78b1c86e5e50~tplv-uwbnlip3yd-image.image)
+![](https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/1e331a3b8e2446e2be6c78b1c86e5e50~tplv-uwbnlip3yd-image.image)

@@ -62,6 +62,7 @@ export default {
     timeline: 'Timeline',
     comment: 'Comment',
     tag: 'Tag',
+    tee: 'Tee',
     select: 'Select',
     inputTag: 'InputTag',
     autoComplete: 'AutoComplete',

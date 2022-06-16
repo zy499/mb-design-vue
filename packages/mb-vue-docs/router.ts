@@ -60,6 +60,8 @@ const Tabs = () => import('@web-vue/components/tabs/README.zh-CN.md');
 const TabsEn = () => import('@web-vue/components/tabs/README.en-US.md');
 const Tag = () => import('@web-vue/components/tag/README.zh-CN.md');
 const TagEn = () => import('@web-vue/components/tag/README.en-US.md');
+const Tee = () => import('@web-vue/components/tee/README.zh-CN.md');
+const TeeEn = () => import('@web-vue/components/tee/README.en-US.md');
 const Timeline = () => import('@web-vue/components/timeline/README.zh-CN.md');
 const TimelineEn = () => import('@web-vue/components/timeline/README.en-US.md');
 const Tooltip = () => import('@web-vue/components/tooltip/README.zh-CN.md');
@@ -393,6 +395,11 @@ const components = [
         name: 'tag',
         component: Tag,
         componentEn: TagEn,
+      },
+      {
+        name: 'tee',
+        component: Tee,
+        componentEn: TeeEn,
       },
       {
         name: 'timeline',

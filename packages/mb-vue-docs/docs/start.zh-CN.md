@@ -37,13 +37,12 @@ app.mount('#app');
 
 如果使用模板方式进行开发，可以使用 [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) 插件来开启按需加载的支持。
 插件会自动解析模板中的使用到的组件，并导入组件和对应的样式文件。
-需要组件库 `version >= 2.11.0`。
 
 ```ts
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite';
-import { MbResolver } from 'unplugin-vue-components/resolvers';
+import { MbResolver } from '@mb-design/web-vue';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -68,12 +67,12 @@ export default defineConfig({
 ```ts
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import styleImport from 'vite-plugin-style-import'
+import { createStyleImportPlugin } from 'vite-plugin-style-import'
 
 export default defineConfig({
   plugins: [
     vue(),
-    styleImport({
+    createStyleImportPlugin({
       libs: [
         {
           libraryName: '@mb-design/web-vue',

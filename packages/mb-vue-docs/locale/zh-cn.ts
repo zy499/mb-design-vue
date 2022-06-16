@@ -57,6 +57,7 @@ export default {
     slider: '滑动输入条 Slider',
     rate: '评分 Rate',
     tag: '标签 Tag',
+    tee: '测试 Tee',
     select: '选择器 Select',
     inputTag: '标签输入框 InputTag',
     autoComplete: '自动补全 AutoComplete',

@@ -10,7 +10,7 @@ export async function checkLogin() {
       email: 'xiaoming@bytedance.com',
       nickname: '小明',
       picture:
-        'https://p1-mb.byteimg.com/tos-cn-i-uwbnlip3yd/fbbdefc1702398f2f394c57270f7f727.png~tplv-uwbnlip3yd-png.png',
+        'https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/fbbdefc1702398f2f394c57270f7f727.png~tplv-uwbnlip3yd-png.png',
       username: 'xiaoming',
     };
   } else {

@@ -18,7 +18,7 @@ The default is no background color, if necessary, you can set a different backgr
 
 ```vue
 <template>
-  <a-page-header title="MbDesign" subtitle="MbDesign Vue 2.0">
+  <a-page-header title="MbDesign" subtitle="MbDesign Vue 1.0">
     <template #breadcrumb>
       <a-breadcrumb>
         <a-breadcrumb-item>Home</a-breadcrumb-item>

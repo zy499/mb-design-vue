@@ -18,7 +18,7 @@ The basic page header is suitable for use in scenarios that require a simple des
 
 ```vue
 <template>
-  <a-page-header title="MbDesign" subtitle="MbDesign Vue 2.0">
+  <a-page-header title="MbDesign" subtitle="MbDesign Vue 1.0">
     <template #extra>
       <a-radio-group type="button">
         <a-radio value="mini">Mini</a-radio>
