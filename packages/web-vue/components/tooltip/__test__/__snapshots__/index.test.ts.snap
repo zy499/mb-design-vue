@@ -3,121 +3,121 @@
 exports[`Tooltip should render tooltip 1`] = `
 "<button>Button</button>
 <!--teleport start-->
-<div class=\\"arco-trigger-popup arco-trigger-position-top arco-tooltip\\" style=\\"z-index: 1001;\\" trigger-placement=\\"top\\" role=\\"tooltip\\">
+<div class=\\"mb-trigger-popup mb-trigger-position-top mb-tooltip\\" style=\\"z-index: 1001;\\" trigger-placement=\\"top\\" role=\\"tooltip\\">
   <transition-stub>
-    <div class=\\"arco-trigger-popup-wrapper\\">
-      <div class=\\"arco-trigger-content arco-tooltip-content\\">content</div>
-      <div class=\\"arco-trigger-arrow arco-tooltip-popup-arrow\\"></div>
+    <div class=\\"mb-trigger-popup-wrapper\\">
+      <div class=\\"mb-trigger-content mb-tooltip-content\\">content</div>
+      <div class=\\"mb-trigger-arrow mb-tooltip-popup-arrow\\"></div>
     </div>
   </transition-stub>
 </div>
 <!--teleport end-->/n<button>Button</button>
 <!--teleport start-->
-<div class=\\"arco-trigger-popup arco-trigger-position-tl arco-tooltip\\" style=\\"z-index: 1002;\\" trigger-placement=\\"tl\\" role=\\"tooltip\\">
+<div class=\\"mb-trigger-popup mb-trigger-position-tl mb-tooltip\\" style=\\"z-index: 1002;\\" trigger-placement=\\"tl\\" role=\\"tooltip\\">
   <transition-stub>
-    <div class=\\"arco-trigger-popup-wrapper\\">
-      <div class=\\"arco-trigger-content arco-tooltip-content\\">content</div>
-      <div class=\\"arco-trigger-arrow arco-tooltip-popup-arrow\\"></div>
+    <div class=\\"mb-trigger-popup-wrapper\\">
+      <div class=\\"mb-trigger-content mb-tooltip-content\\">content</div>
+      <div class=\\"mb-trigger-arrow mb-tooltip-popup-arrow\\"></div>
     </div>
   </transition-stub>
 </div>
 <!--teleport end-->/n<button>Button</button>
 <!--teleport start-->
-<div class=\\"arco-trigger-popup arco-trigger-position-tr arco-tooltip\\" style=\\"z-index: 1003;\\" trigger-placement=\\"tr\\" role=\\"tooltip\\">
+<div class=\\"mb-trigger-popup mb-trigger-position-tr mb-tooltip\\" style=\\"z-index: 1003;\\" trigger-placement=\\"tr\\" role=\\"tooltip\\">
   <transition-stub>
-    <div class=\\"arco-trigger-popup-wrapper\\">
-      <div class=\\"arco-trigger-content arco-tooltip-content\\">content</div>
-      <div class=\\"arco-trigger-arrow arco-tooltip-popup-arrow\\"></div>
+    <div class=\\"mb-trigger-popup-wrapper\\">
+      <div class=\\"mb-trigger-content mb-tooltip-content\\">content</div>
+      <div class=\\"mb-trigger-arrow mb-tooltip-popup-arrow\\"></div>
     </div>
   </transition-stub>
 </div>
 <!--teleport end-->/n<button>Button</button>
 <!--teleport start-->
-<div class=\\"arco-trigger-popup arco-trigger-position-bottom arco-tooltip\\" style=\\"z-index: 1004;\\" trigger-placement=\\"bottom\\" role=\\"tooltip\\">
+<div class=\\"mb-trigger-popup mb-trigger-position-bottom mb-tooltip\\" style=\\"z-index: 1004;\\" trigger-placement=\\"bottom\\" role=\\"tooltip\\">
   <transition-stub>
-    <div class=\\"arco-trigger-popup-wrapper\\">
-      <div class=\\"arco-trigger-content arco-tooltip-content\\">content</div>
-      <div class=\\"arco-trigger-arrow arco-tooltip-popup-arrow\\"></div>
+    <div class=\\"mb-trigger-popup-wrapper\\">
+      <div class=\\"mb-trigger-content mb-tooltip-content\\">content</div>
+      <div class=\\"mb-trigger-arrow mb-tooltip-popup-arrow\\"></div>
     </div>
   </transition-stub>
 </div>
 <!--teleport end-->/n<button>Button</button>
 <!--teleport start-->
-<div class=\\"arco-trigger-popup arco-trigger-position-bl arco-tooltip\\" style=\\"z-index: 1005;\\" trigger-placement=\\"bl\\" role=\\"tooltip\\">
+<div class=\\"mb-trigger-popup mb-trigger-position-bl mb-tooltip\\" style=\\"z-index: 1005;\\" trigger-placement=\\"bl\\" role=\\"tooltip\\">
   <transition-stub>
-    <div class=\\"arco-trigger-popup-wrapper\\">
-      <div class=\\"arco-trigger-content arco-tooltip-content\\">content</div>
-      <div class=\\"arco-trigger-arrow arco-tooltip-popup-arrow\\"></div>
+    <div class=\\"mb-trigger-popup-wrapper\\">
+      <div class=\\"mb-trigger-content mb-tooltip-content\\">content</div>
+      <div class=\\"mb-trigger-arrow mb-tooltip-popup-arrow\\"></div>
     </div>
   </transition-stub>
 </div>
 <!--teleport end-->/n<button>Button</button>
 <!--teleport start-->
-<div class=\\"arco-trigger-popup arco-trigger-position-br arco-tooltip\\" style=\\"z-index: 1006;\\" trigger-placement=\\"br\\" role=\\"tooltip\\">
+<div class=\\"mb-trigger-popup mb-trigger-position-br mb-tooltip\\" style=\\"z-index: 1006;\\" trigger-placement=\\"br\\" role=\\"tooltip\\">
   <transition-stub>
-    <div class=\\"arco-trigger-popup-wrapper\\">
-      <div class=\\"arco-trigger-content arco-tooltip-content\\">content</div>
-      <div class=\\"arco-trigger-arrow arco-tooltip-popup-arrow\\"></div>
+    <div class=\\"mb-trigger-popup-wrapper\\">
+      <div class=\\"mb-trigger-content mb-tooltip-content\\">content</div>
+      <div class=\\"mb-trigger-arrow mb-tooltip-popup-arrow\\"></div>
     </div>
   </transition-stub>
 </div>
 <!--teleport end-->/n<button>Button</button>
 <!--teleport start-->
-<div class=\\"arco-trigger-popup arco-trigger-position-left arco-tooltip\\" style=\\"z-index: 1007;\\" trigger-placement=\\"left\\" role=\\"tooltip\\">
+<div class=\\"mb-trigger-popup mb-trigger-position-left mb-tooltip\\" style=\\"z-index: 1007;\\" trigger-placement=\\"left\\" role=\\"tooltip\\">
   <transition-stub>
-    <div class=\\"arco-trigger-popup-wrapper\\">
-      <div class=\\"arco-trigger-content arco-tooltip-content\\">content</div>
-      <div class=\\"arco-trigger-arrow arco-tooltip-popup-arrow\\"></div>
+    <div class=\\"mb-trigger-popup-wrapper\\">
+      <div class=\\"mb-trigger-content mb-tooltip-content\\">content</div>
+      <div class=\\"mb-trigger-arrow mb-tooltip-popup-arrow\\"></div>
     </div>
   </transition-stub>
 </div>
 <!--teleport end-->/n<button>Button</button>
 <!--teleport start-->
-<div class=\\"arco-trigger-popup arco-trigger-position-lt arco-tooltip\\" style=\\"z-index: 1008;\\" trigger-placement=\\"lt\\" role=\\"tooltip\\">
+<div class=\\"mb-trigger-popup mb-trigger-position-lt mb-tooltip\\" style=\\"z-index: 1008;\\" trigger-placement=\\"lt\\" role=\\"tooltip\\">
   <transition-stub>
-    <div class=\\"arco-trigger-popup-wrapper\\">
-      <div class=\\"arco-trigger-content arco-tooltip-content\\">content</div>
-      <div class=\\"arco-trigger-arrow arco-tooltip-popup-arrow\\"></div>
+    <div class=\\"mb-trigger-popup-wrapper\\">
+      <div class=\\"mb-trigger-content mb-tooltip-content\\">content</div>
+      <div class=\\"mb-trigger-arrow mb-tooltip-popup-arrow\\"></div>
     </div>
   </transition-stub>
 </div>
 <!--teleport end-->/n<button>Button</button>
 <!--teleport start-->
-<div class=\\"arco-trigger-popup arco-trigger-position-lb arco-tooltip\\" style=\\"z-index: 1009;\\" trigger-placement=\\"lb\\" role=\\"tooltip\\">
+<div class=\\"mb-trigger-popup mb-trigger-position-lb mb-tooltip\\" style=\\"z-index: 1009;\\" trigger-placement=\\"lb\\" role=\\"tooltip\\">
   <transition-stub>
-    <div class=\\"arco-trigger-popup-wrapper\\">
-      <div class=\\"arco-trigger-content arco-tooltip-content\\">content</div>
-      <div class=\\"arco-trigger-arrow arco-tooltip-popup-arrow\\"></div>
+    <div class=\\"mb-trigger-popup-wrapper\\">
+      <div class=\\"mb-trigger-content mb-tooltip-content\\">content</div>
+      <div class=\\"mb-trigger-arrow mb-tooltip-popup-arrow\\"></div>
     </div>
   </transition-stub>
 </div>
 <!--teleport end-->/n<button>Button</button>
 <!--teleport start-->
-<div class=\\"arco-trigger-popup arco-trigger-position-right arco-tooltip\\" style=\\"z-index: 1010;\\" trigger-placement=\\"right\\" role=\\"tooltip\\">
+<div class=\\"mb-trigger-popup mb-trigger-position-right mb-tooltip\\" style=\\"z-index: 1010;\\" trigger-placement=\\"right\\" role=\\"tooltip\\">
   <transition-stub>
-    <div class=\\"arco-trigger-popup-wrapper\\">
-      <div class=\\"arco-trigger-content arco-tooltip-content\\">content</div>
-      <div class=\\"arco-trigger-arrow arco-tooltip-popup-arrow\\"></div>
+    <div class=\\"mb-trigger-popup-wrapper\\">
+      <div class=\\"mb-trigger-content mb-tooltip-content\\">content</div>
+      <div class=\\"mb-trigger-arrow mb-tooltip-popup-arrow\\"></div>
     </div>
   </transition-stub>
 </div>
 <!--teleport end-->/n<button>Button</button>
 <!--teleport start-->
-<div class=\\"arco-trigger-popup arco-trigger-position-rt arco-tooltip\\" style=\\"z-index: 1011;\\" trigger-placement=\\"rt\\" role=\\"tooltip\\">
+<div class=\\"mb-trigger-popup mb-trigger-position-rt mb-tooltip\\" style=\\"z-index: 1011;\\" trigger-placement=\\"rt\\" role=\\"tooltip\\">
   <transition-stub>
-    <div class=\\"arco-trigger-popup-wrapper\\">
-      <div class=\\"arco-trigger-content arco-tooltip-content\\">content</div>
-      <div class=\\"arco-trigger-arrow arco-tooltip-popup-arrow\\"></div>
+    <div class=\\"mb-trigger-popup-wrapper\\">
+      <div class=\\"mb-trigger-content mb-tooltip-content\\">content</div>
+      <div class=\\"mb-trigger-arrow mb-tooltip-popup-arrow\\"></div>
     </div>
   </transition-stub>
 </div>
 <!--teleport end-->/n<button>Button</button>
 <!--teleport start-->
-<div class=\\"arco-trigger-popup arco-trigger-position-rb arco-tooltip\\" style=\\"z-index: 1012;\\" trigger-placement=\\"rb\\" role=\\"tooltip\\">
+<div class=\\"mb-trigger-popup mb-trigger-position-rb mb-tooltip\\" style=\\"z-index: 1012;\\" trigger-placement=\\"rb\\" role=\\"tooltip\\">
   <transition-stub>
-    <div class=\\"arco-trigger-popup-wrapper\\">
-      <div class=\\"arco-trigger-content arco-tooltip-content\\">content</div>
-      <div class=\\"arco-trigger-arrow arco-tooltip-popup-arrow\\"></div>
+    <div class=\\"mb-trigger-popup-wrapper\\">
+      <div class=\\"mb-trigger-content mb-tooltip-content\\">content</div>
+      <div class=\\"mb-trigger-arrow mb-tooltip-popup-arrow\\"></div>
     </div>
   </transition-stub>
 </div>
