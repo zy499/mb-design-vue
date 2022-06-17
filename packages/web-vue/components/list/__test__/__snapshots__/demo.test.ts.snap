@@ -9,7 +9,7 @@ exports[`<list> demo: render [basic] correctly 1`] = `
         <div role=\\"listitem\\" class=\\"mb-list-item\\">
           <div class=\\"mb-list-item-main\\">
             <!---->
-            <div class=\\"mb-list-item-content\\">Beijing Bytedance Technology Co., Ltd.</div>
+            <div class=\\"mb-list-item-content\\">Shanghai MaBang Technology Co., Ltd.</div>
             <!---->
           </div>
           <!---->
@@ -18,7 +18,7 @@ exports[`<list> demo: render [basic] correctly 1`] = `
         <div role=\\"listitem\\" class=\\"mb-list-item\\">
           <div class=\\"mb-list-item-main\\">
             <!---->
-            <div class=\\"mb-list-item-content\\">Bytedance Technology Co., Ltd.</div>
+            <div class=\\"mb-list-item-content\\">MaBang Technology Co., Ltd.</div>
             <!---->
           </div>
           <!---->
@@ -27,7 +27,7 @@ exports[`<list> demo: render [basic] correctly 1`] = `
         <div role=\\"listitem\\" class=\\"mb-list-item\\">
           <div class=\\"mb-list-item-main\\">
             <!---->
-            <div class=\\"mb-list-item-content\\">Beijing Toutiao Technology Co., Ltd.</div>
+            <div class=\\"mb-list-item-content\\">Shanghai MaBang Technology Co., Ltd.</div>
             <!---->
           </div>
           <!---->
@@ -36,7 +36,7 @@ exports[`<list> demo: render [basic] correctly 1`] = `
         <div role=\\"listitem\\" class=\\"mb-list-item\\">
           <div class=\\"mb-list-item-main\\">
             <!---->
-            <div class=\\"mb-list-item-content\\">Beijing Volcengine Technology Co., Ltd.</div>
+            <div class=\\"mb-list-item-content\\">Shanghai MaBangErp Technology Co., Ltd.</div>
             <!---->
           </div>
           <!---->
@@ -45,7 +45,7 @@ exports[`<list> demo: render [basic] correctly 1`] = `
         <div role=\\"listitem\\" class=\\"mb-list-item\\">
           <div class=\\"mb-list-item-main\\">
             <!---->
-            <div class=\\"mb-list-item-content\\">China Beijing Bytedance Technology Co., Ltd.</div>
+            <div class=\\"mb-list-item-content\\">China Shanghai MaBang Technology Co., Ltd.</div>
             <!---->
           </div>
           <!---->
@@ -304,8 +304,8 @@ exports[`<list> demo: render [meta] correctly 1`] = `
                   </div>
                 </div>
                 <div class=\\"mb-list-item-meta-content\\">
-                  <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                  <div class=\\"mb-list-item-meta-description\\">Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                  <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                  <div class=\\"mb-list-item-meta-description\\">Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                 </div>
               </div>
             </div>
@@ -325,8 +325,8 @@ exports[`<list> demo: render [meta] correctly 1`] = `
                   </div>
                 </div>
                 <div class=\\"mb-list-item-meta-content\\">
-                  <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                  <div class=\\"mb-list-item-meta-description\\">Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                  <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                  <div class=\\"mb-list-item-meta-description\\">Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                 </div>
               </div>
             </div>
@@ -346,8 +346,8 @@ exports[`<list> demo: render [meta] correctly 1`] = `
                   </div>
                 </div>
                 <div class=\\"mb-list-item-meta-content\\">
-                  <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                  <div class=\\"mb-list-item-meta-description\\">Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                  <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                  <div class=\\"mb-list-item-meta-description\\">Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                 </div>
               </div>
             </div>
@@ -367,8 +367,8 @@ exports[`<list> demo: render [meta] correctly 1`] = `
                   </div>
                 </div>
                 <div class=\\"mb-list-item-meta-content\\">
-                  <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                  <div class=\\"mb-list-item-meta-description\\">Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                  <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                  <div class=\\"mb-list-item-meta-description\\">Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                 </div>
               </div>
             </div>
@@ -423,7 +423,7 @@ exports[`<list> demo: render [size] correctly 1`] = `
             <div role=\\"listitem\\" class=\\"mb-list-item\\">
               <div class=\\"mb-list-item-main\\">
                 <!---->
-                <div class=\\"mb-list-item-content\\">Beijing Bytedance Technology Co., Ltd.</div>
+                <div class=\\"mb-list-item-content\\">Shanghai MaBang Technology Co., Ltd.</div>
                 <!---->
               </div>
               <!---->
@@ -432,7 +432,7 @@ exports[`<list> demo: render [size] correctly 1`] = `
             <div role=\\"listitem\\" class=\\"mb-list-item\\">
               <div class=\\"mb-list-item-main\\">
                 <!---->
-                <div class=\\"mb-list-item-content\\">Bytedance Technology Co., Ltd.</div>
+                <div class=\\"mb-list-item-content\\">MaBang Technology Co., Ltd.</div>
                 <!---->
               </div>
               <!---->
@@ -441,7 +441,7 @@ exports[`<list> demo: render [size] correctly 1`] = `
             <div role=\\"listitem\\" class=\\"mb-list-item\\">
               <div class=\\"mb-list-item-main\\">
                 <!---->
-                <div class=\\"mb-list-item-content\\">Beijing Toutiao Technology Co., Ltd.</div>
+                <div class=\\"mb-list-item-content\\">Shanghai MaBang Technology Co., Ltd.</div>
                 <!---->
               </div>
               <!---->
@@ -450,7 +450,7 @@ exports[`<list> demo: render [size] correctly 1`] = `
             <div role=\\"listitem\\" class=\\"mb-list-item\\">
               <div class=\\"mb-list-item-main\\">
                 <!---->
-                <div class=\\"mb-list-item-content\\">Beijing Volcengine Technology Co., Ltd.</div>
+                <div class=\\"mb-list-item-content\\">Shanghai MaBangErp Technology Co., Ltd.</div>
                 <!---->
               </div>
               <!---->
@@ -459,7 +459,7 @@ exports[`<list> demo: render [size] correctly 1`] = `
             <div role=\\"listitem\\" class=\\"mb-list-item\\">
               <div class=\\"mb-list-item-main\\">
                 <!---->
-                <div class=\\"mb-list-item-content\\">China Beijing Bytedance Technology Co., Ltd.</div>
+                <div class=\\"mb-list-item-content\\">China Shanghai MaBang Technology Co., Ltd.</div>
                 <!---->
               </div>
               <!---->
@@ -497,8 +497,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00000) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00000) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -518,8 +518,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00001) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00001) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -539,8 +539,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00002) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00002) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -560,8 +560,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00003) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00003) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -581,8 +581,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00004) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00004) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -602,8 +602,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00005) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00005) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -623,8 +623,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00006) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00006) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -644,8 +644,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00007) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00007) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -665,8 +665,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00008) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00008) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -686,8 +686,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00009) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00009) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -707,8 +707,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00010) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00010) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -728,8 +728,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00011) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00011) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -749,8 +749,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00012) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00012) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -770,8 +770,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00013) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00013) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -791,8 +791,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00014) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00014) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -812,8 +812,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00015) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00015) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -833,8 +833,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00016) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00016) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -854,8 +854,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00017) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00017) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>
@@ -875,8 +875,8 @@ exports[`<list> demo: render [virtual-list] correctly 1`] = `
                       </div>
                     </div>
                     <div class=\\"mb-list-item-meta-content\\">
-                      <div class=\\"mb-list-item-meta-title\\">Beijing Bytedance Technology Co., Ltd.</div>
-                      <div class=\\"mb-list-item-meta-description\\">(00018) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.</div>
+                      <div class=\\"mb-list-item-meta-title\\">Shanghai MaBang Technology Co., Ltd.</div>
+                      <div class=\\"mb-list-item-meta-description\\">(00018) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.</div>
                     </div>
                   </div>
                 </div>

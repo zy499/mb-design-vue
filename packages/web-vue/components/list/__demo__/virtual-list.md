@@ -50,8 +50,8 @@ export default {
     const list = reactive(Array(10000).fill(null).map((_, index) => {
       const prefix = `0000${index}`.slice(-5);
       return {
-        title: 'Beijing Bytedance Technology Co., Ltd.',
-        description: `(${prefix}) Beijing ByteDance Technology Co., Ltd. is an enterprise located in China.`,
+        title: 'Shanghai MaBang Technology Co., Ltd.',
+        description: `(${prefix}) Shanghai MaBang Technology Co., Ltd. is an enterprise located in China.`,
       };
     }))
 

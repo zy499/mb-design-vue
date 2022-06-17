@@ -4,39 +4,39 @@ exports[`<collapse> demo: render [accordion] correctly 1`] = `
 "<div class=\\"mb-collapse\\">
   <div class=\\"mb-collapse-item\\">
     <div role=\\"button\\" aria-disabled=\\"false\\" aria-expanded=\\"false\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-      <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+      <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
       <!--v-if-->
     </div>
     <transition-stub>
       <div role=\\"region\\" class=\\"mb-collapse-item-content\\" style=\\"display: none;\\">
         <div class=\\"mb-collapse-item-content-box\\">
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
         </div>
       </div>
     </transition-stub>
   </div>
   <div class=\\"mb-collapse-item\\">
     <div role=\\"button\\" aria-disabled=\\"false\\" aria-expanded=\\"false\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-      <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+      <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
       <!--v-if-->
     </div>
     <transition-stub>
       <div role=\\"region\\" class=\\"mb-collapse-item-content\\" style=\\"display: none;\\">
         <div class=\\"mb-collapse-item-content-box\\">
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
         </div>
       </div>
     </transition-stub>
   </div>
   <div class=\\"mb-collapse-item\\">
     <div role=\\"button\\" aria-disabled=\\"false\\" aria-expanded=\\"false\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-      <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+      <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
       <!--v-if-->
     </div>
     <transition-stub>
       <div role=\\"region\\" class=\\"mb-collapse-item-content\\" style=\\"display: none;\\">
         <div class=\\"mb-collapse-item-content-box\\">
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
         </div>
       </div>
     </transition-stub>
@@ -48,45 +48,45 @@ exports[`<collapse> demo: render [basic] correctly 1`] = `
 "<div class=\\"mb-collapse\\">
   <div class=\\"mb-collapse-item mb-collapse-item-active\\">
     <div role=\\"button\\" aria-disabled=\\"false\\" aria-expanded=\\"true\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-      <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+      <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
       <!--v-if-->
     </div>
     <transition-stub>
       <div role=\\"region\\" class=\\"mb-collapse-item-content mb-collapse-item-content-expend\\">
         <div class=\\"mb-collapse-item-content-box\\">
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
         </div>
       </div>
     </transition-stub>
   </div>
   <div class=\\"mb-collapse-item mb-collapse-item-active\\">
     <div role=\\"button\\" aria-disabled=\\"true\\" aria-expanded=\\"true\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left mb-collapse-item-header-disabled\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover mb-icon-hover-disabled\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-      <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+      <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
       <!--v-if-->
     </div>
     <transition-stub>
       <div role=\\"region\\" class=\\"mb-collapse-item-content mb-collapse-item-content-expend\\">
         <div class=\\"mb-collapse-item-content-box\\">
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
         </div>
       </div>
     </transition-stub>
   </div>
   <div class=\\"mb-collapse-item\\">
     <div role=\\"button\\" aria-disabled=\\"false\\" aria-expanded=\\"false\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-      <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+      <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
       <!--v-if-->
     </div>
     <transition-stub>
       <div role=\\"region\\" class=\\"mb-collapse-item-content\\" style=\\"display: none;\\">
         <div class=\\"mb-collapse-item-content-box\\">
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
         </div>
       </div>
     </transition-stub>
@@ -98,45 +98,45 @@ exports[`<collapse> demo: render [border-less] correctly 1`] = `
 "<div class=\\"mb-collapse mb-collapse-borderless\\">
   <div class=\\"mb-collapse-item mb-collapse-item-active\\">
     <div role=\\"button\\" aria-disabled=\\"false\\" aria-expanded=\\"true\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-      <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+      <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
       <!--v-if-->
     </div>
     <transition-stub>
       <div role=\\"region\\" class=\\"mb-collapse-item-content mb-collapse-item-content-expend\\">
         <div class=\\"mb-collapse-item-content-box\\">
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
         </div>
       </div>
     </transition-stub>
   </div>
   <div class=\\"mb-collapse-item\\">
     <div role=\\"button\\" aria-disabled=\\"true\\" aria-expanded=\\"false\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left mb-collapse-item-header-disabled\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover mb-icon-hover-disabled\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-      <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+      <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
       <!--v-if-->
     </div>
     <transition-stub>
       <div role=\\"region\\" class=\\"mb-collapse-item-content\\" style=\\"display: none;\\">
         <div class=\\"mb-collapse-item-content-box\\">
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
         </div>
       </div>
     </transition-stub>
   </div>
   <div class=\\"mb-collapse-item\\">
     <div role=\\"button\\" aria-disabled=\\"false\\" aria-expanded=\\"false\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-      <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+      <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
       <!--v-if-->
     </div>
     <transition-stub>
       <div role=\\"region\\" class=\\"mb-collapse-item-content\\" style=\\"display: none;\\">
         <div class=\\"mb-collapse-item-content-box\\">
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
         </div>
       </div>
     </transition-stub>
@@ -148,30 +148,30 @@ exports[`<collapse> demo: render [destroy] correctly 1`] = `
 "<div class=\\"mb-collapse\\">
   <div class=\\"mb-collapse-item mb-collapse-item-active\\">
     <div role=\\"button\\" aria-disabled=\\"false\\" aria-expanded=\\"true\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-      <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+      <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
       <!--v-if-->
     </div>
     <transition-stub>
       <div role=\\"region\\" class=\\"mb-collapse-item-content mb-collapse-item-content-expend\\">
         <div class=\\"mb-collapse-item-content-box\\">
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
         </div>
       </div>
     </transition-stub>
   </div>
   <div class=\\"mb-collapse-item mb-collapse-item-active\\">
     <div role=\\"button\\" aria-disabled=\\"false\\" aria-expanded=\\"true\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-      <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+      <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
       <!--v-if-->
     </div>
     <transition-stub>
       <div role=\\"region\\" class=\\"mb-collapse-item-content mb-collapse-item-content-expend\\">
         <div class=\\"mb-collapse-item-content-box\\">
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
-          <div>Beijing Toutiao Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
+          <div>Shanghai MaBang Technology Co., Ltd.</div>
         </div>
       </div>
     </transition-stub>
@@ -179,7 +179,7 @@ exports[`<collapse> demo: render [destroy] correctly 1`] = `
   <div class=\\"mb-collapse-item\\">
     <div role=\\"button\\" aria-disabled=\\"false\\" aria-expanded=\\"false\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left\\">
       <!--v-if-->
-      <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+      <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
       <!--v-if-->
     </div>
     <transition-stub>
@@ -198,45 +198,45 @@ exports[`<collapse> demo: render [icon-position] correctly 1`] = `
     <div class=\\"mb-collapse\\">
       <div class=\\"mb-collapse-item mb-collapse-item-active\\">
         <div role=\\"button\\" aria-disabled=\\"false\\" aria-expanded=\\"true\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-          <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+          <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
           <!--v-if-->
         </div>
         <transition-stub>
           <div role=\\"region\\" class=\\"mb-collapse-item-content mb-collapse-item-content-expend\\">
             <div class=\\"mb-collapse-item-content-box\\">
-              <div>Beijing Toutiao Technology Co., Ltd.</div>
-              <div>Beijing Toutiao Technology Co., Ltd.</div>
-              <div>Beijing Toutiao Technology Co., Ltd.</div>
+              <div>Shanghai MaBang Technology Co., Ltd.</div>
+              <div>Shanghai MaBang Technology Co., Ltd.</div>
+              <div>Shanghai MaBang Technology Co., Ltd.</div>
             </div>
           </div>
         </transition-stub>
       </div>
       <div class=\\"mb-collapse-item\\">
         <div role=\\"button\\" aria-disabled=\\"true\\" aria-expanded=\\"false\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left mb-collapse-item-header-disabled\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover mb-icon-hover-disabled\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-          <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+          <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
           <!--v-if-->
         </div>
         <transition-stub>
           <div role=\\"region\\" class=\\"mb-collapse-item-content\\" style=\\"display: none;\\">
             <div class=\\"mb-collapse-item-content-box\\">
-              <div>Beijing Toutiao Technology Co., Ltd.</div>
-              <div>Beijing Toutiao Technology Co., Ltd.</div>
-              <div>Beijing Toutiao Technology Co., Ltd.</div>
+              <div>Shanghai MaBang Technology Co., Ltd.</div>
+              <div>Shanghai MaBang Technology Co., Ltd.</div>
+              <div>Shanghai MaBang Technology Co., Ltd.</div>
             </div>
           </div>
         </transition-stub>
       </div>
       <div class=\\"mb-collapse-item\\">
         <div role=\\"button\\" aria-disabled=\\"false\\" aria-expanded=\\"false\\" tabindex=\\"0\\" class=\\"mb-collapse-item-header mb-collapse-item-header-left\\"><span class=\\"mb-icon-hover mb-collapse-item-icon-hover\\"><svg viewBox=\\"0 0 48 48\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\" stroke=\\"currentColor\\" class=\\"mb-icon mb-icon-caret-right mb-collapse-item-expand-icon\\" stroke-width=\\"4\\" stroke-linecap=\\"butt\\" stroke-linejoin=\\"miter\\"><path d=\\"M34.829 23.063c.6.48.6 1.394 0 1.874L17.949 38.44c-.785.629-1.949.07-1.949-.937V10.497c0-1.007 1.164-1.566 1.95-.937l16.879 13.503Z\\" fill=\\"currentColor\\" stroke=\\"none\\"></path></svg></span>
-          <div class=\\"mb-collapse-item-header-title\\">Beijing Toutiao Technology Co., Ltd.</div>
+          <div class=\\"mb-collapse-item-header-title\\">Shanghai MaBang Technology Co., Ltd.</div>
           <!--v-if-->
         </div>
         <transition-stub>
           <div role=\\"region\\" class=\\"mb-collapse-item-content\\" style=\\"display: none;\\">
             <div class=\\"mb-collapse-item-content-box\\">
-              <div>Beijing Toutiao Technology Co., Ltd.</div>
-              <div>Beijing Toutiao Technology Co., Ltd.</div>
-              <div>Beijing Toutiao Technology Co., Ltd.</div>
+              <div>Shanghai MaBang Technology Co., Ltd.</div>
+              <div>Shanghai MaBang Technology Co., Ltd.</div>
+              <div>Shanghai MaBang Technology Co., Ltd.</div>
             </div>
           </div>
         </transition-stub>

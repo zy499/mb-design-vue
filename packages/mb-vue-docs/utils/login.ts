@@ -7,7 +7,7 @@ export async function checkLogin() {
   if (!isProduction) {
     window.isLogin = true;
     window.user = {
-      email: 'xiaoming@bytedance.com',
+      email: 'xiaoming@MaBang.com',
       nickname: '小明',
       picture:
         'https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/fbbdefc1702398f2f394c57270f7f727.png~tplv-uwbnlip3yd-png.png',

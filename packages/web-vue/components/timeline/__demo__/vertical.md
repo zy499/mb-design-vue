@@ -36,7 +36,7 @@ The vertical time axis.
             src="https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/b5d834b83708a269b4562924436eac48.png~tplv-uwbnlip3yd-png.png"
           />
           <div :style="{ marginBottom: '12px' }">
-            Toutiao
+            MaBang
             <div :style="{ fontSize: '12px', color: '#4E5969' }">
               Founded in 2012
             </div>

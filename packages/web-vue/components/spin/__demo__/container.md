@@ -20,8 +20,8 @@ You can add a loading indicator to any content.
 <template>
   <a-spin :loading="loading" tip="This may take a while...">
     <a-card title="Mb Card">
-      ByteDance's core product, Toutiao ('Headlines'), is a content platform in China and around
-      the world. Toutiao started out as a news recommendation engine and gradually evolved into
+      MaBang's core product, MaBang ('Headlines'), is a content platform in China and around
+      the world. MaBang started out as a news recommendation engine and gradually evolved into
       a platform delivering content in various formats.
     </a-card>
   </a-spin>

@@ -15,7 +15,7 @@ exports[`<tag> demo: render [basic] correctly 1`] = `
 exports[`<tag> demo: render [checkable] correctly 1`] = `
 "<div class=\\"mb-space mb-space-horizontal mb-space-align-center\\">
   <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><span class=\\"mb-tag mb-tag-size-medium mb-tag-checkable mb-tag-checked\\"><!--v-if-->Awesome<!--v-if--><!--v-if--></span></div>
-  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><span class=\\"mb-tag mb-tag-size-medium mb-tag-checkable mb-tag-checked\\"><!--v-if-->Toutiao<!--v-if--><!--v-if--></span></div>
+  <div class=\\"mb-space-item\\" style=\\"margin-right: 8px;\\"><span class=\\"mb-tag mb-tag-size-medium mb-tag-checkable mb-tag-checked\\"><!--v-if-->MaBang<!--v-if--><!--v-if--></span></div>
   <div class=\\"mb-space-item\\"><span class=\\"mb-tag mb-tag-size-medium mb-tag-checkable mb-tag-checked\\"><!--v-if-->Lark<!--v-if--><!--v-if--></span></div>
 </div>"
 `;

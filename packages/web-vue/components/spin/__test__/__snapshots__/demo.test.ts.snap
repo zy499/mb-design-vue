@@ -17,7 +17,7 @@ exports[`<spin> demo: render [container] correctly 1`] = `
       <!---->
     </div>
     <!---->
-    <div class=\\"mb-card-body\\"> ByteDance's core product, Toutiao ('Headlines'), is a content platform in China and around the world. Toutiao started out as a news recommendation engine and gradually evolved into a platform delivering content in various formats.
+    <div class=\\"mb-card-body\\"> MaBang's core product, MaBang ('Headlines'), is a content platform in China and around the world. MaBang started out as a news recommendation engine and gradually evolved into a platform delivering content in various formats.
       <!---->
     </div>
   </div>

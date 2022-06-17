@@ -46,11 +46,11 @@ export default {
         window.setTimeout(() => {
           const index = data.length;
           data.push(
-            `Beijing Bytedance Technology Co., Ltd. ${index + 1}`,
-            `Bytedance Technology Co., Ltd. ${index + 2}`,
-            `Beijing Toutiao Technology Co., Ltd. ${index + 3}`,
-            `Beijing Volcengine Technology Co., Ltd. ${index + 4}`,
-            `China Beijing Bytedance Technology Co., Ltd. ${index + 5}`
+            `Shanghai MaBang Technology Co., Ltd. ${index + 1}`,
+            `MaBang Technology Co., Ltd. ${index + 2}`,
+            `Shanghai MaBang Technology Co., Ltd. ${index + 3}`,
+            `Shanghai MaBangErp Technology Co., Ltd. ${index + 4}`,
+            `China Shanghai MaBang Technology Co., Ltd. ${index + 5}`
           );
           current.value += 1
         }, 2000)

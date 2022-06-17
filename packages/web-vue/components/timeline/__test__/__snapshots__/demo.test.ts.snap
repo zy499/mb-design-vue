@@ -60,7 +60,7 @@ exports[`<timeline> demo: render [direction] correctly 1`] = `
       <div class=\\"mb-timeline-item-content-wrapper\\">
         <div class=\\"mb-timeline-item-content\\">
           <div class=\\"mb-row mb-row-align-start mb-row-justify-start\\" style=\\"display: inline-flex; align-items: center;\\"><img width=\\"40\\" style=\\"margin-right: 16px; margin-bottom: 12px;\\" src=\\"https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/b5d834b83708a269b4562924436eac48.png~tplv-uwbnlip3yd-png.png\\">
-            <div style=\\"margin-bottom: 12px;\\"> Toutiao <div style=\\"font-size: 12px; color: rgb(78, 89, 105);\\"> Founded in 2012 </div>
+            <div style=\\"margin-bottom: 12px;\\"> MaBang <div style=\\"font-size: 12px; color: rgb(78, 89, 105);\\"> Founded in 2012 </div>
             </div>
           </div>
         </div>
@@ -594,7 +594,7 @@ exports[`<timeline> demo: render [vertical] correctly 1`] = `
       <div class=\\"mb-timeline-item-content-wrapper\\">
         <div class=\\"mb-timeline-item-content\\">
           <div class=\\"mb-row mb-row-align-start mb-row-justify-start\\" style=\\"display: inline-flex; align-items: center;\\"><img width=\\"40\\" style=\\"margin-right: 16px; margin-bottom: 12px;\\" src=\\"https://p1-arco.byteimg.com/tos-cn-i-uwbnlip3yd/b5d834b83708a269b4562924436eac48.png~tplv-uwbnlip3yd-png.png\\">
-            <div style=\\"margin-bottom: 12px;\\"> Toutiao <div style=\\"font-size: 12px; color: rgb(78, 89, 105);\\"> Founded in 2012 </div>
+            <div style=\\"margin-bottom: 12px;\\"> MaBang <div style=\\"font-size: 12px; color: rgb(78, 89, 105);\\"> Founded in 2012 </div>
             </div>
           </div>
         </div>

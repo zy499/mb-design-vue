@@ -12,14 +12,14 @@ exports[`<resize-box> demo: render [basic] correctly 1`] = `
     <div role=\\"separator\\" class=\\"mb-divider mb-divider-horizontal\\">
       <!---->
     </div>
-    <div class=\\"mb-typography\\"> ByteDance's content platforms enable people to enjoy content powered by AI technology. We inform, entertain, and inspire people across language, culture and geography.
+    <div class=\\"mb-typography\\"> MaBang's content platforms enable people to enjoy content powered by AI technology. We inform, entertain, and inspire people across language, culture and geography.
       <!---->
       <!--v-if-->
       <!--v-if-->
       <!--v-if-->
     </div>
-    <div role=\\"separator\\" class=\\"mb-divider mb-divider-horizontal mb-divider-with-text\\"><span class=\\"mb-divider-text mb-divider-text-center\\">ByteDance</span></div>
-    <div class=\\"mb-typography\\">Yiming Zhang is the founder and CEO of ByteDance.
+    <div role=\\"separator\\" class=\\"mb-divider mb-divider-horizontal mb-divider-with-text\\"><span class=\\"mb-divider-text mb-divider-text-center\\">MaBang</span></div>
+    <div class=\\"mb-typography\\">Yiming Zhang is the founder and CEO of MaBang.
       <!---->
       <!--v-if-->
       <!--v-if-->
@@ -59,14 +59,14 @@ exports[`<resize-box> demo: render [controlled] correctly 1`] = `
     <div role=\\"separator\\" class=\\"mb-divider mb-divider-horizontal\\">
       <!---->
     </div>
-    <div class=\\"mb-typography\\"> ByteDance's content platforms enable people to enjoy content powered by AI technology. We inform, entertain, and inspire people across language, culture and geography.
+    <div class=\\"mb-typography\\"> MaBang's content platforms enable people to enjoy content powered by AI technology. We inform, entertain, and inspire people across language, culture and geography.
       <!---->
       <!--v-if-->
       <!--v-if-->
       <!--v-if-->
     </div>
-    <div role=\\"separator\\" class=\\"mb-divider mb-divider-horizontal mb-divider-with-text\\"><span class=\\"mb-divider-text mb-divider-text-center\\">ByteDance</span></div>
-    <div class=\\"mb-typography\\">Yiming Zhang is the founder and CEO of ByteDance.
+    <div role=\\"separator\\" class=\\"mb-divider mb-divider-horizontal mb-divider-with-text\\"><span class=\\"mb-divider-text mb-divider-text-center\\">MaBang</span></div>
+    <div class=\\"mb-typography\\">Yiming Zhang is the founder and CEO of MaBang.
       <!---->
       <!--v-if-->
       <!--v-if-->
@@ -105,14 +105,14 @@ exports[`<resize-box> demo: render [custom-triggers] correctly 1`] = `
   <div role=\\"separator\\" class=\\"mb-divider mb-divider-horizontal\\">
     <!---->
   </div>
-  <div class=\\"mb-typography\\"> ByteDance's content platforms enable people to enjoy content powered by AI technology. We inform, entertain, and inspire people across language, culture and geography.
+  <div class=\\"mb-typography\\"> MaBang's content platforms enable people to enjoy content powered by AI technology. We inform, entertain, and inspire people across language, culture and geography.
     <!---->
     <!--v-if-->
     <!--v-if-->
     <!--v-if-->
   </div>
-  <div role=\\"separator\\" class=\\"mb-divider mb-divider-horizontal mb-divider-with-text\\"><span class=\\"mb-divider-text mb-divider-text-center\\">ByteDance</span></div>
-  <div class=\\"mb-typography\\">Yiming Zhang is the founder and CEO of ByteDance.
+  <div role=\\"separator\\" class=\\"mb-divider mb-divider-horizontal mb-divider-with-text\\"><span class=\\"mb-divider-text mb-divider-text-center\\">MaBang</span></div>
+  <div class=\\"mb-typography\\">Yiming Zhang is the founder and CEO of MaBang.
     <!---->
     <!--v-if-->
     <!--v-if-->

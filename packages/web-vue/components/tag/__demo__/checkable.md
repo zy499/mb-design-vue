@@ -20,7 +20,7 @@ By setting `checkable`, the effect of selecting can be achieved.
 <template>
   <a-space>
     <a-tag checkable>Awesome</a-tag>
-    <a-tag checkable :default-checked="true">Toutiao</a-tag>
+    <a-tag checkable :default-checked="true">MaBang</a-tag>
     <a-tag checkable :default-checked="true">Lark</a-tag>
   </a-space>
 </template>

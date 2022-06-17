@@ -24,20 +24,20 @@ Set the position of the expanded icon through the `expand-icon-position` propert
       <a-radio value="right">Right</a-radio>
     </a-radio-group>
     <a-collapse :default-active-key="['1']" :expand-icon-position="position">
-      <a-collapse-item header="Beijing Toutiao Technology Co., Ltd." key="1">
-        <div>Beijing Toutiao Technology Co., Ltd.</div>
-        <div>Beijing Toutiao Technology Co., Ltd.</div>
-        <div>Beijing Toutiao Technology Co., Ltd.</div>
+      <a-collapse-item header="Shanghai MaBang Technology Co., Ltd." key="1">
+        <div>Shanghai MaBang Technology Co., Ltd.</div>
+        <div>Shanghai MaBang Technology Co., Ltd.</div>
+        <div>Shanghai MaBang Technology Co., Ltd.</div>
       </a-collapse-item>
-      <a-collapse-item header="Beijing Toutiao Technology Co., Ltd." key="2" disabled>
-        <div>Beijing Toutiao Technology Co., Ltd.</div>
-        <div>Beijing Toutiao Technology Co., Ltd.</div>
-        <div>Beijing Toutiao Technology Co., Ltd.</div>
+      <a-collapse-item header="Shanghai MaBang Technology Co., Ltd." key="2" disabled>
+        <div>Shanghai MaBang Technology Co., Ltd.</div>
+        <div>Shanghai MaBang Technology Co., Ltd.</div>
+        <div>Shanghai MaBang Technology Co., Ltd.</div>
       </a-collapse-item>
-      <a-collapse-item header="Beijing Toutiao Technology Co., Ltd." key="3">
-        <div>Beijing Toutiao Technology Co., Ltd.</div>
-        <div>Beijing Toutiao Technology Co., Ltd.</div>
-        <div>Beijing Toutiao Technology Co., Ltd.</div>
+      <a-collapse-item header="Shanghai MaBang Technology Co., Ltd." key="3">
+        <div>Shanghai MaBang Technology Co., Ltd.</div>
+        <div>Shanghai MaBang Technology Co., Ltd.</div>
+        <div>Shanghai MaBang Technology Co., Ltd.</div>
       </a-collapse-item>
     </a-collapse>
   </a-space>

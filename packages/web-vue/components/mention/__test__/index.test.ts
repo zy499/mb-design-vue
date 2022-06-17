@@ -5,7 +5,7 @@ describe('Mention', () => {
   test('mention correctly', async () => {
     const wrapper = mount(Mention, {
       props: {
-        data: ['Bytedance', 'Bytedesign', 'Bytenumner'],
+        data: ['MaBang', 'Bytedesign', 'Bytenumner'],
       },
     });
     const input = wrapper.find('input');
@@ -20,7 +20,7 @@ describe('Mention', () => {
   test('should select value', async () => {
     const wrapper = mount(Mention, {
       props: {
-        data: ['Bytedance', 'Bytedesign', 'Bytenumner'],
+        data: ['MaBang', 'Bytedesign', 'Bytenumner'],
       },
     });
     const input = wrapper.find('input');
@@ -30,8 +30,8 @@ describe('Mention', () => {
     await input.trigger('keydown', { key: 'ArrowDown' });
     expect(dropdown.find('.mb-select-option-active').text()).toBe('Bytedesign');
     await input.trigger('keydown', { key: 'ArrowUp' });
-    expect(dropdown.find('.mb-select-option-active').text()).toBe('Bytedance');
+    expect(dropdown.find('.mb-select-option-active').text()).toBe('MaBang');
     await input.trigger('keydown', { key: 'Enter' });
-    expect(wrapper.emitted('change')?.[1]).toEqual(['@Bytedance']);
+    expect(wrapper.emitted('change')?.[1]).toEqual(['@MaBang']);
   });
 });

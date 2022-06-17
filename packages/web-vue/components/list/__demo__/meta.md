@@ -20,8 +20,8 @@ Use the `list-item-meta` component to quickly specify the avatar, title, and tex
 <template>
   <a-list>
     <a-list-item>
-      <a-list-item-meta title="Beijing Bytedance Technology Co., Ltd."
-                        description="Beijing ByteDance Technology Co., Ltd. is an enterprise located in China."
+      <a-list-item-meta title="Shanghai MaBang Technology Co., Ltd."
+                        description="Shanghai MaBang Technology Co., Ltd. is an enterprise located in China."
       >
         <template #avatar>
           <a-avatar shape="square">
@@ -31,8 +31,8 @@ Use the `list-item-meta` component to quickly specify the avatar, title, and tex
       </a-list-item-meta>
     </a-list-item>
     <a-list-item>
-      <a-list-item-meta title="Beijing Bytedance Technology Co., Ltd."
-                        description="Beijing ByteDance Technology Co., Ltd. is an enterprise located in China."
+      <a-list-item-meta title="Shanghai MaBang Technology Co., Ltd."
+                        description="Shanghai MaBang Technology Co., Ltd. is an enterprise located in China."
       >
         <template #avatar>
           <a-avatar shape="square">
@@ -42,8 +42,8 @@ Use the `list-item-meta` component to quickly specify the avatar, title, and tex
       </a-list-item-meta>
     </a-list-item>
     <a-list-item>
-      <a-list-item-meta title="Beijing Bytedance Technology Co., Ltd."
-                        description="Beijing ByteDance Technology Co., Ltd. is an enterprise located in China."
+      <a-list-item-meta title="Shanghai MaBang Technology Co., Ltd."
+                        description="Shanghai MaBang Technology Co., Ltd. is an enterprise located in China."
       >
         <template #avatar>
           <a-avatar shape="square">
@@ -53,8 +53,8 @@ Use the `list-item-meta` component to quickly specify the avatar, title, and tex
       </a-list-item-meta>
     </a-list-item>
     <a-list-item>
-      <a-list-item-meta title="Beijing Bytedance Technology Co., Ltd."
-                        description="Beijing ByteDance Technology Co., Ltd. is an enterprise located in China."
+      <a-list-item-meta title="Shanghai MaBang Technology Co., Ltd."
+                        description="Shanghai MaBang Technology Co., Ltd. is an enterprise located in China."
       >
         <template #avatar>
           <a-avatar shape="square">
