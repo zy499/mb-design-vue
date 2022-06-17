@@ -320,7 +320,7 @@ const run = async () => {
   }
 
   const res = await axios.get(
-    `https://api.github.com/search/issues?accept=application/vnd.github.v3+json&q=repo:mb-design/mb-design-vue+is:pr+is:merged+milestone:${version}`
+    `https://api.github.com/search/issues?accept=application/vnd.github.v3+json&q=repo:zy499/mb-design-vue+is:pr+is:merged+milestone:${version}`
   );
 
   if (res.status === 200) {
