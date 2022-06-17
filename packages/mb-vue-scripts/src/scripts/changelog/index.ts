@@ -325,8 +325,6 @@ const run = async () => {
 
   if (res.status === 200) {
     const { data } = res;
-    console.log(data, '<<<<<<<<<');
-    return;
     const changelog: Changelog = {
       version,
       date: moment().format('YYYY-MM-DD'),
