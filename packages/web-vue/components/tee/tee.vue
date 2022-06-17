@@ -1,5 +1,5 @@
 <template>
-  <div :class="prefixCls">测试组件</div>
+  <div :class="prefixCls">测试组件Tee</div>
 </template>
 <script>
 import { defineComponent } from 'vue';
