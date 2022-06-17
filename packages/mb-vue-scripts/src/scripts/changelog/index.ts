@@ -38,8 +38,11 @@ const typeMap: Record<string, string> = {
 };
 
 const getRecords = (mr: any) => {
-  const content = mr.body.replace(/\r\n/g, '\n');
-
+  /**
+   * ! body github
+   * ! description gitlab
+   */
+  const content = mr.description.replace(/\r\n/g, '\n');
   const records: Array<Record<string, any>> = [];
 
   const typeRule = new RegExp(
@@ -70,6 +73,7 @@ const getRecords = (mr: any) => {
     const lines = matchResult[2]
       .split('\n')
       .filter((value: string) => Boolean(value.trim()));
+
     for (const line of lines) {
       const items = line
         .split('|')
@@ -102,8 +106,12 @@ const getRecords = (mr: any) => {
             return data;
           },
           {
-            mrId: mr.number,
-            mrURL: mr.html_url,
+            /**
+             * ! number html_url github
+             * ! iid web_url gitlab
+             */
+            mrId: mr.iid,
+            mrURL: mr.web_url,
             type,
           } as Record<string, any>
         );
@@ -318,9 +326,16 @@ const run = async () => {
     });
     version = answer.version;
   }
-
+  // token 5zVgiWbv_-Cv6vpAhdrm
+  // http://git.mabangerp.com:2280/api/v4/projects/269/merge_requests?milestone=1.0.1
   const res = await axios.get(
-    `https://api.github.com/search/issues?accept=application/vnd.github.v3+json&q=repo:zy499/mb-design-vue+is:pr+is:merged+milestone:${version}`
+    // `https://api.github.com/search/issues?accept=application/vnd.github.v3+json&q=repo:zy499/mb-design-vue+is:pr+is:merged+milestone:${version}`
+    `http://git.mabangerp.com:2280/api/v4/projects/269/merge_requests?milestone=${version}`,
+    {
+      headers: {
+        'PRIVATE-TOKEN': '5zVgiWbv_-Cv6vpAhdrm',
+      },
+    }
   );
 
   if (res.status === 200) {
@@ -330,8 +345,11 @@ const run = async () => {
       date: moment().format('YYYY-MM-DD'),
       list: [] as Record<string, any>[],
     };
-
-    for (const item of data?.items ?? []) {
+    /**
+     * ! data.items 是github的返回
+     * ! data 是gitlab的返回
+     */
+    for (const item of data ?? []) {
       const records = getRecords(item);
       changelog.list.push(...records);
     }
