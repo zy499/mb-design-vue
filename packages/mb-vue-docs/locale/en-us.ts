@@ -6,6 +6,7 @@ export default {
     theme: 'Custom Theme',
     i18n: 'Internationalization',
     changelog: 'Changelog',
+    token: 'Design Token',
   },
   group: {
     common: 'Common',

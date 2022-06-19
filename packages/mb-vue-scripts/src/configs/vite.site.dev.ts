@@ -33,6 +33,10 @@ export default defineConfig({
         find: /^@web-vue\/(.*)/,
         replacement: path.resolve(root, '../web-vue/$1'),
       },
+      {
+        find: '@',
+        replacement: path.resolve(__dirname, './'),
+      },
     ],
   },
   plugins: [
