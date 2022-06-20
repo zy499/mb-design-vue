@@ -97,7 +97,7 @@ export default defineComponent({
     /**
      * @zh 是否允许清空输入框
      * @en Whether to allow the input to be cleared
-     * @version 2.23.0
+     *
      */
     allowClear: {
       type: Boolean,
@@ -128,7 +128,7 @@ export default defineComponent({
     /**
      * @zh 用户点击清除按钮时触发
      * @en Triggered when the user clicks the clear button
-     * @version 2.23.0
+     *
      */
     'clear': (ev: Event) => true,
   },
@@ -137,7 +137,7 @@ export default defineComponent({
    * @en Display content of options
    * @slot option
    * @binding {OptionInfo} data
-   * @version 2.13.0
+   *
    */
   setup(props, { emit, attrs, slots }) {
     const prefixCls = getPrefixCls('mention');

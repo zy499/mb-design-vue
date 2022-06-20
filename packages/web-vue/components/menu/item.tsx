@@ -41,7 +41,7 @@ export default defineComponent({
    * @zh 菜单的图标
    * @en the icon of menu item
    * @slot icon
-   * @version 2.11.0
+   *
    */
   setup(props: MenuItemProps, { emit }) {
     const { key } = useMenu();

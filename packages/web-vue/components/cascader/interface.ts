@@ -31,7 +31,7 @@ export interface CascaderOption {
   /**
    * @zh 展示的标签属性
    * @en Displayed tag attributes
-   * @version 2.8.0
+   *
    */
   tagProps?: TagProps;
   /**

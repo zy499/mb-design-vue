@@ -33,22 +33,22 @@ description: 展示和预览图片。
 
 ### `<image>` Props
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|src|图片获取地址|`string`|`-`||
-|width|图片显示宽度|`string \| number`|`-`||
-|height|图片显示高度|`string \| number`|`-`||
-|title|标题|`string`|`-`||
-|description|描述，将显示在底部，如果 alt 没有值，则会将其设置给 alt|`string`|`-`||
-|alt|图片的文字描述|`string`|`-`||
-|hide-footer|是否隐藏 footer|`boolean`|`false`||
-|footer-position|底部显示的位置|`'inner' \| 'outer'`|`'inner'`||
-|show-loader|是否显示加载中效果|`boolean`|`false`||
-|preview|是否开启预览|`boolean`|`true`||
-|preview-visible **(v-model)**|控制预览的打开状态，可与 previewVisibleChange 配合使用|`boolean`|`-`||
-|default-preview-visible|预览的默认打开状态|`boolean`|`false`||
-|preview-props|预览的配置项（所有选项都是可选的） [ImagePreviewProps](#imagepreview)|`ImagePreviewProps`|`-`||
-|footer-class|底部显示区域的类名|`string\|array\|object`|`-`|2.23.0|
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|src|图片获取地址|`string`|`-`|
+|width|图片显示宽度|`string \| number`|`-`|
+|height|图片显示高度|`string \| number`|`-`|
+|title|标题|`string`|`-`|
+|description|描述，将显示在底部，如果 alt 没有值，则会将其设置给 alt|`string`|`-`|
+|alt|图片的文字描述|`string`|`-`|
+|hide-footer|是否隐藏 footer|`boolean`|`false`|
+|footer-position|底部显示的位置|`'inner' \| 'outer'`|`'inner'`|
+|show-loader|是否显示加载中效果|`boolean`|`false`|
+|preview|是否开启预览|`boolean`|`true`|
+|preview-visible **(v-model)**|控制预览的打开状态，可与 previewVisibleChange 配合使用|`boolean`|`-`|
+|default-preview-visible|预览的默认打开状态|`boolean`|`false`|
+|preview-props|预览的配置项（所有选项都是可选的） [ImagePreviewProps](#imagepreview)|`ImagePreviewProps`|`-`|
+|footer-class|底部显示区域的类名|`string\|array\|object`|`-`|
 ### `<image>` Events
 
 |事件名|描述|参数|
@@ -83,9 +83,9 @@ description: 展示和预览图片。
 |close|关闭事件|-|
 ### `<image-preview>` Slots
 
-|插槽名|描述|参数|版本|
-|---|:---:|---|:---|
-|actions|自定义额外的操作项|-|2.17.0|
+|插槽名|描述|参数|
+|---|:---:|---|
+|actions|自定义额外的操作项|-|
 
 
 
@@ -114,7 +114,7 @@ description: 展示和预览图片。
 
 
 
-### `<image-preview-action>` Props (2.17.0)
+### `<image-preview-action>` Props
 
 |参数名|描述|类型|默认值|
 |---|---|---|:---:|

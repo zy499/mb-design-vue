@@ -332,13 +332,13 @@ export default defineComponent({
     /**
      * @zh 弹出框显示后（动画结束）触发
      * @en Triggered after the trigger is shown (the animation ends)
-     * @version 2.18.0
+     *
      */
     'show': () => true,
     /**
      * @zh 弹出框隐藏后（动画结束）触发
      * @en Triggered after the popup is hidden (the animation ends)
-     * @version 2.18.0
+     *
      */
     'hide': () => true,
     // for internal

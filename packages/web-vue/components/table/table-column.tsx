@@ -84,7 +84,7 @@ export default defineComponent({
     /**
      * @zh 自定义单元格样式
      * @en Custom cell style
-     * @version 2.11.0
+     *
      */
     cellStyle: {
       type: Object as PropType<CSSProperties>,
@@ -92,7 +92,7 @@ export default defineComponent({
     /**
      * @zh 自定义表头单元格样式
      * @en Custom cell style
-     * @version 2.29.0
+     *
      */
     headerCellStyle: {
       type: Object as PropType<CSSProperties>,
@@ -100,7 +100,7 @@ export default defineComponent({
     /**
      * @zh 自定义内容单元格样式
      * @en Custom cell style
-     * @version 2.29.0
+     *
      */
     bodyCellStyle: {
       type: [Object, Function] as PropType<
@@ -110,7 +110,7 @@ export default defineComponent({
     /**
      * @zh 自定义总结栏单元格样式
      * @en Customize summary column cell styles
-     * @version 2.30.0
+     *
      */
     summaryCellStyle: {
       type: [Object, Function] as PropType<
@@ -120,7 +120,7 @@ export default defineComponent({
     /**
      * @zh 用于手动指定选项的 index。2.26.0 版本后不再需要手动指定
      * @en index for manually specifying option. Manual specification is no longer required after version 2.26.0
-     * @version 2.20.2
+     *
      */
     index: {
       type: Number,
@@ -128,7 +128,7 @@ export default defineComponent({
     /**
      * @zh 在省略时是否显示文字提示
      * @en Whether to show text hints when omitted
-     * @version 2.26.0
+     *
      */
     tooltip: {
       type: [Boolean, Object],
@@ -156,13 +156,13 @@ export default defineComponent({
    * @binding {(filterValue: string[]) => void} setFilterValue
    * @binding {(event: Event) => void} handleFilterConfirm
    * @binding {(event: Event) => void} handleFilterReset
-   * @version 2.23.0
+   *
    */
   /**
    * @zh 筛选按钮图标
    * @en Title
    * @slot filter-icon
-   * @version 2.23.0
+   *
    */
   setup(props, { slots }) {
     const { dataIndex, title, width, align, fixed, ellipsis, index } =

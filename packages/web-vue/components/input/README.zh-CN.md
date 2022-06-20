@@ -33,21 +33,21 @@ description: 基本表单组件，并在原生控件基础上进行了功能扩�
 
 ### `<input>` Props
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|model-value **(v-model)**|绑定值|`string`|`-`||
-|default-value|默认值（非受控状态）|`string`|`''`||
-|size|输入框大小|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`||
-|allow-clear|是否允许清空输入框|`boolean`|`false`||
-|disabled|是否禁用|`boolean`|`false`||
-|readonly|是否为只读状态|`boolean`|`false`||
-|error|是否为错误状态|`boolean`|`false`||
-|placeholder|提示文字|`string`|`-`||
-|max-length|输入值得最大长度，errorOnly 属性在 2.12.0 版本添加|`number \| { length: number; errorOnly?: boolean }`|`0`||
-|show-word-limit|是否显示字数统计|`boolean`|`false`||
-|word-length|字符长度的计算方法|`(value: string) => number`|`-`||
-|word-slice|字符截取方法，同 wordLength 一起使用|`(value: string, maxLength: number) => string`|`-`|2.12.0|
-|input-attrs|内部 input 元素的属性|`object`|`-`|2.27.0|
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|model-value **(v-model)**|绑定值|`string`|`-`|
+|default-value|默认值（非受控状态）|`string`|`''`|
+|size|输入框大小|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`|
+|allow-clear|是否允许清空输入框|`boolean`|`false`|
+|disabled|是否禁用|`boolean`|`false`|
+|readonly|是否为只读状态|`boolean`|`false`|
+|error|是否为错误状态|`boolean`|`false`|
+|placeholder|提示文字|`string`|`-`|
+|max-length|输入值得最大长度，errorOnly 属性在 2.12.0 版本添加|`number \| { length: number; errorOnly?: boolean }`|`0`|
+|show-word-limit|是否显示字数统计|`boolean`|`false`|
+|word-length|字符长度的计算方法|`(value: string) => number`|`-`|
+|word-slice|字符截取方法，同 wordLength 一起使用|`(value: string, maxLength: number) => string`|`-`|
+|input-attrs|内部 input 元素的属性|`object`|`-`|
 ### `<input>` Events
 
 |事件名|描述|参数|
@@ -91,14 +91,14 @@ description: 基本表单组件，并在原生控件基础上进行了功能扩�
 
 ### `<input-search>` Props
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|search-button|是否为后置按钮模式|`boolean`|`false`||
-|loading|是否为加载中状态|`boolean`|`false`||
-|disabled|是否禁用|`boolean`|`false`||
-|size|输入框大小|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`||
-|button-text|搜索按钮的文字，使用后会替换原本的图标|`string`|`-`|2.16.0|
-|button-props|搜索按钮的属性|`object`|`-`||
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|search-button|是否为后置按钮模式|`boolean`|`false`|
+|loading|是否为加载中状态|`boolean`|`false`|
+|disabled|是否禁用|`boolean`|`false`|
+|size|输入框大小|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`|
+|button-text|搜索按钮的文字，使用后会替换原本的图标|`string`|`-`|
+|button-props|搜索按钮的属性|`object`|`-`|
 ### `<input-search>` Events
 
 |事件名|描述|参数|

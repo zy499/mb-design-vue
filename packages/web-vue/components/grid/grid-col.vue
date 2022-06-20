@@ -100,7 +100,7 @@ export default defineComponent({
     /**
      * @zh 设置 flex 布局属性
      * @en Set flex layout properties
-     * @version 2.10.0
+     *
      */
     flex: {
       type: [Number, String] as PropType<

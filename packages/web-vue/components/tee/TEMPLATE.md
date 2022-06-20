@@ -18,3 +18,7 @@ description: Used for the selection, screening and classification of information
 ---
 
 @import ./__demo__/basic.md
+
+## API
+
+%%API(tee.vue)%%

@@ -336,7 +336,7 @@ export default defineComponent({
     /**
      * @zh 数据懒加载函数，传入时开启懒加载功能
      * @en Data lazy loading function, open the lazy loading function when it is passed in
-     * @version 2.13.0
+     *
      */
     loadMore: {
       type: Function as PropType<
@@ -349,7 +349,7 @@ export default defineComponent({
     /**
      * @zh 是否为加载中状态
      * @en Whether it is loading state
-     * @version 2.15.0
+     *
      */
     loading: {
       type: Boolean,
@@ -358,7 +358,7 @@ export default defineComponent({
     /**
      * @zh 搜索下拉菜单中的选项是否仅展示标签
      * @en Whether the options in the search dropdown show only label
-     * @version 2.18.0
+     *
      */
     searchOptionOnlyLabel: {
       type: Boolean,
@@ -367,7 +367,7 @@ export default defineComponent({
     /**
      * @zh 触发搜索事件的延迟时间
      * @en Delay time to trigger search event
-     * @version 2.18.0
+     *
      */
     searchDelay: {
       type: Number,
@@ -376,7 +376,7 @@ export default defineComponent({
     /**
      * @zh 自定义 `CascaderOption` 中的字段
      * @en Customize fields in `CascaderOption`
-     * @version 2.22.0
+     *
      */
     fieldNames: {
       type: Object as PropType<CascaderFieldNames>,
@@ -384,7 +384,7 @@ export default defineComponent({
     /**
      * @zh 用于确定选项键值得属性名
      * @en Used to determine the option key value attribute name
-     * @version 2.29.0
+     *
      */
     valueKey: {
       type: String,
@@ -393,7 +393,7 @@ export default defineComponent({
     /**
      * @zh 自定义不存在选项的值的展示
      * @en Options that do not exist in custom values
-     * @version 2.29.0
+     *
      */
     fallback: {
       type: [Boolean, Function] as PropType<
@@ -411,7 +411,7 @@ export default defineComponent({
     /**
      * @zh 是否展开子菜单
      * @en whether to expand the submenu
-     * @version 2.29.0
+     *
      */
     expandChild: {
       type: Boolean,
@@ -491,45 +491,45 @@ export default defineComponent({
    * @zh 选择框的箭头图标
    * @en Arrow icon for select box
    * @slot arrow-icon
-   * @version 2.16.0
+   *
    */
   /**
    * @zh 选择框的加载中图标
    * @en Loading icon for select box
    * @slot loading-icon
-   * @version 2.16.0
+   *
    */
   /**
    * @zh 选择框的搜索图标
    * @en Search icon for select box
    * @slot search-icon
-   * @version 2.16.0
+   *
    */
   /**
    * @zh 选项内容
    * @en Display content of options
    * @slot option
    * @binding {CascaderOption} data
-   * @version 2.18.0
+   *
    */
   /**
    * @zh 选择框的显示内容
    * @en Display content of label
    * @slot label
    * @binding {CascaderOption} data
-   * @version 2.18.0
+   *
    */
   /**
    * @zh 选项为空时的显示内容
    * @en Display content when the option is empty
    * @slot empty
-   * @version 2.23.0
+   *
    */
   /**
    * @zh 前缀元素
    * @en Prefix
    * @slot prefix
-   * @version 2.23.0
+   *
    */
   setup(props, { emit, slots }) {
     const {

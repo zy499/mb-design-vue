@@ -29,18 +29,18 @@ description: 互斥性的操作控件，用户可打开或关闭某个功能。
 
 ### `<switch>` Props
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|model-value **(v-model)**|绑定值|`string\|number\|boolean`|`-`||
-|default-checked|默认选中状态（非受控状态）|`boolean`|`false`||
-|disabled|是否禁用|`boolean`|`false`||
-|loading|是否为加载中状态|`boolean`|`false`||
-|type|开关的类型|`'circle' \| 'round' \| 'line'`|`'circle'`||
-|size|开关的大小|`'small' \| 'medium'`|`'medium'`||
-|checked-value|选中时的值|`string\|number\|boolean`|`true`|2.12.0|
-|unchecked-value|未选中时的值|`string\|number\|boolean`|`false`|2.12.0|
-|checked-color|选中时的开关颜色|`string`|`-`|2.12.0|
-|unchecked-color|未选中时的开关颜色|`string`|`-`|2.12.0|
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|model-value **(v-model)**|绑定值|`string\|number\|boolean`|`-`|
+|default-checked|默认选中状态（非受控状态）|`boolean`|`false`|
+|disabled|是否禁用|`boolean`|`false`|
+|loading|是否为加载中状态|`boolean`|`false`|
+|type|开关的类型|`'circle' \| 'round' \| 'line'`|`'circle'`|
+|size|开关的大小|`'small' \| 'medium'`|`'medium'`|
+|checked-value|选中时的值|`string\|number\|boolean`|`true`|
+|unchecked-value|未选中时的值|`string\|number\|boolean`|`false`|
+|checked-color|选中时的开关颜色|`string`|`-`|
+|unchecked-color|未选中时的开关颜色|`string`|`-`|
 ### `<switch>` Events
 
 |事件名|描述|参数|

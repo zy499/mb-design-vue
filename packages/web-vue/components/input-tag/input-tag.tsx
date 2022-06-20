@@ -141,7 +141,7 @@ export default defineComponent({
     /**
      * @zh 是否仅创建唯一的值
      * @en Whether to create only unique values
-     * @version 2.15.0
+     *
      */
     uniqueValue: {
       type: Boolean,
@@ -150,7 +150,7 @@ export default defineComponent({
     /**
      * @zh 自定义 `TagData` 中的字段
      * @en Customize fields in `TagData`
-     * @version 2.22.0
+     *
      */
     fieldNames: {
       type: Object as PropType<InputTagFieldNames>,

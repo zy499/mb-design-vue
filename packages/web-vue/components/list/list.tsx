@@ -158,7 +158,7 @@ export default defineComponent({
    * @zh 滚动加载状态时，滚动到底部的提示
    * @en When scrolling loading state, scroll to the bottom tip
    * @slot scroll-loading
-   * @version 2.20.0
+   *
    */
   setup(props, { emit, slots }) {
     const prefixCls = getPrefixCls('list');

@@ -45,13 +45,13 @@ description: 仅允许输入数字格式的输入框。
 |model-event|触发 `v-model` 的事件|`'change' \| 'input'`|`'change'`|
 ### `<input-number>` Events
 
-|事件名|描述|参数|版本|
-|---|---|---|:---|
-|change|值发生改变时触发|value: `union`<br>ev: `Event`||
-|focus|输入框获取焦点时触发|ev: `FocusEvent`||
-|blur|输入框失去焦点时触发|ev: `FocusEvent`||
-|clear|用户点击清除按钮时触发|ev: `Event`|2.23.0|
-|input|输入时触发|value: `union`<br>inputValue: `string`<br>ev: `Event`|2.27.0|
+|事件名|描述|参数|
+|---|---|---|
+|change|值发生改变时触发|value: `union`<br>ev: `Event`|
+|focus|输入框获取焦点时触发|ev: `FocusEvent`|
+|blur|输入框失去焦点时触发|ev: `FocusEvent`|
+|clear|用户点击清除按钮时触发|ev: `Event`|
+|input|输入时触发|value: `union`<br>inputValue: `string`<br>ev: `Event`|
 ### `<input-number>` Methods
 
 |方法名|描述|参数|返回值|

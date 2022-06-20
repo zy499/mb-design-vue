@@ -274,7 +274,7 @@ export default defineComponent({
     /**
      * @zh 值的格式，对 `value` `defaultValue` `pickerValue` `defaultPickerValue` 以及事件中的返回值生效，支持设置为时间戳，Date 和字符串（参考[字符串解析格式](#字符串解析格式)）。如果没有指定，将格式化为字符串，格式同 `format`。
      * @en The format of the value, valid for `value` `defaultValue` `pickerValue` `defaultPickerValue` and the return value in the event, supports setting as timestamp, Date and string (refer to [String parsing format](#string-parsing-format) ). If not specified, it will be formatted as a string, in the same format as `format`.
-     * @version 2.16.0
+     *
      */
     valueFormat: {
       type: String as PropType<'timestamp' | 'Date' | string>,
@@ -282,7 +282,7 @@ export default defineComponent({
     /**
      * @zh 是否要预览快捷选择的结果
      * @en Whether to preview the result of the shortcut
-     * @version 2.28.0
+     *
      */
     previewShortcut: {
       type: Boolean,
@@ -291,7 +291,7 @@ export default defineComponent({
     /**
      * @zh 是否显示确认按钮，`showTime = true` 的时候始终显示。
      * @en Whether to show the confirm button, always show when `showTime = true`.
-     * @version 2.29.0
+     *
      */
     showConfirmBtn: {
       type: Boolean,

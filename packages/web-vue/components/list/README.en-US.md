@@ -53,13 +53,13 @@ description: The most basic list display, which can carry text, lists, pictures,
 |scrollIntoView|Virtual scroll to an element|options: `{ index?: number; key?: number \| string; align: 'auto' \| 'top' \| 'bottom'}`|-|
 ### `<list>` Slots
 
-|Slot Name|Description|Parameters|version|
-|---|---|---|:---|
-|scroll-loading|When scrolling loading state, scroll to the bottom tip|-|2.20.0|
-|item|List Item|index: `number`<br>item: `any`||
-|empty|Empty|-||
-|footer|Footer|-||
-|header|Header|-||
+|Slot Name|Description|Parameters|
+|---|---|---|
+|scroll-loading|When scrolling loading state, scroll to the bottom tip|-|
+|item|List Item|index: `number`<br>item: `any`|
+|empty|Empty|-|
+|footer|Footer|-|
+|header|Header|-|
 
 
 

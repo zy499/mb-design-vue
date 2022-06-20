@@ -98,7 +98,7 @@ export interface NotificationConfig {
   /**
    * @zh 底部内容
    * @en Footer Content
-   * @version 2.25.0
+   *
    */
   footer?: RenderFunction;
   /**

@@ -103,7 +103,7 @@ export default defineComponent({
     /**
      * @zh 字符截取方法，同 wordLength 一起使用
      * @en Character interception method, used together with wordLength
-     * @version 2.12.0
+     *
      */
     wordSlice: {
       type: Function as PropType<(value: string, maxLength: number) => string>,
@@ -111,7 +111,7 @@ export default defineComponent({
     /**
      * @zh 内部 input 元素的属性
      * @en Attributes of inner input elements
-     * @version 2.27.0
+     *
      */
     inputAttrs: {
       type: Object,

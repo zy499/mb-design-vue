@@ -47,7 +47,7 @@ export default defineComponent({
      * @zh 弹出框的最大高度
      * @en The maximum height of popover
      * @defaultValue true
-     * @version 2.23.0
+     *
      */
     popupMaxHeight: {
       type: [Boolean, Number] as PropType<boolean | number>,
@@ -58,7 +58,7 @@ export default defineComponent({
    * @zh 菜单的图标
    * @en the icon of menu item
    * @slot icon
-   * @version 2.11.0
+   *
    */
   /**
    * @zh 向下展开的图标

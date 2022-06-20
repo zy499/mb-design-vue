@@ -47,15 +47,15 @@ description: Generally used for the information display of the detail page.
 
 ### `<descriptions-item>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|span|number of columns|`number`|`1`|2.18.0|
-|label|Label|`string`|`-`|2.18.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|span|number of columns|`number`|`1`|
+|label|Label|`string`|`-`|
 ### `<descriptions-item>` Slots
 
-|Slot Name|Description|Parameters|version|
-|---|---|---|:---|
-|label|Label|-|2.18.0|
+|Slot Name|Description|Parameters|
+|---|---|---|
+|label|Label|-|
 
 
 

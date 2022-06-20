@@ -157,7 +157,7 @@ export default defineComponent({
     /**
      * @zh 字符截取方法，同 wordLength 一起使用
      * @en Character interception method, used together with wordLength
-     * @version 2.12.0
+     *
      */
     wordSlice: {
       type: Function as PropType<(value: string, maxLength: number) => string>,
@@ -485,7 +485,7 @@ export default defineComponent({
      * @zh 使输入框获取焦点
      * @en Make the input box focus
      * @public
-     * @version 2.24.0
+     *
      */
     focus() {
       (this.$refs.textareaRef as HTMLInputElement)?.focus();
@@ -494,7 +494,7 @@ export default defineComponent({
      * @zh 使输入框失去焦点
      * @en Make the input box lose focus
      * @public
-     * @version 2.24.0
+     *
      */
     blur() {
       (this.$refs.textareaRef as HTMLInputElement)?.blur();

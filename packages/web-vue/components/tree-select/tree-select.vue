@@ -353,7 +353,7 @@ export default defineComponent({
     /**
      * @zh 为 value 中找不到匹配项的 key 定义节点数据
      * @en Customize node data for keys that do not match options
-     * @version 2.22.0
+     *
      */
     fallbackOption: {
       type: [Boolean, Function] as PropType<
@@ -364,7 +364,7 @@ export default defineComponent({
     /**
      * @zh 设置可选择的节点，默认全部可选
      * @en Set the nodes that can be selected, all can be selected by default
-     * @version 2.27.0
+     *
      */
     selectable: {
       type: [Boolean, String, Function] as PropType<

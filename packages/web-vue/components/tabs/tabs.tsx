@@ -91,7 +91,7 @@ export default defineComponent({
     /**
      * @zh 是否在不显示标签时销毁内容
      * @en Whether to destroy the content when the label is not displayed
-     * @version 2.27.0
+     *
      */
     destroyOnHide: {
       type: Boolean,
@@ -124,7 +124,7 @@ export default defineComponent({
     /**
      * @zh 选项卡头部是否存在水平边距。仅对 `type` 等于 `line`、`text` 类型的选项卡生效
      * @en Whether there is a horizontal margin on the header of the tab. Only valid for tabs with `type` equal to `line` and `text` type
-     * @version 2.10.0
+     *
      */
     headerPadding: {
       type: Boolean,
@@ -133,7 +133,7 @@ export default defineComponent({
     /**
      * @zh 创建标签后是否切换到新标签（最后一个）
      * @en Whether to switch to a new tab after creating a tab (the last one)
-     * @version 2.18.0
+     *
      */
     autoSwitch: {
       type: Boolean,
@@ -142,7 +142,7 @@ export default defineComponent({
     /**
      * @zh 是否隐藏内容
      * @en Whether to hide content
-     * @version 2.25.0
+     *
      */
     hideContent: {
       type: Boolean,

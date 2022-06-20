@@ -46,10 +46,10 @@ description: When there are too many commands on the page, the alternative comma
 |select|Triggered when the user selects|value: `union`<br>ev: `Event`|
 ### `<dropdown>` Slots
 
-|Slot Name|Description|Parameters|version|
-|---|---|---|:---|
-|content|Content|-||
-|footer|Footer|-|2.10.0|
+|Slot Name|Description|Parameters|
+|---|---|---|
+|content|Content|-|
+|footer|Footer|-|
 
 
 
@@ -76,24 +76,24 @@ description: When there are too many commands on the page, the alternative comma
 |title|Group title|`string`|`-`|
 ### `<dgroup>` Slots
 
-|Slot Name|Description|Parameters|version|
-|---|---|---|:---|
-|title|Group title|-|2.10.0|
+|Slot Name|Description|Parameters|
+|---|---|---|
+|title|Group title|-|
 
 
 
 
 ### `<dsubmenu>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|value|Value (Not useful after version 2.16.0)|`string\|number`|`-`||
-|disabled|Whether to disable|`boolean`|`false`|2.10.0|
-|trigger|Trigger method|`'hover' \| 'click'`|`'click'`|2.10.0|
-|position|Popup position|`'rt' \| 'lt'`|`'rt'`|2.10.0|
-|popup-visible **(v-model)**|Whether the popup is visible|`boolean`|`-`||
-|default-popup-visible|Whether the popup is visible by default (uncontrolled mode)|`boolean`|`false`||
-|option-props|Custom option properties|`object`|`-`|2.29.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|value|Value (Not useful after version 2.16.0)|`string\|number`|`-`|
+|disabled|Whether to disable|`boolean`|`false`|
+|trigger|Trigger method|`'hover' \| 'click'`|`'click'`|
+|position|Popup position|`'rt' \| 'lt'`|`'rt'`|
+|popup-visible **(v-model)**|Whether the popup is visible|`boolean`|`-`|
+|default-popup-visible|Whether the popup is visible by default (uncontrolled mode)|`boolean`|`false`|
+|option-props|Custom option properties|`object`|`-`|
 ### `<dsubmenu>` Events
 
 |Event Name|Description|Parameters|
@@ -101,11 +101,11 @@ description: When there are too many commands on the page, the alternative comma
 |popup-visible-change|Triggered when the display status of the drop-down box changes|visible: `boolean`|
 ### `<dsubmenu>` Slots
 
-|Slot Name|Description|Parameters|version|
-|---|---|---|:---|
-|icon|Icon|-|2.29.0|
-|content|Submenu content|-||
-|footer|Footer|-|2.10.0|
+|Slot Name|Description|Parameters|
+|---|---|---|
+|icon|Icon|-|
+|content|Submenu content|-|
+|footer|Footer|-|
 
 
 

@@ -24,7 +24,7 @@ export default defineComponent({
    * @zh 分组标题
    * @en Group title
    * @slot title
-   * @version 2.10.0
+   *
    */
   setup() {
     const prefixCls = getPrefixCls('dropdown-group');

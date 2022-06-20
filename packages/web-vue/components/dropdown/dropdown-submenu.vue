@@ -61,7 +61,7 @@ export default defineComponent({
     /**
      * @zh 是否禁用
      * @en Whether to disable
-     * @version 2.10.0
+     *
      */
     disabled: {
       type: Boolean,
@@ -71,7 +71,7 @@ export default defineComponent({
      * @zh 触发方式
      * @en Trigger method
      * @values 'hover','click'
-     * @version 2.10.0
+     *
      */
     trigger: {
       type: [String, Array] as PropType<
@@ -83,7 +83,7 @@ export default defineComponent({
      * @zh 弹出位置
      * @en Popup position
      * @values 'rt','lt'
-     * @version 2.10.0
+     *
      */
     position: {
       type: String as PropType<'rt' | 'lt'>,
@@ -109,7 +109,7 @@ export default defineComponent({
     /**
      * @zh 自定义选项属性
      * @en Custom option properties
-     * @version 2.29.0
+     *
      */
     optionProps: {
       type: Object,
@@ -133,13 +133,13 @@ export default defineComponent({
    * @zh 页脚
    * @en Footer
    * @slot footer
-   * @version 2.10.0
+   *
    */
   /**
    * @zh 图标
    * @en Icon
    * @slot icon
-   * @version 2.29.0
+   *
    */
   setup(props, { emit }) {
     const { defaultPopupVisible, popupVisible } = toRefs(props);

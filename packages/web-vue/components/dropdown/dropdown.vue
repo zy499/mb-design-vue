@@ -117,7 +117,7 @@ export default defineComponent({
    * @zh 页脚
    * @en Footer
    * @slot footer
-   * @version 2.10.0
+   *
    */
   setup(props, { emit }) {
     const { defaultPopupVisible, popupVisible, popupMaxHeight } = toRefs(props);

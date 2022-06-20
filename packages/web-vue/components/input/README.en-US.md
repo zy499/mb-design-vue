@@ -35,21 +35,21 @@ description: Basic form components have been expanded on the basis of native con
 
 ### `<input>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|model-value **(v-model)**|Value|`string`|`-`||
-|default-value|Default value (uncontrolled state)|`string`|`''`||
-|size|Input size|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`||
-|allow-clear|Whether to allow the input to be cleared|`boolean`|`false`||
-|disabled|Whether to disable|`boolean`|`false`||
-|readonly|Whether it is read-only|`boolean`|`false`||
-|error|Whether it is an error state|`boolean`|`false`||
-|placeholder|Prompt text|`string`|`-`||
-|max-length|Enter the maximum length of the value, the errorOnly attribute was added in version 2.12.0|`number \| { length: number; errorOnly?: boolean }`|`0`||
-|show-word-limit|Whether to display word count|`boolean`|`false`||
-|word-length|Calculation method of word length|`(value: string) => number`|`-`||
-|word-slice|Character interception method, used together with wordLength|`(value: string, maxLength: number) => string`|`-`|2.12.0|
-|input-attrs|Attributes of inner input elements|`object`|`-`|2.27.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|model-value **(v-model)**|Value|`string`|`-`|
+|default-value|Default value (uncontrolled state)|`string`|`''`|
+|size|Input size|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`|
+|allow-clear|Whether to allow the input to be cleared|`boolean`|`false`|
+|disabled|Whether to disable|`boolean`|`false`|
+|readonly|Whether it is read-only|`boolean`|`false`|
+|error|Whether it is an error state|`boolean`|`false`|
+|placeholder|Prompt text|`string`|`-`|
+|max-length|Enter the maximum length of the value, the errorOnly attribute was added in version 2.12.0|`number \| { length: number; errorOnly?: boolean }`|`0`|
+|show-word-limit|Whether to display word count|`boolean`|`false`|
+|word-length|Calculation method of word length|`(value: string) => number`|`-`|
+|word-slice|Character interception method, used together with wordLength|`(value: string, maxLength: number) => string`|`-`|
+|input-attrs|Attributes of inner input elements|`object`|`-`|
 ### `<input>` Events
 
 |Event Name|Description|Parameters|
@@ -93,14 +93,14 @@ description: Basic form components have been expanded on the basis of native con
 
 ### `<input-search>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|search-button|Whether it is the rear button mode|`boolean`|`false`||
-|loading|Whether it is loading state|`boolean`|`false`||
-|disabled|Whether to disable|`boolean`|`false`||
-|size|Input size|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`||
-|button-text|The text of the search button will replace the original icon after use|`string`|`-`|2.16.0|
-|button-props|Button props|`object`|`-`||
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|search-button|Whether it is the rear button mode|`boolean`|`false`|
+|loading|Whether it is loading state|`boolean`|`false`|
+|disabled|Whether to disable|`boolean`|`false`|
+|size|Input size|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`|
+|button-text|The text of the search button will replace the original icon after use|`string`|`-`|
+|button-props|Button props|`object`|`-`|
 ### `<input-search>` Events
 
 |Event Name|Description|Parameters|

@@ -50,7 +50,7 @@ export default defineComponent({
     /**
      * @zh 充满整行
      * @en fill the block
-     * @version 2.11.0
+     *
      */
     fill: {
       type: Boolean,

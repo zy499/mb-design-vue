@@ -35,17 +35,17 @@ description: 具有数据收集、校验和提交功能的表单，包含复选�
 
 ### `<form>` Props
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|model **(必填)**|表单数据对象|`object`|`-`||
-|layout|表单的布局方式，包括水平、垂直、多列|`'horizontal' \| 'vertical' \| 'inline'`|`'horizontal'`||
-|size|表单控件的尺寸|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`||
-|label-col-props|标签元素布局选项。参数同 `<col>` 组件一致|`object`|` span: 5, offset: 0 `||
-|wrapper-col-props|表单控件布局选项。参数同 `<col>` 组件一致|`object`|` span: 19, offset: 0 `||
-|label-align|标签的对齐方向|`'left' \| 'right'`|`'right'`||
-|disabled|是否禁用表单|`boolean`|`-`||
-|rules|表单项校验规则|`Record<string, FieldRule \| FieldRule[]>`|`-`||
-|auto-label-width|是否开启自动标签宽度，仅在 `layout="horizontal"` 下生效。|`boolean`|`false`|2.13.0|
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|model **(必填)**|表单数据对象|`object`|`-`|
+|layout|表单的布局方式，包括水平、垂直、多列|`'horizontal' \| 'vertical' \| 'inline'`|`'horizontal'`|
+|size|表单控件的尺寸|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`|
+|label-col-props|标签元素布局选项。参数同 `<col>` 组件一致|`object`|` span: 5, offset: 0 `|
+|wrapper-col-props|表单控件布局选项。参数同 `<col>` 组件一致|`object`|` span: 19, offset: 0 `|
+|label-align|标签的对齐方向|`'left' \| 'right'`|`'right'`|
+|disabled|是否禁用表单|`boolean`|`-`|
+|rules|表单项校验规则|`Record<string, FieldRule \| FieldRule[]>`|`-`|
+|auto-label-width|是否开启自动标签宽度，仅在 `layout="horizontal"` 下生效。|`boolean`|`false`|
 ### `<form>` Events
 
 |事件名|描述|参数|
@@ -59,8 +59,8 @@ description: 具有数据收集、校验和提交功能的表单，包含复选�
 |---|---|---|---|
 |validate|校验全部表单数据|callback: `(errors: undefined \| Record<string, ValidatedError>) => void`|Promise\<union\<undefined,Record\<string,ValidatedError\>\>\>|
 |validateField|校验部分表单数据|field: `string \| string[]`<br>callback: `(errors: undefined \| Record<string, ValidatedError>) => void`|Promise\<union\<undefined,Record\<string,ValidatedError\>\>\>|
-|resetFields|重置表单数据|-|-|
-|clearValidate|清除校验状态|-|-|
+|resetFields|重置表单数据|field: `string \| string[]`|-|
+|clearValidate|清除校验状态|field: `string \| string[]`|-|
 |setFields|设置表单项的值和状态|data: `Record<string, FieldData>`|-|
 
 
@@ -68,34 +68,34 @@ description: 具有数据收集、校验和提交功能的表单，包含复选�
 
 ### `<form-item>` Props
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|field|表单元素在数据对象中的path（数据项必填）|`string`|`''`||
-|label|标签的文本|`string`|`-`||
-|show-colon|是否显示冒号|`boolean`|`false`||
-|no-style|是否去除样式|`boolean`|`false`||
-|disabled|是否禁用|`boolean`|`-`||
-|help|帮助文案|`string`|`-`||
-|extra|额外显示的文案|`string`|`-`||
-|required|是否必须填写|`boolean`|`false`||
-|rules|表单项校验规则（优先级高于 form 的 rules）|`FieldRule \| FieldRule[]`|`-`||
-|validate-status|校验状态|`'success' \| 'warning' \| 'error' \| 'validating'`|`-`||
-|validate-trigger|触发校验的事件|`'change' \| 'input' \| 'focus' \| 'blur'`|`'change'`||
-|label-col-props|标签元素布局选项。参数同 `<col>` 组件一致|`object`|`-`||
-|wrapper-col-props|表单控件布局选项。参数同 `<col>` 组件一致|`object`|`-`||
-|hide-label|是否隐藏标签|`boolean`|`false`||
-|hide-asterisk|是否隐藏星号|`boolean`|`false`||
-|label-col-style|标签元素布局组件的 style|`object`|`-`|2.10.0|
-|wrapper-col-style|表单控件布局组件的 style|`object`|`-`|2.10.0|
-|row-props|表单项布局选项。参数同 `<row>` 组件一致|`object`|`-`|2.10.0|
-|row-class|表单项布局组件的 class|`string\|array\|object`|`-`|2.10.0|
-|content-class|表单控件包裹层的 class|`string\|array\|object`|`-`|2.10.0|
-|content-flex|内容层是否开启 flex 布局|`boolean`|`true`|2.13.0|
-|merge-props|（已废除）控制传递到子元素上的 Props。默认包括 disabled、error、size、 events 和 FormItem 上的额外属性。2.18.0 版本废除|`boolean \| ((props: Record<string, any>) => Record<string, any>)`|`true`|2.13.0|
-|label-col-flex|设置标签 `Col` 组件的 flex 属性。设置时表单 `Col` 组件的 flex 属性会被设置为 `auto`。|`number\|string`|`-`|2.13.0|
-|feedback|是否显示表单控件的反馈图标|`boolean`|`false`|2.16.0|
-|label-component|表单项标签渲染的元素|`string`|`'label'`|2.22.0|
-|label-attrs|表单项元素的属性|`object`|`-`|2.22.0|
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|field|表单元素在数据对象中的path（数据项必填）|`string`|`''`|
+|label|标签的文本|`string`|`-`|
+|show-colon|是否显示冒号|`boolean`|`false`|
+|no-style|是否去除样式|`boolean`|`false`|
+|disabled|是否禁用|`boolean`|`-`|
+|help|帮助文案|`string`|`-`|
+|extra|额外显示的文案|`string`|`-`|
+|required|是否必须填写|`boolean`|`false`|
+|rules|表单项校验规则（优先级高于 form 的 rules）|`FieldRule \| FieldRule[]`|`-`|
+|validate-status|校验状态|`'success' \| 'warning' \| 'error' \| 'validating'`|`-`|
+|validate-trigger|触发校验的事件|`'change' \| 'input' \| 'focus' \| 'blur'`|`'change'`|
+|label-col-props|标签元素布局选项。参数同 `<col>` 组件一致|`object`|`-`|
+|wrapper-col-props|表单控件布局选项。参数同 `<col>` 组件一致|`object`|`-`|
+|hide-label|是否隐藏标签|`boolean`|`false`|
+|hide-asterisk|是否隐藏星号|`boolean`|`false`|
+|label-col-style|标签元素布局组件的 style|`object`|`-`|
+|wrapper-col-style|表单控件布局组件的 style|`object`|`-`|
+|row-props|表单项布局选项。参数同 `<row>` 组件一致|`object`|`-`|
+|row-class|表单项布局组件的 class|`string\|array\|object`|`-`|
+|content-class|表单控件包裹层的 class|`string\|array\|object`|`-`|
+|content-flex|内容层是否开启 flex 布局|`boolean`|`true`|
+|merge-props|（已废除）控制传递到子元素上的 Props。默认包括 disabled、error、size、 events 和 FormItem 上的额外属性。2.18.0 版本废除|`boolean \| ((props: Record<string, any>) => Record<string, any>)`|`true`|
+|label-col-flex|设置标签 `Col` 组件的 flex 属性。设置时表单 `Col` 组件的 flex 属性会被设置为 `auto`。|`number\|string`|`-`|
+|feedback|是否显示表单控件的反馈图标|`boolean`|`false`|
+|label-component|表单项标签渲染的元素|`string`|`'label'`|
+|label-attrs|表单项元素的属性|`object`|`-`|
 ### `<form-item>` Slots
 
 |插槽名|描述|参数|
@@ -149,14 +149,14 @@ description: 具有数据收集、校验和提交功能的表单，包含复选�
 
 ### ValidatedError
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|label|标签的文本|`string`|`-`|2.18.0|
-|field|字段名|`string`|`-`||
-|value|字段值|`any`|`-`||
-|type|字段类型|`string`|`-`||
-|isRequiredError|是否为 `required` 错误|`boolean`|`false`||
-|message|错误信息|`string`|`-`||
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|label|标签的文本|`string`|`-`|
+|field|字段名|`string`|`-`|
+|value|字段值|`any`|`-`|
+|type|字段类型|`string`|`-`|
+|isRequiredError|是否为 `required` 错误|`boolean`|`false`|
+|message|错误信息|`string`|`-`|
 
 
 

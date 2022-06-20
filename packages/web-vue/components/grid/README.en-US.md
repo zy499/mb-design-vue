@@ -35,36 +35,36 @@ description: Grid can effectively ensure the consistency and logic of the page, 
 
 ### `<row>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|gutter|Grid interval in `px`. Pass in the responsive object like {xs: 4, sm: 6, md: 12}. Pass in the array [horizontal spacing, vertical spacing] to set two directions.|`number\| ResponsiveValue\| [number \| ResponsiveValue, number \| ResponsiveValue]`|`0`||
-|justify|Horizontal alignment (`justify-content`)|`'start' \| 'center' \| 'end' \| 'space-around' \| 'space-between'`|`'start'`||
-|align|Vertical alignment (`align-items`)|`'start' \| 'center' \| 'end' \| 'stretch'`|`'start'`||
-|div|Enabling this option `Row` and `Col` will be treated as divs without any Grid-related classes and styles|`boolean`|`false`||
-|wrap|Whether `Col` can wrap onto multiple lines|`boolean`|`true`|2.13.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|gutter|Grid interval in `px`. Pass in the responsive object like {xs: 4, sm: 6, md: 12}. Pass in the array [horizontal spacing, vertical spacing] to set two directions.|`number\| ResponsiveValue\| [number \| ResponsiveValue, number \| ResponsiveValue]`|`0`|
+|justify|Horizontal alignment (`justify-content`)|`'start' \| 'center' \| 'end' \| 'space-around' \| 'space-between'`|`'start'`|
+|align|Vertical alignment (`align-items`)|`'start' \| 'center' \| 'end' \| 'stretch'`|`'start'`|
+|div|Enabling this option `Row` and `Col` will be treated as divs without any Grid-related classes and styles|`boolean`|`false`|
+|wrap|Whether `Col` can wrap onto multiple lines|`boolean`|`true`|
 
 
 
 
 ### `<col>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|span|Number of grid space|`number`|`24`||
-|offset|The number of grids on the left side of the grid. There can be no grids in the grid.|`number`|`-`||
-|order|Sort elements|`number`|`-`||
-|xs|<576px responsive grid|`number \| { [key: string]: any }`|`-`||
-|sm|>= 576px responsive grid|`number \| { [key: string]: any }`|`-`||
-|md|>= 768px responsive grid|`number \| { [key: string]: any }`|`-`||
-|lg|>= 992px responsive grid|`number \| { [key: string]: any }`|`-`||
-|xl|>= 1200px responsive grid|`number \| { [key: string]: any }`|`-`||
-|xxl|>= 1600px responsive grid|`number \| { [key: string]: any }`|`-`||
-|flex|Set flex layout properties|`number \| string \| 'initial' \| 'auto' \| 'none'`|`-`|2.10.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|span|Number of grid space|`number`|`24`|
+|offset|The number of grids on the left side of the grid. There can be no grids in the grid.|`number`|`-`|
+|order|Sort elements|`number`|`-`|
+|xs|<576px responsive grid|`number \| { [key: string]: any }`|`-`|
+|sm|>= 576px responsive grid|`number \| { [key: string]: any }`|`-`|
+|md|>= 768px responsive grid|`number \| { [key: string]: any }`|`-`|
+|lg|>= 992px responsive grid|`number \| { [key: string]: any }`|`-`|
+|xl|>= 1200px responsive grid|`number \| { [key: string]: any }`|`-`|
+|xxl|>= 1600px responsive grid|`number \| { [key: string]: any }`|`-`|
+|flex|Set flex layout properties|`number \| string \| 'initial' \| 'auto' \| 'none'`|`-`|
 
 
 
 
-### `<grid>` Props (2.15.0)
+### `<grid>` Props
 Responsive configuration has been supported since `2.18.0`, the specific configuration [ResponsiveValue](#responsivevalue)
 
 |Attribute|Description|Type|Default|
@@ -78,7 +78,7 @@ Responsive configuration has been supported since `2.18.0`, the specific configu
 
 
 
-### `<grid-item>` Props (2.15.0)
+### `<grid-item>` Props
 Responsive configuration has been supported since `2.18.0`, the specific configuration [ResponsiveValue](#responsivevalue)
 
 |Attribute|Description|Type|Default|

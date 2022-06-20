@@ -213,7 +213,7 @@ export default defineComponent({
    * @zh 自定义额外的操作项
    * @en Customize additional action items
    * @slot actions
-   * @version 2.17.0
+   *
    */
   setup(props: ImagePreviewProps, { emit }) {
     const { t } = useI18n();

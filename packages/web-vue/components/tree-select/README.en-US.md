@@ -43,38 +43,38 @@ description: The tree structure data can be selected.
 
 ### `<tree-select>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|disabled|Whether to disable|`boolean`|`false`||
-|loading|Whether it is loading state|`boolean`|`false`||
-|error|Whether it is an error state|`boolean`|`false`||
-|size|The size of the selection box.|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`||
-|border|Whether to show the border|`boolean`|`false`||
-|allow-search|Whether to allow searching|`boolean \| { retainInputValue?: boolean }`|`false (single) \| true (multiple)`||
-|allow-clear|Whether to allow clear|`boolean`|`false`||
-|placeholder|Prompt copy|`string`|`-`||
-|max-tag-count|The maximum number of labels displayed, only valid in multi-select mode|`number`|`-`||
-|multiple|Whether to support multiple selection|`boolean`|`false`||
-|default-value|Default value|`string \| number \| Array<string \| number> \| LabelValue \| LabelValue[]`|`-`||
-|model-value **(v-model)**|Value|`string \| number \| Array<string \| number> \| LabelValue \| LabelValue[]`|`-`||
-|field-names|Specify the field name in the node data|`TreeFieldNames`|`-`||
-|data|Data|`TreeNodeData[]`|`[]`||
-|label-in-value|Set the value format. The default is string, when set to true, the value format is: {label: string, value: string}|`boolean`|`false`||
-|tree-checkable|Whether to show checkbox|`boolean`|`false`||
-|tree-check-strictly|Whether the parent and child nodes are related|`boolean`|`false`||
-|tree-checked-strategy|Customized echo method|`'all' \| 'parent' \| 'child'`|`'all'`||
-|tree-props|Can accept Props of all [Tree](/vue/component/tree) components|`Partial<TreeProps>`|`-`||
-|trigger-props|Can accept Props of all [Trigger](/vue/component/trigger) components|`Record<string, unknown>`|`-`||
-|popup-visible **(v-model)**|Whether the pop-up box is visible|`boolean`|`-`||
-|default-popup-visible|Whether the default pop-up box is visible|`boolean`|`false`||
-|dropdown-style|Drop-down box style|`CSSProperties`|`-`||
-|dropdown-class-name|Drop-down box style class|`string \| string[]`|`-`||
-|filter-tree-node|Custom node filter function|`(searchKey: string, nodeData: TreeNodeData) => boolean`|`-`||
-|load-more|Load data dynamically|`(nodeData: TreeNodeData) => Promise<void>`|`-`||
-|disable-filter|Disable internal filtering logic|`boolean`|`false`||
-|popup-container|Mount container for pop-up box|`string \| HTMLElement \| null \| undefined`|`-`||
-|fallback-option|Customize node data for keys that do not match options|`boolean \| ((key: number \| string) => TreeNodeData \| boolean)`|`true`|2.22.0|
-|selectable|Set the nodes that can be selected, all can be selected by default|`boolean\| 'leaf'\| ((    node: TreeNodeData,    info: { isLeaf: boolean; level: number }  ) => boolean)`|`true`|2.27.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|disabled|Whether to disable|`boolean`|`false`|
+|loading|Whether it is loading state|`boolean`|`false`|
+|error|Whether it is an error state|`boolean`|`false`|
+|size|The size of the selection box.|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`|
+|border|Whether to show the border|`boolean`|`false`|
+|allow-search|Whether to allow searching|`boolean \| { retainInputValue?: boolean }`|`false (single) \| true (multiple)`|
+|allow-clear|Whether to allow clear|`boolean`|`false`|
+|placeholder|Prompt copy|`string`|`-`|
+|max-tag-count|The maximum number of labels displayed, only valid in multi-select mode|`number`|`-`|
+|multiple|Whether to support multiple selection|`boolean`|`false`|
+|default-value|Default value|`string \| number \| Array<string \| number> \| LabelValue \| LabelValue[]`|`-`|
+|model-value **(v-model)**|Value|`string \| number \| Array<string \| number> \| LabelValue \| LabelValue[]`|`-`|
+|field-names|Specify the field name in the node data|`TreeFieldNames`|`-`|
+|data|Data|`TreeNodeData[]`|`[]`|
+|label-in-value|Set the value format. The default is string, when set to true, the value format is: {label: string, value: string}|`boolean`|`false`|
+|tree-checkable|Whether to show checkbox|`boolean`|`false`|
+|tree-check-strictly|Whether the parent and child nodes are related|`boolean`|`false`|
+|tree-checked-strategy|Customized echo method|`'all' \| 'parent' \| 'child'`|`'all'`|
+|tree-props|Can accept Props of all [Tree](/vue/component/tree) components|`Partial<TreeProps>`|`-`|
+|trigger-props|Can accept Props of all [Trigger](/vue/component/trigger) components|`Record<string, unknown>`|`-`|
+|popup-visible **(v-model)**|Whether the pop-up box is visible|`boolean`|`-`|
+|default-popup-visible|Whether the default pop-up box is visible|`boolean`|`false`|
+|dropdown-style|Drop-down box style|`CSSProperties`|`-`|
+|dropdown-class-name|Drop-down box style class|`string \| string[]`|`-`|
+|filter-tree-node|Custom node filter function|`(searchKey: string, nodeData: TreeNodeData) => boolean`|`-`|
+|load-more|Load data dynamically|`(nodeData: TreeNodeData) => Promise<void>`|`-`|
+|disable-filter|Disable internal filtering logic|`boolean`|`false`|
+|popup-container|Mount container for pop-up box|`string \| HTMLElement \| null \| undefined`|`-`|
+|fallback-option|Customize node data for keys that do not match options|`boolean \| ((key: number \| string) => TreeNodeData \| boolean)`|`true`|
+|selectable|Set the nodes that can be selected, all can be selected by default|`boolean\| 'leaf'\| ((    node: TreeNodeData,    info: { isLeaf: boolean; level: number }  ) => boolean)`|`true`|
 ### `<tree-select>` Events
 
 |Event Name|Description|Parameters|

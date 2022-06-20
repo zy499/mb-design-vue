@@ -59,7 +59,7 @@ const AvatarGroup = defineComponent({
     /**
      * @zh 多余头像样式。
      * @en Style for +x.
-     * @version 2.7.0
+     *
      */
     maxStyle: {
       type: Object as PropType<CSSProperties>,
@@ -67,7 +67,7 @@ const AvatarGroup = defineComponent({
     /**
      * @zh 多余头像气泡的 `TriggerProps`
      * @en TriggerProps for popover around +x.
-     * @version 2.7.0
+     *
      */
     maxPopoverTriggerProps: {
       type: Object as PropType<TriggerProps>,

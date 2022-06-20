@@ -200,7 +200,7 @@ export default defineComponent({
     /**
      * @zh 底部显示区域的类名
      * @en The class name of the bottom display area
-     * @version 2.23.0
+     *
      */
     footerClass: {
       type: [String, Array, Object],

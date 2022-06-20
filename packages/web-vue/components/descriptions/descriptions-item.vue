@@ -24,7 +24,7 @@ export default defineComponent({
     /**
      * @zh 所占列数
      * @en number of columns
-     * @version 2.18.0
+     *
      */
     span: {
       type: Number,
@@ -33,7 +33,7 @@ export default defineComponent({
     /**
      * @zh 标签
      * @en Label
-     * @version 2.18.0
+     *
      */
     label: String,
   },
@@ -41,7 +41,7 @@ export default defineComponent({
    * @zh 标签
    * @en Label
    * @slot label
-   * @version 2.18.0
+   *
    */
   setup(props) {
     const { span } = toRefs(props);

@@ -54,7 +54,7 @@ export default defineComponent({
     /**
      * @zh 是否在不显示标签时销毁内容
      * @en Whether to destroy the content when the label is not displayed
-     * @version 2.27.0
+     *
      */
     destroyOnHide: {
       type: Boolean,

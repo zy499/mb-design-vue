@@ -216,37 +216,37 @@ export default defineComponent({
     /**
      * @zh 标签元素布局组件的 style
      * @en The style of the label element layout component
-     * @version 2.10.0
+     *
      */
     labelColStyle: Object,
     /**
      * @zh 表单控件布局组件的 style
      * @en The style of the form control layout component
-     * @version 2.10.0
+     *
      */
     wrapperColStyle: Object,
     /**
      * @zh 表单项布局选项。参数同 `<row>` 组件一致
      * @en Form item layout options. The parameters are the same as the `<row>` component
-     * @version 2.10.0
+     *
      */
     rowProps: Object,
     /**
      * @zh 表单项布局组件的 class
      * @en The class of the form item layout component
-     * @version 2.10.0
+     *
      */
     rowClass: [String, Array, Object],
     /**
      * @zh 表单控件包裹层的 class
      * @en The class of the form control wrapping layer
-     * @version 2.10.0
+     *
      */
     contentClass: [String, Array, Object],
     /**
      * @zh 内容层是否开启 flex 布局
      * @en Whether to enable flex layout in the content layer
-     * @version 2.13.0
+     *
      */
     contentFlex: {
       type: Boolean,
@@ -255,7 +255,7 @@ export default defineComponent({
     /**
      * @zh （已废除）控制传递到子元素上的 Props。默认包括 disabled、error、size、 events 和 FormItem 上的额外属性。2.18.0 版本废除
      * @en (Repealed) Control the Props passed to the child element. The default includes disabled, error, size, events and additional attributes on FormItem. Version 2.18.0 deprecated
-     * @version 2.13.0
+     *
      */
     mergeProps: {
       type: [Boolean, Function] as PropType<
@@ -266,7 +266,7 @@ export default defineComponent({
     /**
      * @zh 设置标签 `Col` 组件的 flex 属性。设置时表单 `Col` 组件的 flex 属性会被设置为 `auto`。
      * @en Set the flex property of the label `Col` component. When set, the flex property of the form `Col` component will be set to `auto`.
-     * @version 2.13.0
+     *
      */
     labelColFlex: {
       type: [Number, String],
@@ -274,7 +274,7 @@ export default defineComponent({
     /**
      * @zh 是否显示表单控件的反馈图标
      * @en Whether to show the feedback icon for the form control
-     * @version 2.16.0
+     *
      */
     feedback: {
       type: Boolean,
@@ -283,7 +283,7 @@ export default defineComponent({
     /**
      * @zh 表单项标签渲染的元素
      * @en The element that the form item label renders
-     * @version 2.22.0
+     *
      */
     labelComponent: {
       type: String,
@@ -292,7 +292,7 @@ export default defineComponent({
     /**
      * @zh 表单项元素的属性
      * @en Attributes of the form item element
-     * @version 2.22.0
+     *
      */
     labelAttrs: Object,
   },

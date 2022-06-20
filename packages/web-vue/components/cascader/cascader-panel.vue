@@ -133,7 +133,7 @@ export default defineComponent({
     /**
      * @zh 数据懒加载函数，传入时开启懒加载功能
      * @en Data lazy loading function, open the lazy loading function when it is passed in
-     * @version 2.13.0
+     *
      */
     loadMore: {
       type: Function as PropType<
@@ -146,7 +146,7 @@ export default defineComponent({
     /**
      * @zh 自定义 `CascaderOption` 中的字段
      * @en Customize fields in `CascaderOption`
-     * @version 2.22.0
+     *
      */
     fieldNames: {
       type: Object as PropType<CascaderFieldNames>,
@@ -154,7 +154,7 @@ export default defineComponent({
     /**
      * @zh 用于确定选项键值得属性名
      * @en Used to determine the option key value attribute name
-     * @version 2.29.0
+     *
      */
     valueKey: {
       type: String,
@@ -163,7 +163,7 @@ export default defineComponent({
     /**
      * @zh 是否展开子菜单
      * @en whether to expand the submenu
-     * @version 2.29.0
+     *
      */
     expandChild: {
       type: Boolean,
@@ -207,7 +207,7 @@ export default defineComponent({
    * @zh 选项为空时的显示内容
    * @en Display content when the option is empty
    * @slot empty
-   * @version 2.23.0
+   *
    */
   setup(props, { emit, slots }) {
     const {

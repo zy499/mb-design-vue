@@ -142,7 +142,7 @@ export default defineComponent({
     /**
      * @zh 提示文字（当 value 为 undefined 时显示）
      * @en Prompt text (displayed when value is undefined )
-     * @version 2.28.0
+     *
      */
     placeholder: {
       type: String,

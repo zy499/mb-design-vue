@@ -39,7 +39,7 @@ export default defineComponent({
      * @zh 鼠标悬浮时存在底色
      * @en Whether to hide background when hover
      * @defaultValue true
-     * @version 2.7.0
+     *
      */
     hoverable: {
       type: Boolean,
@@ -48,7 +48,7 @@ export default defineComponent({
     /**
      * @zh 图标
      * @en icon
-     * @version 2.7.0
+     *
      */
     icon: Boolean,
     /**

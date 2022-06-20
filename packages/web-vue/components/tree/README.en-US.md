@@ -45,36 +45,36 @@ description: For content with many levels, such as folders, catalogs, and organi
 
 ### `<tree>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|size|Size|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`||
-|block-node|Whether the node occupies a row|`boolean`|`false`||
-|default-expand-all|Whether to expand the parent node by default|`boolean`|`true`||
-|multiple|Whether to support multiple selection|`boolean`|`false`||
-|checkable|Whether to add a checkbox before the node, function format is supported since `2.27.0`|`boolean\| ((    node: TreeNodeData,    info: {      level: number;      isLeaf: boolean;    }  ) => boolean)`|`false`||
-|selectable|Whether to support selection, function format is supported since `2.27.0`|`boolean\| ((    node: TreeNodeData,    info: {      level: number;      isLeaf: boolean;    }  ) => boolean)`|`true`||
-|check-strictly|Whether to cancel the parent-child node association|`boolean`|`false`||
-|checked-strategy|Customized backfill method <br/> all: return all selected nodes <br/> parent: return only parent node when both parent and child nodes are selected <br/> child: return only child nodes|`'all' \| 'parent' \| 'child'`|`'all'`||
-|default-selected-keys|Tree node selected by default|`Array<string \| number>`|`-`||
-|selected-keys **(v-model)**|Selected tree node|`Array<string \| number>`|`-`||
-|default-checked-keys|Tree node with checkbox selected by default|`Array<string \| number>`|`-`||
-|checked-keys **(v-model)**|Tree node with check box selected|`Array<string \| number>`|`-`||
-|default-expanded-keys|Nodes expanded by default|`Array<string \| number>`|`-`||
-|expanded-keys **(v-model)**|Expanded node|`Array<string \| number>`|`-`||
-|data|Pass in `data` to generate the corresponding tree structure|`TreeNodeData[]`|`[]`||
-|field-names|Specify the field name in the node data|`TreeFieldNames`|`-`||
-|show-line|Whether to display the connection line|`boolean`|`false`||
-|load-more|A callback for loading data asynchronously, returning a `Promise`|`(node: TreeNodeData) => Promise<void>`|`-`||
-|draggable|Whether it can be dragged|`boolean`|`false`||
-|allow-drop|Whether to allow release on a node when dragging|`(options: {  dropNode: TreeNodeData;  dropPosition: -1 \| 0 \| 1;}) => boolean`|`-`||
-|virtual-list-props|Pass virtual list properties, pass in this parameter to turn on virtual scrolling, [VirtualListProps](#virtuallistprops)|`VirtualListProps`|`-`||
-|default-expand-selected|Whether to expand the parent node of the selected node by default|`boolean`|`false`|2.9.0|
-|default-expand-checked|Whether to expand the parent node of the checked node by default|`boolean`|`false`|2.9.0|
-|auto-expand-parent|Whether to automatically expand the parent node of the expanded node|`boolean`|`true`|2.9.0|
-|half-checked-keys **(v-model)**|The keys of half checked. Only valid when checkable and checkStrictly|`Array<string \| number>`|`-`|2.19.0|
-|only-check-leaf|When enabled, checkedKeys is only for checked leaf nodes, and the status of the parent node is determined by the child node.(Only valid when checkable and checkStrictly is false)|`boolean`|`false`|2.21.0|
-|animation|Whether to enable expand transition animation|`boolean`|`true`|2.21.0|
-|action-on-node-click|The action triggered when the node is clicked|`'expand'`|`-`|2.27.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|size|Size|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`|
+|block-node|Whether the node occupies a row|`boolean`|`false`|
+|default-expand-all|Whether to expand the parent node by default|`boolean`|`true`|
+|multiple|Whether to support multiple selection|`boolean`|`false`|
+|checkable|Whether to add a checkbox before the node, function format is supported since `2.27.0`|`boolean\| ((    node: TreeNodeData,    info: {      level: number;      isLeaf: boolean;    }  ) => boolean)`|`false`|
+|selectable|Whether to support selection, function format is supported since `2.27.0`|`boolean\| ((    node: TreeNodeData,    info: {      level: number;      isLeaf: boolean;    }  ) => boolean)`|`true`|
+|check-strictly|Whether to cancel the parent-child node association|`boolean`|`false`|
+|checked-strategy|Customized backfill method <br/> all: return all selected nodes <br/> parent: return only parent node when both parent and child nodes are selected <br/> child: return only child nodes|`'all' \| 'parent' \| 'child'`|`'all'`|
+|default-selected-keys|Tree node selected by default|`Array<string \| number>`|`-`|
+|selected-keys **(v-model)**|Selected tree node|`Array<string \| number>`|`-`|
+|default-checked-keys|Tree node with checkbox selected by default|`Array<string \| number>`|`-`|
+|checked-keys **(v-model)**|Tree node with check box selected|`Array<string \| number>`|`-`|
+|default-expanded-keys|Nodes expanded by default|`Array<string \| number>`|`-`|
+|expanded-keys **(v-model)**|Expanded node|`Array<string \| number>`|`-`|
+|data|Pass in `data` to generate the corresponding tree structure|`TreeNodeData[]`|`[]`|
+|field-names|Specify the field name in the node data|`TreeFieldNames`|`-`|
+|show-line|Whether to display the connection line|`boolean`|`false`|
+|load-more|A callback for loading data asynchronously, returning a `Promise`|`(node: TreeNodeData) => Promise<void>`|`-`|
+|draggable|Whether it can be dragged|`boolean`|`false`|
+|allow-drop|Whether to allow release on a node when dragging|`(options: {  dropNode: TreeNodeData;  dropPosition: -1 \| 0 \| 1;}) => boolean`|`-`|
+|virtual-list-props|Pass virtual list properties, pass in this parameter to turn on virtual scrolling, [VirtualListProps](#virtuallistprops)|`VirtualListProps`|`-`|
+|default-expand-selected|Whether to expand the parent node of the selected node by default|`boolean`|`false`|
+|default-expand-checked|Whether to expand the parent node of the checked node by default|`boolean`|`false`|
+|auto-expand-parent|Whether to automatically expand the parent node of the expanded node|`boolean`|`true`|
+|half-checked-keys **(v-model)**|The keys of half checked. Only valid when checkable and checkStrictly|`Array<string \| number>`|`-`|
+|only-check-leaf|When enabled, checkedKeys is only for checked leaf nodes, and the status of the parent node is determined by the child node.(Only valid when checkable and checkStrictly is false)|`boolean`|`false`|
+|animation|Whether to enable expand transition animation|`boolean`|`true`|
+|action-on-node-click|The action triggered when the node is clicked|`'expand'`|`-`|
 ### `<tree>` Events
 
 |Event Name|Description|Parameters|
@@ -89,29 +89,29 @@ description: For content with many levels, such as folders, catalogs, and organi
 |drop|The node is released on a releasable target|data: `{ e: DragEvent; dragNode: TreeNodeData; dropNode: TreeNodeData; dropPosition: number; }`|
 ### `<tree>` Methods
 
-|Method|Description|Parameters|Return|version|
-|---|---|---|:---:|:---|
-|scrollIntoView|Virtual list scroll to an element|options: `{ index?: number; key?: number \| string; align: 'auto' \| 'top' \| 'bottom'}`|-||
-|getSelectedNodes|Get selected nodes|-|TreeNodeData[]|2.19.0|
-|getCheckedNodes|Get checked nodes. Supports passing in `checkedStrategy`, if not passed, the configuration of the component is taken.|options: ` checkedStrategy?: 'all' \| 'parent' \| 'child'; includeHalfChecked?: boolean; `|TreeNodeData[]|2.19.0|
-|getHalfCheckedNodes|Get half checked nodes|-|TreeNodeData[]|2.19.0|
-|getExpandedNodes|Get expanded nodes|-|TreeNodeData[]|2.19.0|
-|checkAll|Set the checkbox state of all nodes|checked: ` boolean `|-|2.20.0|
-|checkNode|Sets the checkbox state of the specified node|key: ` TreeNodeKey \| TreeNodeKey[] `<br>checked: ` boolean `<br>onlyCheckLeaf: ` boolean `|-|2.20.0，onlyCheckLeaf from 2.21.0|
-|selectAll|Set the selected state of all nodes|selected: ` boolean `|-|2.20.0|
-|selectNode|Sets the selected state of the specified node|key: ` TreeNodeKey \| TreeNodeKey[] `<br>selected: ` boolean `|-|2.20.0|
-|expandAll|Set the expanded state of all nodes|expanded: ` boolean `|-|2.20.0|
-|expandNode|Sets the expanded state of the specified node|key: ` TreeNodeKey \| TreeNodeKey[] `<br>expanded: ` boolean `|-|2.20.0|
+|Method|Description|Parameters|Return|
+|---|---|---|:---:|
+|scrollIntoView|Virtual list scroll to an element|options: `{ index?: number; key?: number \| string; align: 'auto' \| 'top' \| 'bottom'}`|-|
+|getSelectedNodes|Get selected nodes|-|TreeNodeData[]|
+|getCheckedNodes|Get checked nodes. Supports passing in `checkedStrategy`, if not passed, the configuration of the component is taken.|options: ` checkedStrategy?: 'all' \| 'parent' \| 'child'; includeHalfChecked?: boolean; `|TreeNodeData[]|
+|getHalfCheckedNodes|Get half checked nodes|-|TreeNodeData[]|
+|getExpandedNodes|Get expanded nodes|-|TreeNodeData[]|
+|checkAll|Set the checkbox state of all nodes|checked: ` boolean `|-|
+|checkNode|Sets the checkbox state of the specified node|key: ` TreeNodeKey \| TreeNodeKey[] `<br>checked: ` boolean `<br>onlyCheckLeaf: ` boolean `|-|
+|selectAll|Set the selected state of all nodes|selected: ` boolean `|-|
+|selectNode|Sets the selected state of the specified node|key: ` TreeNodeKey \| TreeNodeKey[] `<br>selected: ` boolean `|-|
+|expandAll|Set the expanded state of all nodes|expanded: ` boolean `|-|
+|expandNode|Sets the expanded state of the specified node|key: ` TreeNodeKey \| TreeNodeKey[] `<br>expanded: ` boolean `|-|
 ### `<tree>` Slots
 
-|Slot Name|Description|Parameters|version|
-|---|---|---|:---|
-|title|Title|-||
-|extra|Render additional node content|-||
-|drag-icon|Custom drag icon|node: `TreeNodeData`||
-|loading-icon|Custom loading icon|-||
-|switcher-icon|Custom switcher icon|-||
-|icon|Custom node icon|node: `TreeNodeData`|2.18.0|
+|Slot Name|Description|Parameters|
+|---|---|---|
+|title|Title|-|
+|extra|Render additional node content|-|
+|drag-icon|Custom drag icon|node: `TreeNodeData`|
+|loading-icon|Custom loading icon|-|
+|switcher-icon|Custom switcher icon|-|
+|icon|Custom node icon|node: `TreeNodeData`|
 
 
 

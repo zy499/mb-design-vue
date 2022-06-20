@@ -21,23 +21,23 @@ description: Used to enter the label.
 
 ### `<input-tag>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|model-value **(v-model)**|Value|`(string \| number \| TagData)[]`|`-`||
-|default-value|Default value (uncontrolled state)|`(string \| number \| TagData)[]`|`[]`||
-|input-value **(v-model)**|The value of the input|`string`|`-`||
-|default-input-value|The default value of the input (uncontrolled state)|`string`|`''`||
-|placeholder|Placeholder|`string`|`-`||
-|disabled|Whether to disable|`boolean`|`false`||
-|error|Whether it is an error state|`boolean`|`false`||
-|readonly|Whether it is read-only mode|`boolean`|`false`||
-|allow-clear|Whether to allow clear|`boolean`|`false`||
-|size|The size of the input|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`||
-|max-tag-count|The maximum number of tags displayed, `0` means unlimited|`number`|`0`||
-|retain-input-value|Whether to keep the content of the input box|`boolean \| { create?: boolean; blur?: boolean }`|`false`||
-|format-tag|Format tag content|`(data: TagData) => string`|`-`||
-|unique-value|Whether to create only unique values|`boolean`|`false`|2.15.0|
-|field-names|Customize fields in `TagData`|`InputTagFieldNames`|`-`|2.22.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|model-value **(v-model)**|Value|`(string \| number \| TagData)[]`|`-`|
+|default-value|Default value (uncontrolled state)|`(string \| number \| TagData)[]`|`[]`|
+|input-value **(v-model)**|The value of the input|`string`|`-`|
+|default-input-value|The default value of the input (uncontrolled state)|`string`|`''`|
+|placeholder|Placeholder|`string`|`-`|
+|disabled|Whether to disable|`boolean`|`false`|
+|error|Whether it is an error state|`boolean`|`false`|
+|readonly|Whether it is read-only mode|`boolean`|`false`|
+|allow-clear|Whether to allow clear|`boolean`|`false`|
+|size|The size of the input|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`|
+|max-tag-count|The maximum number of tags displayed, `0` means unlimited|`number`|`0`|
+|retain-input-value|Whether to keep the content of the input box|`boolean \| { create?: boolean; blur?: boolean }`|`false`|
+|format-tag|Format tag content|`(data: TagData) => string`|`-`|
+|unique-value|Whether to create only unique values|`boolean`|`false`|
+|field-names|Customize fields in `TagData`|`InputTagFieldNames`|`-`|
 ### `<input-tag>` Events
 
 |Event Name|Description|Parameters|

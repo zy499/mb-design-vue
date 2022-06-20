@@ -183,27 +183,27 @@ export default defineComponent({
   /**
    * @zh 分页按钮
    * @en Page item
-   * @version 2.9.0
+   *
    * @slot page-item
    * @binding {number} page The page number of the paging button
    */
   /**
    * @zh 分页按钮（步）
    * @en Page item (step)
-   * @version 2.9.0
+   *
    * @slot page-item-step
    * @binding {'previous'|'next'} type The type of page item step
    */
   /**
    * @zh 分页按钮（省略）
    * @en Page item (ellipsis)
-   * @version 2.9.0
+   *
    * @slot page-item-ellipsis
    */
   /**
    * @zh 总数
    * @en Total
-   * @version 2.9.0
+   *
    * @slot total
    * @binding {number} total
    */

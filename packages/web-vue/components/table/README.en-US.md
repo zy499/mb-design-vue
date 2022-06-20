@@ -120,6 +120,13 @@ description: It is used for data collection, display, analysis and processing, a
 |Method|Description|Parameters|Return|version|
 |---|---|---|:---:|:---|
 |selectAll|Set select all state|checked: ` boolean `|-|2.22.0|
+|select|Set row selector state|rowKey: ` string \| string[] `<br>checked: ` boolean `|-|2.31.0|
+|expandAll|Set all expanded state|checked: ` boolean `|-|2.31.0|
+|expand|Set select all state|rowKey: ` string \| string[] `<br>checked: ` boolean `|-|2.31.0|
+|resetFilters|Reset the filter for columns|dataIndex: ` string \| string[] `|-|2.31.0|
+|clearFilters|Clear the filter for columns|dataIndex: ` string \| string[] `|-|2.31.0|
+|resetSorters|Reset the order of columns|-|-|2.31.0|
+|clearSorters|Clear the order of columns|-|-||
 ### `<table>` Slots
 
 |Slot Name|Description|Parameters|version|
@@ -144,30 +151,30 @@ description: It is used for data collection, display, analysis and processing, a
 
 ### `<table-column>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|data-index|Identifies the column information, corresponding to the data in TableData|`string`|`-`||
-|title|Column title|`string`|`-`||
-|width|Column width|`number`|`-`||
-|align|Alignment direction|`TableColumnData['align']`|`-`||
-|fixed|Fixed position|`TableColumnData['fixed']`|`-`||
-|ellipsis|Whether to display as omitted|`boolean`|`false`||
-|sortable|Sorting related options|`TableSortable`|`-`||
-|filterable|Filter related options|`TableFilterable`|`-`||
-|cell-style|Custom cell style|`CSSProperties`|`-`|2.11.0|
-|header-cell-style|Custom cell style|`CSSProperties`|`-`|2.29.0|
-|body-cell-style|Custom cell style|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|2.29.0|
-|summary-cell-style|Customize summary column cell styles|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|2.30.0|
-|index|index for manually specifying option. Manual specification is no longer required after version 2.26.0|`number`|`-`|2.20.2|
-|tooltip|Whether to show text hints when omitted|`boolean\|object`|`false`|2.26.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|data-index|Identifies the column information, corresponding to the data in TableData|`string`|`-`|
+|title|Column title|`string`|`-`|
+|width|Column width|`number`|`-`|
+|align|Alignment direction|`TableColumnData['align']`|`-`|
+|fixed|Fixed position|`TableColumnData['fixed']`|`-`|
+|ellipsis|Whether to display as omitted|`boolean`|`false`|
+|sortable|Sorting related options|`TableSortable`|`-`|
+|filterable|Filter related options|`TableFilterable`|`-`|
+|cell-style|Custom cell style|`CSSProperties`|`-`|
+|header-cell-style|Custom cell style|`CSSProperties`|`-`|
+|body-cell-style|Custom cell style|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|
+|summary-cell-style|Customize summary column cell styles|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|
+|index|index for manually specifying option. Manual specification is no longer required after version 2.26.0|`number`|`-`|
+|tooltip|Whether to show text hints when omitted|`boolean\|object`|`false`|
 ### `<table-column>` Slots
 
-|Slot Name|Description|Parameters|version|
-|---|---|---|:---|
-|filter-icon|Title|-|2.23.0|
-|filter-content|Title|filterValue: `string[]`<br>setFilterValue: `(filterValue: string[]) => void`<br>handleFilterConfirm: `(event: Event) => void`<br>handleFilterReset: `(event: Event) => void`|2.23.0|
-|title|Title|-||
-|cell|Cell|record: `TableData`<br>column: `TableColumnData`<br>rowIndex: `number`||
+|Slot Name|Description|Parameters|
+|---|---|---|
+|filter-icon|Title|-|
+|filter-content|Title|filterValue: `string[]`<br>setFilterValue: `(filterValue: string[]) => void`<br>handleFilterConfirm: `(event: Event) => void`<br>handleFilterReset: `(event: Event) => void`|
+|title|Title|-|
+|cell|Cell|record: `TableData`<br>column: `TableColumnData`<br>rowIndex: `number`|
 
 
 
@@ -182,13 +189,13 @@ type Sorter = { filed: string; direction: 'ascend' | 'descend' } | Record<string
 
 ### TableData
 
-|Name|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|key|The key of the data row|`string`|`-`||
-|expand|Expand row content|`string \| RenderFunction`|`-`||
-|children|Sub data|`TableData[]`|`-`||
-|disabled|Whether to disable the row selector|`boolean`|`false`||
-|isLeaf|Whether it is a leaf node|`boolean`|`false`|2.13.0|
+|Name|Description|Type|Default|
+|---|---|---|:---:|
+|key|The key of the data row|`string`|`-`|
+|expand|Expand row content|`string \| RenderFunction`|`-`|
+|children|Sub data|`TableData[]`|`-`|
+|disabled|Whether to disable the row selector|`boolean`|`false`|
+|isLeaf|Whether it is a leaf node|`boolean`|`false`|
 
 
 
@@ -214,41 +221,41 @@ type Sorter = { filed: string; direction: 'ascend' | 'descend' } | Record<string
 
 ### TableFilterable
 
-|Name|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|filters|Filter data|`TableFilterData[]`|`-`||
-|filter|Filter function|`(filteredValue: string[], record: TableData) => boolean`|`-`||
-|multiple|Whether to support multiple selection|`boolean`|`false`||
-|filteredValue|Filter value|`string[]`|`-`||
-|defaultFilteredValue|Default filter value|`string[]`|`-`||
-|renderContent|The content of filter box|`(data: {    filterValue: string[];    setFilterValue: (filterValue: string[]) => void;    handleFilterConfirm: (event: Event) => void;    handleFilterReset: (event: Event) => void;  }) => VNodeChild`|`-`||
-|icon|Filter icon for button|`RenderFunction`|`-`||
-|triggerProps|Pop-up box configuration of filter box|`TriggerProps`|`-`||
-|alignLeft|Whether the filter icon is aligned to the left|`boolean`|`false`|2.13.0|
+|Name|Description|Type|Default|
+|---|---|---|:---:|
+|filters|Filter data|`TableFilterData[]`|`-`|
+|filter|Filter function|`(filteredValue: string[], record: TableData) => boolean`|`-`|
+|multiple|Whether to support multiple selection|`boolean`|`false`|
+|filteredValue|Filter value|`string[]`|`-`|
+|defaultFilteredValue|Default filter value|`string[]`|`-`|
+|renderContent|The content of filter box|`(data: {    filterValue: string[];    setFilterValue: (filterValue: string[]) => void;    handleFilterConfirm: (event: Event) => void;    handleFilterReset: (event: Event) => void;  }) => VNodeChild`|`-`|
+|icon|Filter icon for button|`RenderFunction`|`-`|
+|triggerProps|Pop-up box configuration of filter box|`TriggerProps`|`-`|
+|alignLeft|Whether the filter icon is aligned to the left|`boolean`|`false`|
 
 
 
 ### TableColumnData
 
-|Name|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|dataIndex|The identifier of the column information, corresponding to the data in `TableData`|`string`|`-`||
-|title|Column header|`string \| RenderFunction`|`-`||
-|width|Column width|`number`|`-`||
-|align|Alignment direction|`'left' \| 'center' \| 'right'`|`-`||
-|fixed|Fixed position|`'left' \| 'right'`|`-`||
-|ellipsis|Whether to show ellipsis|`boolean`|`false`||
-|tooltip|Whether to show a text hint when an ellipsis is displayed. Can be filled in tooltip component properties|`boolean \| Record<string, any>`|`-`|2.26.0|
-|sortable|Sorting related options|`TableSortable`|`-`||
-|filterable|Filter related options|`TableFilterable`|`-`||
-|children|Header sub-data, used for header grouping|`TableColumnData[]`|`-`||
-|cellStyle|Custom cell style|`CSSProperties`|`-`|2.11.0|
-|headerCellStyle|Custom header cell style|`CSSProperties`|`-`|2.29.0|
-|bodyCellStyle|Custom body cell style|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|2.29.0|
-|summaryCellStyle|Custom summary cell style|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|2.30.0|
-|render|Customize the rendering of column cells|`(data: {    record: TableData;    column: TableColumnData;    rowIndex: number;  }) => VNodeChild`|`-`||
-|slotName|Sets the name of the render slot for the current column. Slot parameters are the same as #cell|`string`|`-`|2.18.0|
-|titleSlotName|Set the name of the render slot for the header of the current column|`string`|`-`|2.23.0|
+|Name|Description|Type|Default|
+|---|---|---|:---:|
+|dataIndex|The identifier of the column information, corresponding to the data in `TableData`|`string`|`-`|
+|title|Column header|`string \| RenderFunction`|`-`|
+|width|Column width|`number`|`-`|
+|align|Alignment direction|`'left' \| 'center' \| 'right'`|`-`|
+|fixed|Fixed position|`'left' \| 'right'`|`-`|
+|ellipsis|Whether to show ellipsis|`boolean`|`false`|
+|tooltip|Whether to show a text hint when an ellipsis is displayed. Can be filled in tooltip component properties|`boolean \| Record<string, any>`|`-`|
+|sortable|Sorting related options|`TableSortable`|`-`|
+|filterable|Filter related options|`TableFilterable`|`-`|
+|children|Header sub-data, used for header grouping|`TableColumnData[]`|`-`|
+|cellStyle|Custom cell style|`CSSProperties`|`-`|
+|headerCellStyle|Custom header cell style|`CSSProperties`|`-`|
+|bodyCellStyle|Custom body cell style|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|
+|summaryCellStyle|Custom summary cell style|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|
+|render|Customize the rendering of column cells|`(data: {    record: TableData;    column: TableColumnData;    rowIndex: number;  }) => VNodeChild`|`-`|
+|slotName|Sets the name of the render slot for the current column. Slot parameters are the same as #cell|`string`|`-`|
+|titleSlotName|Set the name of the render slot for the header of the current column|`string`|`-`|
 
 
 
@@ -265,16 +272,16 @@ type Sorter = { filed: string; direction: 'ascend' | 'descend' } | Record<string
 
 ### TableRowSelection
 
-|Name|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|type|The type of row selector|`'checkbox' \| 'radio'`|`-`||
-|selectedRowKeys|Selected row (controlled mode)|`string[]`|`-`||
-|defaultSelectedRowKeys|The selected row by default (uncontrolled mode)|`string[]`|`-`||
-|showCheckedAll|Whether to show the select all selector|`boolean`|`false`||
-|title|Column title|`string`|`-`||
-|width|Column width|`number`|`-`||
-|fixed|Is it fixed|`boolean`|`false`||
-|checkStrictly|Whether to enable strict selection mode (default: true)|`boolean`|`false`|2.29.0|
+|Name|Description|Type|Default|
+|---|---|---|:---:|
+|type|The type of row selector|`'checkbox' \| 'radio'`|`-`|
+|selectedRowKeys|Selected row (controlled mode)|`string[]`|`-`|
+|defaultSelectedRowKeys|The selected row by default (uncontrolled mode)|`string[]`|`-`|
+|showCheckedAll|Whether to show the select all selector|`boolean`|`false`|
+|title|Column title|`string`|`-`|
+|width|Column width|`number`|`-`|
+|fixed|Is it fixed|`boolean`|`false`|
+|checkStrictly|Whether to enable strict selection mode (default: true)|`boolean`|`false`|
 
 
 

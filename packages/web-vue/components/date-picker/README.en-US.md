@@ -52,31 +52,31 @@ description: Choose a date. Support year, month, week, day type, support range s
 
 ### `Common` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|locale|Internationalization configuration, used to cover the locale file in the `datePicker` field|`Record<string, any>`|`-`||
-|hide-trigger|There is no trigger element, only the selection panel is displayed|`boolean`|`false`||
-|allow-clear|Whether to allow clear|`boolean`|`true`||
-|readonly|Whether it is read-only|`boolean`|`false`||
-|error|Whether it is an error state|`boolean`|`false`||
-|size|The size of the date picker|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`||
-|shortcuts|Quick selection of preset time range|`ShortcutType[]`|`[]`||
-|shortcuts-position|The position of the preset range on the panel, which is placed at the bottom by default, and the side is generally used for scenes with a large number of preset times|`'left' \| 'bottom' \| 'right'`|`'bottom'`||
-|position|The position of the pop-up box|`'top' \| 'tl' \| 'tr' \| 'bottom' \| 'bl' \| 'br'`|`'bl'`||
-|popup-visible|Control the open or closed state of the pop-up box|`boolean`|`-`||
-|default-popup-visible|The default pop-up box is open or closed|`boolean`|`false`||
-|trigger-props|You can pass in the parameters of the `Trigger` component|`Record<string, unknown>`|`-`||
-|unmount-on-close|Whether to destroy the DOM structure when hiding|`boolean`|`false`||
-|placeholder|Prompt copy|`string`|`-`||
-|disabled|Whether to disable|`boolean`|`false`||
-|disabled-date|Unselectable date|`(current?: Date) => boolean`|`-`||
-|disabled-time|Unselectable time|`(current: Date) => DisabledTimeProps`|`-`||
-|picker-value **(v-model)**|Date displayed on the panel|`Date \| string \| number`|`-`||
-|default-picker-value|The date displayed on the panel by default|`Date \| string \| number`|`-`||
-|popup-container|Mount container for pop-up box|`string \| HTMLElement \| null \| undefined`|`-`||
-|value-format|The format of the value, valid for `value` `defaultValue` `pickerValue` `defaultPickerValue` and the return value in the event, supports setting as timestamp, Date and string (refer to [String parsing format](#string-parsing-format) ). If not specified, it will be formatted as a string, in the same format as `format`.|`'timestamp' \| 'Date' \| string`|`-`|2.16.0|
-|preview-shortcut|Whether to preview the result of the shortcut|`boolean`|`true`|2.28.0|
-|show-confirm-btn|Whether to show the confirm button, always show when `showTime = true`.|`boolean`|`false`|2.29.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|locale|Internationalization configuration, used to cover the locale file in the `datePicker` field|`Record<string, any>`|`-`|
+|hide-trigger|There is no trigger element, only the selection panel is displayed|`boolean`|`false`|
+|allow-clear|Whether to allow clear|`boolean`|`true`|
+|readonly|Whether it is read-only|`boolean`|`false`|
+|error|Whether it is an error state|`boolean`|`false`|
+|size|The size of the date picker|`'mini' \| 'small' \| 'medium' \| 'large'`|`'medium'`|
+|shortcuts|Quick selection of preset time range|`ShortcutType[]`|`[]`|
+|shortcuts-position|The position of the preset range on the panel, which is placed at the bottom by default, and the side is generally used for scenes with a large number of preset times|`'left' \| 'bottom' \| 'right'`|`'bottom'`|
+|position|The position of the pop-up box|`'top' \| 'tl' \| 'tr' \| 'bottom' \| 'bl' \| 'br'`|`'bl'`|
+|popup-visible|Control the open or closed state of the pop-up box|`boolean`|`-`|
+|default-popup-visible|The default pop-up box is open or closed|`boolean`|`false`|
+|trigger-props|You can pass in the parameters of the `Trigger` component|`Record<string, unknown>`|`-`|
+|unmount-on-close|Whether to destroy the DOM structure when hiding|`boolean`|`false`|
+|placeholder|Prompt copy|`string`|`-`|
+|disabled|Whether to disable|`boolean`|`false`|
+|disabled-date|Unselectable date|`(current?: Date) => boolean`|`-`|
+|disabled-time|Unselectable time|`(current: Date) => DisabledTimeProps`|`-`|
+|picker-value **(v-model)**|Date displayed on the panel|`Date \| string \| number`|`-`|
+|default-picker-value|The date displayed on the panel by default|`Date \| string \| number`|`-`|
+|popup-container|Mount container for pop-up box|`string \| HTMLElement \| null \| undefined`|`-`|
+|value-format|The format of the value, valid for `value` `defaultValue` `pickerValue` `defaultPickerValue` and the return value in the event, supports setting as timestamp, Date and string (refer to [String parsing format](#string-parsing-format) ). If not specified, it will be formatted as a string, in the same format as `format`.|`'timestamp' \| 'Date' \| string`|`-`|
+|preview-shortcut|Whether to preview the result of the shortcut|`boolean`|`true`|
+|show-confirm-btn|Whether to show the confirm button, always show when `showTime = true`.|`boolean`|`false`|
 ### `Common` Events
 
 |Event Name|Description|Parameters|
@@ -105,16 +105,16 @@ description: Choose a date. Support year, month, week, day type, support range s
 
 ### `<date-picker>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|model-value **(v-model)**|Value|`Date \| string \| number`|`-`||
-|default-value|Default value|`Date \| string \| number`|`-`||
-|format|Display the format of the date, refer to [String Parsing Format](#string-parsing-format)|`string \| ((current: Date) => string)`|`-`||
-|day-start-of-week|The first day of the week starts on the day of the week, 0-Sunday, 1-Monday, and so on.|`0 \| 1 \| 2 \| 3 \| 4 \| 5 \| 6`|`0`|2-6 from 2.21.0|
-|show-time|Whether to increase time selection|`boolean`|`false`||
-|timepicker-props|Time display parameters, refer to [TimePickerProps](/vue/component/time-picker)|`Partial<TimePickerProps>`|`-`||
-|disabled-time|Unselectable time|`(current: Date) => DisabledTimeProps`|`-`||
-|show-now-btn|Whether to display `showTime`, select the button of the current time|`boolean`|`true`||
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|model-value **(v-model)**|Value|`Date \| string \| number`|`-`|
+|default-value|Default value|`Date \| string \| number`|`-`|
+|format|Display the format of the date, refer to [String Parsing Format](#string-parsing-format)|`string \| ((current: Date) => string)`|`-`|
+|day-start-of-week|The first day of the week starts on the day of the week, 0-Sunday, 1-Monday, and so on.|`0 \| 1 \| 2 \| 3 \| 4 \| 5 \| 6`|`0`|
+|show-time|Whether to increase time selection|`boolean`|`false`|
+|timepicker-props|Time display parameters, refer to [TimePickerProps](/vue/component/time-picker)|`Partial<TimePickerProps>`|`-`|
+|disabled-time|Unselectable time|`(current: Date) => DisabledTimeProps`|`-`|
+|show-now-btn|Whether to display `showTime`, select the button of the current time|`boolean`|`true`|
 
 
 
@@ -143,49 +143,49 @@ description: Choose a date. Support year, month, week, day type, support range s
 
 ### `<quarter-picker>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|model-value **(v-model)**|Value|`Date \| string \| number`|`-`||
-|default-value|Default value|`Date \| string \| number`|`-`||
-|format|Display the format of the date, refer to [String Parsing Format](#String Parsing Format)|`string`|`'YYYY-[Q]Q'`||
-|value-format|The format of the value, valid for `value` `defaultValue` `pickerValue` `defaultPickerValue` and the return value in the event, supports setting as timestamp, Date and string (refer to [String parsing format](#string-parsing-format) ).|`string`|`'YYYY-MM'`|2.16.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|model-value **(v-model)**|Value|`Date \| string \| number`|`-`|
+|default-value|Default value|`Date \| string \| number`|`-`|
+|format|Display the format of the date, refer to [String Parsing Format](#String Parsing Format)|`string`|`'YYYY-[Q]Q'`|
+|value-format|The format of the value, valid for `value` `defaultValue` `pickerValue` `defaultPickerValue` and the return value in the event, supports setting as timestamp, Date and string (refer to [String parsing format](#string-parsing-format) ).|`string`|`'YYYY-MM'`|
 
 
 
 
 ### `<week-picker>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|model-value **(v-model)**|Value|`Date \| string \| number`|`-`||
-|default-value|Default value|`Date \| string \| number`|`-`||
-|format|Display the format of the date, refer to [String Parsing Format](#String Parsing Format)|`string`|`'gggg-wo'`||
-|value-format|The format of the value, valid for `value` `defaultValue` `pickerValue` `defaultPickerValue` and the return value in the event, supports setting as timestamp, Date and string (refer to [String parsing format](#string-parsing-format) ).|`string`|`'YYYY-MM-DD'`|2.16.0|
-|day-start-of-week|The first day of the week starts on the day of the week, 0-Sunday, 1-Monday, and so on.|`0 \| 1 \| 2 \| 3 \| 4 \| 5 \| 6`|`0`|2-6 from 2.21.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|model-value **(v-model)**|Value|`Date \| string \| number`|`-`|
+|default-value|Default value|`Date \| string \| number`|`-`|
+|format|Display the format of the date, refer to [String Parsing Format](#String Parsing Format)|`string`|`'gggg-wo'`|
+|value-format|The format of the value, valid for `value` `defaultValue` `pickerValue` `defaultPickerValue` and the return value in the event, supports setting as timestamp, Date and string (refer to [String parsing format](#string-parsing-format) ).|`string`|`'YYYY-MM-DD'`|
+|day-start-of-week|The first day of the week starts on the day of the week, 0-Sunday, 1-Monday, and so on.|`0 \| 1 \| 2 \| 3 \| 4 \| 5 \| 6`|`0`|
 
 
 
 
 ### `<range-picker>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|mode|Type of range selector|`'date' \| 'year' \| 'quarter' \| 'month' \| 'week'`|`'date'`||
-|model-value **(v-model)**|Value|`(Date \| string \| number)[]`|`-`||
-|default-value|Default value|`(Date \| string \| number)[]`|`-`||
-|picker-value|The date displayed in the default panel|`(Date \| string \| number)[]`|`-`||
-|default-picker-value|Date displayed on the panel|`(Date \| string \| number)[]`|`-`||
-|disabled|Whether to disable|`boolean \| boolean[]`|`false`||
-|day-start-of-week|The first day of the week starts on the day of the week, 0-Sunday, 1-Monday, and so on.|`0 \| 1 \| 2 \| 3 \| 4 \| 5 \| 6`|`0`|2-6 from 2.21.0|
-|format|Display the format of the date, refer to [String Parsing Format](#string-parsing-format)|`string`|`-`||
-|value-format|The format of the value, valid for `value` `defaultValue` `pickerValue` `defaultPickerValue` and the return value in the event, supports setting as timestamp, Date and string (refer to [String parsing format](#string-parsing-format) ). If not specified, it will be formatted as a string, in the same format as `format`.|`'timestamp' \| 'Date' \| string`|`-`|2.16.0|
-|show-time|Whether to increase time selection|`boolean`|`false`||
-|time-picker-props|Time display parameters, refer to [TimePickerProps](/vue/component/time-picker)|`Partial<TimePickerProps>`|`-`||
-|placeholder|Prompt copy|`string[]`|`-`||
-|disabled-date|Non-selectable date|`(current: Date, type: 'start' \| 'end') => boolean`|`-`||
-|disabled-time|Unselectable time|`(current: Date, type: 'start' \| 'end') => DisabledTimeProps`|`-`||
-|separator|The segmentation symbol in the input box of the range selector|`string`|`-`||
-|exchange-time|Whether the time will be exchanged, by default time will affect and participate in the ordering of start and end values, if you want to fix the time order, you can turn it off.|`boolean`|`true`|2.25.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|mode|Type of range selector|`'date' \| 'year' \| 'quarter' \| 'month' \| 'week'`|`'date'`|
+|model-value **(v-model)**|Value|`(Date \| string \| number)[]`|`-`|
+|default-value|Default value|`(Date \| string \| number)[]`|`-`|
+|picker-value|The date displayed in the default panel|`(Date \| string \| number)[]`|`-`|
+|default-picker-value|Date displayed on the panel|`(Date \| string \| number)[]`|`-`|
+|disabled|Whether to disable|`boolean \| boolean[]`|`false`|
+|day-start-of-week|The first day of the week starts on the day of the week, 0-Sunday, 1-Monday, and so on.|`0 \| 1 \| 2 \| 3 \| 4 \| 5 \| 6`|`0`|
+|format|Display the format of the date, refer to [String Parsing Format](#string-parsing-format)|`string`|`-`|
+|value-format|The format of the value, valid for `value` `defaultValue` `pickerValue` `defaultPickerValue` and the return value in the event, supports setting as timestamp, Date and string (refer to [String parsing format](#string-parsing-format) ). If not specified, it will be formatted as a string, in the same format as `format`.|`'timestamp' \| 'Date' \| string`|`-`|
+|show-time|Whether to increase time selection|`boolean`|`false`|
+|time-picker-props|Time display parameters, refer to [TimePickerProps](/vue/component/time-picker)|`Partial<TimePickerProps>`|`-`|
+|placeholder|Prompt copy|`string[]`|`-`|
+|disabled-date|Non-selectable date|`(current: Date, type: 'start' \| 'end') => boolean`|`-`|
+|disabled-time|Unselectable time|`(current: Date, type: 'start' \| 'end') => DisabledTimeProps`|`-`|
+|separator|The segmentation symbol in the input box of the range selector|`string`|`-`|
+|exchange-time|Whether the time will be exchanged, by default time will affect and participate in the ordering of start and end values, if you want to fix the time order, you can turn it off.|`boolean`|`true`|
 ### `<range-picker>` Events
 
 |Event Name|Description|Parameters|

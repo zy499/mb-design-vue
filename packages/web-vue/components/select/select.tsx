@@ -271,7 +271,7 @@ export default defineComponent({
     /**
      * @zh 自定义值中不存在的选项
      * @en Options that do not exist in custom values
-     * @version 2.10.0
+     *
      */
     fallbackOption: {
       type: [Boolean, Function] as PropType<
@@ -285,7 +285,7 @@ export default defineComponent({
     /**
      * @zh 是否在下拉菜单中显示额外选项
      * @en Options that do not exist in custom values
-     * @version 2.10.0
+     *
      */
     showExtraOptions: {
       type: Boolean,
@@ -294,7 +294,7 @@ export default defineComponent({
     /**
      * @zh 用于确定选项键值得属性名
      * @en Used to determine the option key value attribute name
-     * @version 2.18.0
+     *
      */
     valueKey: {
       type: String,
@@ -303,7 +303,7 @@ export default defineComponent({
     /**
      * @zh 触发搜索事件的延迟时间
      * @en Delay time to trigger search event
-     * @version 2.18.0
+     *
      */
     searchDelay: {
       type: Number,
@@ -312,7 +312,7 @@ export default defineComponent({
     /**
      * @zh 多选时最多的选择个数
      * @en Maximum number of choices in multiple choice
-     * @version 2.18.0
+     *
      */
     limit: {
       type: Number,
@@ -321,7 +321,7 @@ export default defineComponent({
     /**
      * @zh 自定义 `SelectOptionData` 中的字段
      * @en Customize fields in `SelectOptionData`
-     * @version 2.22.0
+     *
      */
     fieldNames: {
       type: Object as PropType<SelectFieldNames>,
@@ -389,7 +389,7 @@ export default defineComponent({
      * @zh 多选超出限制时触发
      * @en Triggered when multiple selection exceeds the limit
      * @param value
-     * @version 2.18.0
+     *
      */
     'exceedLimit': (
       value: string | number | Record<string, any> | undefined,
@@ -422,31 +422,31 @@ export default defineComponent({
    * @zh 选择框的箭头图标
    * @en Arrow icon for select box
    * @slot arrow-icon
-   * @version 2.16.0
+   *
    */
   /**
    * @zh 选择框的加载中图标
    * @en Loading icon for select box
    * @slot loading-icon
-   * @version 2.16.0
+   *
    */
   /**
    * @zh 选择框的搜索图标
    * @en Search icon for select box
    * @slot search-icon
-   * @version 2.16.0
+   *
    */
   /**
    * @zh 前缀元素
    * @en Prefix
    * @slot prefix
-   * @version 2.22.0
+   *
    */
   /**
    * @zh 自定义触发元素
    * @en Custom trigger element
    * @slot trigger
-   * @version 2.22.0
+   *
    */
   setup(props, { slots, emit, attrs }) {
     // props

@@ -85,7 +85,7 @@ export default defineComponent({
    * @slot radio
    * @binding {boolean} checked
    * @binding {boolean} disabled
-   * @version 2.18.0
+   *
    */
   setup(props, { emit, slots }) {
     const prefixCls = getPrefixCls('radio');

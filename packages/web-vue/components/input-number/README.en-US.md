@@ -47,13 +47,13 @@ description: Only input boxes in numeric format are allowed.
 |model-event|Trigger event for `v-model`|`'change' \| 'input'`|`'change'`|
 ### `<input-number>` Events
 
-|Event Name|Description|Parameters|version|
-|---|---|---|:---|
-|change|Triggered when the value changes|value: `union`<br>ev: `Event`||
-|focus|Triggered when the input gets focus|ev: `FocusEvent`||
-|blur|Triggered when the input box loses focus|ev: `FocusEvent`||
-|clear|Triggered when the user clicks the clear button|ev: `Event`|2.23.0|
-|input|Triggered on input|value: `union`<br>inputValue: `string`<br>ev: `Event`|2.27.0|
+|Event Name|Description|Parameters|
+|---|---|---|
+|change|Triggered when the value changes|value: `union`<br>ev: `Event`|
+|focus|Triggered when the input gets focus|ev: `FocusEvent`|
+|blur|Triggered when the input box loses focus|ev: `FocusEvent`|
+|clear|Triggered when the user clicks the clear button|ev: `Event`|
+|input|Triggered on input|value: `union`<br>inputValue: `string`<br>ev: `Event`|
 ### `<input-number>` Methods
 
 |Method|Description|Parameters|Return|

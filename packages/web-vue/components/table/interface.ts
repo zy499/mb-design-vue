@@ -36,7 +36,7 @@ export interface TableData {
   /**
    * @zh 是否是叶子节点
    * @en Whether it is a leaf node
-   * @version 2.13.0
+   *
    */
   isLeaf?: boolean;
 
@@ -144,7 +144,7 @@ export interface TableFilterable {
   /**
    * @zh 筛选图标是否左对齐
    * @en Whether the filter icon is aligned to the left
-   * @version 2.13.0
+   *
    */
   alignLeft?: boolean;
 
@@ -185,7 +185,7 @@ export interface TableColumnData {
   /**
    * @zh 是否在显示省略号时显示文本提示。可填入 tooltip 组件属性
    * @en Whether to show a text hint when an ellipsis is displayed. Can be filled in tooltip component properties
-   * @version 2.26.0
+   *
    */
   tooltip?: boolean | Record<string, any>;
   /**
@@ -206,25 +206,25 @@ export interface TableColumnData {
   /**
    * @zh 自定义单元格样式
    * @en Custom cell style
-   * @version 2.11.0
+   *
    */
   cellStyle?: CSSProperties;
   /**
    * @zh 自定义表头单元格样式
    * @en Custom header cell style
-   * @version 2.29.0
+   *
    */
   headerCellStyle?: CSSProperties;
   /**
    * @zh 自定义内容单元格样式
    * @en Custom body cell style
-   * @version 2.29.0
+   *
    */
   bodyCellStyle?: CSSProperties | ((record: TableData) => CSSProperties);
   /**
    * @zh 自定义总结栏单元格样式
    * @en Custom summary cell style
-   * @version 2.30.0
+   *
    */
   summaryCellStyle?: CSSProperties | ((record: TableData) => CSSProperties);
   /**
@@ -239,13 +239,13 @@ export interface TableColumnData {
   /**
    * @zh 设置当前列的渲染插槽的名字。插槽参数同 #cell
    * @en Sets the name of the render slot for the current column. Slot parameters are the same as #cell
-   * @version 2.18.0
+   *
    */
   slotName?: string;
   /**
    * @zh 设置当前列的标题的渲染插槽的名字
    * @en Set the name of the render slot for the header of the current column
-   * @version 2.23.0
+   *
    */
   titleSlotName?: string;
 
@@ -322,7 +322,7 @@ export interface TableRowSelection {
   /**
    * @zh 是否开启严格选择模式 (default: true)
    * @en Whether to enable strict selection mode (default: true)
-   * @version 2.29.0
+   *
    */
   checkStrictly?: boolean;
 }

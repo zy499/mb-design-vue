@@ -3,7 +3,7 @@ import { getPrefixCls } from '../_utils/global-config';
 import Tooltip from '../tooltip';
 
 /**
- * @version 2.17.0
+ *
  */
 export default defineComponent({
   name: 'ImagePreviewAction',

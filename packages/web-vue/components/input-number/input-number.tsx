@@ -164,7 +164,7 @@ export default defineComponent({
      * @zh 用户点击清除按钮时触发
      * @en Triggered when the user clicks the clear button
      * @param {Event} ev
-     * @version 2.23.0
+     *
      */
     'clear': (ev: Event) => true,
     /**
@@ -173,7 +173,7 @@ export default defineComponent({
      * @param {number|undefined} value
      * @param {string} inputValue
      * @param {Event} ev
-     * @version 2.27.0
+     *
      */
     'input': (value: number | undefined, inputValue: string, ev: Event) => true,
   },

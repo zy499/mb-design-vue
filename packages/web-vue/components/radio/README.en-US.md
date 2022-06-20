@@ -45,24 +45,24 @@ description: In a set of related and mutually exclusive data, the user can only 
 |change|Trigger when the value changes|value: `union`<br>ev: `Event`|
 ### `<radio>` Slots
 
-|Slot Name|Description|Parameters|version|
-|---|---|---|:---|
-|radio|Custom radio|checked: `boolean`<br>disabled: `boolean`|2.18.0|
+|Slot Name|Description|Parameters|
+|---|---|---|
+|radio|Custom radio|checked: `boolean`<br>disabled: `boolean`|
 
 
 
 
 ### `<radio-group>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|model-value **(v-model)**|Value|`string \| number \| boolean`|`-`||
-|default-value|Default value (uncontrolled state)|`string \| number \| boolean`|`''`||
-|type|Types of radio group|`'radio' \| 'button'`|`'radio'`||
-|size|The size of the radio group|`'mini' \| 'small' \| 'medium' \| 'large'`|`-`||
-|options|Options|`Array<string \| number \| RadioOption>`|`-`|2.27.0|
-|direction|The direction of the radio group|`'horizontal' \| 'vertical'`|`'horizontal'`||
-|disabled|Whether to disable|`boolean`|`false`||
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|model-value **(v-model)**|Value|`string \| number \| boolean`|`-`|
+|default-value|Default value (uncontrolled state)|`string \| number \| boolean`|`''`|
+|type|Types of radio group|`'radio' \| 'button'`|`'radio'`|
+|size|The size of the radio group|`'mini' \| 'small' \| 'medium' \| 'large'`|`-`|
+|options|Options|`Array<string \| number \| RadioOption>`|`-`|
+|direction|The direction of the radio group|`'horizontal' \| 'vertical'`|`'horizontal'`|
+|disabled|Whether to disable|`boolean`|`false`|
 ### `<radio-group>` Events
 
 |Event Name|Description|Parameters|
@@ -70,10 +70,10 @@ description: In a set of related and mutually exclusive data, the user can only 
 |change|Trigger when the value changes|value: `union`|
 ### `<radio-group>` Slots
 
-|Slot Name|Description|Parameters|version|
-|---|---|---|:---|
-|radio|Custom radio|checked: `boolean`<br>disabled: `boolean`|2.27.0|
-|label|radio label content|data: `RadioOption`|2.27.0|
+|Slot Name|Description|Parameters|
+|---|---|---|
+|radio|Custom radio|checked: `boolean`<br>disabled: `boolean`|
+|label|radio label content|data: `RadioOption`|
 
 
 

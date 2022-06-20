@@ -27,17 +27,17 @@ description: 用于评分或打星的组件。
 
 ### `<rate>` Props
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|count|评分的总数|`number`|`5`||
-|model-value **(v-model)**|绑定值|`number`|`-`||
-|default-value|默认值|`number`|`0`||
-|allow-half|是否允许半选|`boolean`|`false`||
-|allow-clear|是否允许清除|`boolean`|`false`||
-|grading|是否开启笑脸分级|`boolean`|`false`||
-|readonly|是否为只读状态|`boolean`|`false`||
-|disabled|是否禁用|`boolean`|`false`||
-|color|颜色|`string \| Record<string, string>`|`-`|2.18.0|
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|count|评分的总数|`number`|`5`|
+|model-value **(v-model)**|绑定值|`number`|`-`|
+|default-value|默认值|`number`|`0`|
+|allow-half|是否允许半选|`boolean`|`false`|
+|allow-clear|是否允许清除|`boolean`|`false`|
+|grading|是否开启笑脸分级|`boolean`|`false`|
+|readonly|是否为只读状态|`boolean`|`false`|
+|disabled|是否禁用|`boolean`|`false`|
+|color|颜色|`string \| Record<string, string>`|`-`|
 ### `<rate>` Events
 
 |事件名|描述|参数|

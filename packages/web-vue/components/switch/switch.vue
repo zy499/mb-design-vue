@@ -99,7 +99,7 @@ export default defineComponent({
     /**
      * @zh 选中时的值
      * @en Value when checked
-     * @version 2.12.0
+     *
      */
     checkedValue: {
       type: [String, Number, Boolean],
@@ -108,7 +108,7 @@ export default defineComponent({
     /**
      * @zh 未选中时的值
      * @en Value when unchecked
-     * @version 2.12.0
+     *
      */
     uncheckedValue: {
       type: [String, Number, Boolean],
@@ -117,7 +117,7 @@ export default defineComponent({
     /**
      * @zh 选中时的开关颜色
      * @en The color of the switch when checked
-     * @version 2.12.0
+     *
      */
     checkedColor: {
       type: String,
@@ -125,7 +125,7 @@ export default defineComponent({
     /**
      * @zh 未选中时的开关颜色
      * @en The color of the switch when unchecked
-     * @version 2.12.0
+     *
      */
     uncheckedColor: {
       type: String,

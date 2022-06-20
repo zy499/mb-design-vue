@@ -36,7 +36,7 @@ export default defineComponent({
     /**
      * @zh 大小
      * @en Size
-     * @version 2.14.0
+     *
      */
     size: {
       type: String as PropType<Size>,
@@ -44,7 +44,7 @@ export default defineComponent({
     /**
      * @zh 是否全局生效
      * @en Is global effect
-     * @version 2.25.0
+     *
      */
     global: {
       type: Boolean,
@@ -53,7 +53,7 @@ export default defineComponent({
     /**
      * @zh 是否在容器滚动时更新弹出框的位置
      * @us Whether to update the position of the popup when the container is scrolled
-     * @version 2.25.0
+     *
      */
     updateAtScroll: {
       type: Boolean,
@@ -64,13 +64,13 @@ export default defineComponent({
    * @zh 自定义空状态元素
    * @en Custom empty element
    * @slot empty
-   * @version 2.28.0
+   *
    */
   /**
    * @zh 自定义加载中元素
    * @en Custom loading element
    * @slot loading
-   * @version 2.28.0
+   *
    */
   setup(props, { slots }) {
     const { prefixCls, locale, size, updateAtScroll } = toRefs(props);

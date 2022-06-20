@@ -17,18 +17,18 @@ description: Configure in the outermost layer of the application, set once, and 
 
 ### `<config-provider>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|prefix-cls|Component classname prefix|`string`|`'mb'`||
-|locale|Configure language pack|`MbLang`|`-`||
-|size|Size|`Size`|`-`|2.14.0|
-|global|Is global effect|`boolean`|`false`|2.25.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|prefix-cls|Component classname prefix|`string`|`'mb'`|
+|locale|Configure language pack|`MbLang`|`-`|
+|size|Size|`Size`|`-`|
+|global|Is global effect|`boolean`|`false`|
 ### `<config-provider>` Slots
 
-|Slot Name|Description|Parameters|version|
-|---|---|---|:---|
-|loading|Custom loading element|-|2.28.0|
-|empty|Custom empty element|-|2.28.0|
+|Slot Name|Description|Parameters|
+|---|---|---|
+|loading|Custom loading element|-|
+|empty|Custom empty element|-|
 
 
 

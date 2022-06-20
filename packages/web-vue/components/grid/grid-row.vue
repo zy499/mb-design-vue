@@ -61,7 +61,7 @@ export default defineComponent({
     /**
      * @zh `Col` 是否支持换行
      * @en Whether `Col` can wrap onto multiple lines
-     * @version 2.13.0
+     *
      */
     wrap: {
       type: Boolean,

@@ -47,7 +47,7 @@ export default defineComponent({
     /**
      * @zh 搜索按钮的文字，使用后会替换原本的图标
      * @en The text of the search button will replace the original icon after use
-     * @version 2.16.0
+     *
      */
     buttonText: {
       type: String,

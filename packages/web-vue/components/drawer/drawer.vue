@@ -188,7 +188,7 @@ export default defineComponent({
     /**
      * @zh 确认按钮的Props
      * @en Props of confirm button
-     * @version 2.9.0
+     *
      */
     okButtonProps: {
       type: Object,
@@ -196,7 +196,7 @@ export default defineComponent({
     /**
      * @zh 取消按钮的Props
      * @en Props of cancel button
-     * @version 2.9.0
+     *
      */
     cancelButtonProps: {
       type: Object,
@@ -204,7 +204,7 @@ export default defineComponent({
     /**
      * @zh 关闭时是否卸载节点
      * @en Whether to uninstall the node when close
-     * @version 2.12.0
+     *
      */
     unmountOnClose: Boolean,
     /**
@@ -262,7 +262,7 @@ export default defineComponent({
     /**
      * @zh 是否展示底部内容
      * @en Whether to display the bottom content
-     * @version 2.11.0
+     *
      */
     footer: {
       type: Boolean,
@@ -271,7 +271,7 @@ export default defineComponent({
     /**
      * @zh 是否支持 ESC 键关闭对话框
      * @en Whether to support the ESC key to close the dialog
-     * @version 2.15.0
+     *
      */
     escToClose: {
       type: Boolean,
@@ -280,7 +280,7 @@ export default defineComponent({
     /**
      * @zh 是否隐藏取消按钮
      * @en Whether to hide the cancel button
-     * @version 2.19.0
+     *
      */
     hideCancel: {
       type: Boolean,

@@ -15,19 +15,19 @@ description: 在应用的最外层进行配置，一次设置，全局生效。�
 
 ### `<config-provider>` Props
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|prefix-cls|组件类名前缀|`string`|`'mb'`||
-|locale|配置语言包|`MbLang`|`-`||
-|size|大小|`Size`|`-`|2.14.0|
-|global|是否全局生效|`boolean`|`false`|2.25.0|
-|update-at-scroll|是否在容器滚动时更新弹出框的位置|`boolean`|`false`|2.25.0|
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|prefix-cls|组件类名前缀|`string`|`'mb'`|
+|locale|配置语言包|`MbLang`|`-`|
+|size|大小|`Size`|`-`|
+|global|是否全局生效|`boolean`|`false`|
+|update-at-scroll|是否在容器滚动时更新弹出框的位置|`boolean`|`false`|
 ### `<config-provider>` Slots
 
-|插槽名|描述|参数|版本|
-|---|:---:|---|:---|
-|loading|自定义加载中元素|-|2.28.0|
-|empty|自定义空状态元素|-|2.28.0|
+|插槽名|描述|参数|
+|---|:---:|---|
+|loading|自定义加载中元素|-|
+|empty|自定义空状态元素|-|
 
 
 

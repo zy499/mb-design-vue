@@ -247,7 +247,7 @@ export default defineComponent({
     /**
      * @zh 是否默认展开已选中节点的父节点
      * @en Whether to expand the parent node of the selected node by default
-     * @version 2.9.0
+     *
      */
     defaultExpandSelected: {
       type: Boolean,
@@ -255,7 +255,7 @@ export default defineComponent({
     /**
      * @zh 是否默认展开已选中复选框节点的父节点
      * @en Whether to expand the parent node of the checked node by default
-     * @version 2.9.0
+     *
      */
     defaultExpandChecked: {
       type: Boolean,
@@ -263,7 +263,7 @@ export default defineComponent({
     /**
      * @zh 是否自动展开已展开节点的父节点
      * @en Whether to automatically expand the parent node of the expanded node
-     * @version 2.9.0
+     *
      */
     autoExpandParent: {
       type: Boolean,
@@ -272,7 +272,7 @@ export default defineComponent({
     /**
      * @zh 半选状态的节点.仅在 checkable 且 checkStrictly 时生效
      * @en The keys of half checked. Only valid when checkable and checkStrictly
-     * @version 2.19.0
+     *
      * @vModel
      */
     halfCheckedKeys: {
@@ -281,7 +281,7 @@ export default defineComponent({
     /**
      * @zh 开启后 checkedKeys 只处理叶子节点，父节点状态由子节点决定（仅在 checkable 且 checkStrictly 为 false 时生效）
      * @en When enabled, checkedKeys is only for checked leaf nodes, and the status of the parent node is determined by the child node.(Only valid when checkable and checkStrictly is false)
-     * @version 2.21.0
+     *
      */
     onlyCheckLeaf: {
       type: Boolean,
@@ -290,7 +290,7 @@ export default defineComponent({
     /**
      * @zh 是否开启展开时的过渡动效
      * @en Whether to enable expand transition animation
-     * @version 2.21.0
+     *
      */
     animation: {
       type: Boolean,
@@ -299,7 +299,7 @@ export default defineComponent({
     /**
      * @zh 点击节点的时候触发的动作
      * @en The action triggered when the node is clicked
-     * @version 2.27.0
+     *
      */
     actionOnNodeClick: {
       type: String as PropType<'expand'>,
@@ -405,7 +405,7 @@ export default defineComponent({
    * @en Custom node icon
    * @slot icon
    * @binding {TreeNodeData} node
-   * @version 2.18.0
+   *
    */
   /**
    * @zh 定制 switcher 图标
@@ -1018,7 +1018,7 @@ export default defineComponent({
      * @en Get selected nodes
      * @returns {TreeNodeData[]}
      * @public
-     * @version 2.19.0
+     *
      */
     getSelectedNodes() {
       return this.getNodes(this.computedSelectedKeys);
@@ -1029,7 +1029,7 @@ export default defineComponent({
      * @param { checkedStrategy?: 'all' | 'parent' | 'child'; includeHalfChecked?: boolean; } options
      * @returns {TreeNodeData[]}
      * @public
-     * @version 2.19.0
+     *
      */
     getCheckedNodes(
       options: {
@@ -1053,7 +1053,7 @@ export default defineComponent({
      * @en Get half checked nodes
      * @returns {TreeNodeData[]}
      * @public
-     * @version 2.19.0
+     *
      */
     getHalfCheckedNodes() {
       return this.getNodes(this.computedIndeterminateKeys);
@@ -1063,7 +1063,7 @@ export default defineComponent({
      * @en Get expanded nodes
      * @returns {TreeNodeData[]}
      * @public
-     * @version 2.19.0
+     *
      */
     getExpandedNodes() {
       return this.getNodes(this.computedExpandedKeys);
@@ -1073,7 +1073,7 @@ export default defineComponent({
      * @en Set the checkbox state of all nodes
      * @param { boolean } checked
      * @public
-     * @version 2.20.0
+     *
      */
     checkAll(checked = true) {
       const { key2TreeNode } = this.treeContext;
@@ -1092,7 +1092,7 @@ export default defineComponent({
      * @param { boolean } checked
      * @param { boolean } onlyCheckLeaf
      * @public
-     * @version 2.20.0，onlyCheckLeaf from 2.21.0
+     *
      */
     checkNode(
       key: TreeNodeKey | TreeNodeKey[],
@@ -1117,7 +1117,7 @@ export default defineComponent({
      * @en Set the selected state of all nodes
      * @param { boolean } selected
      * @public
-     * @version 2.20.0
+     *
      */
     selectAll(selected = true) {
       const { key2TreeNode } = this.treeContext;
@@ -1136,7 +1136,7 @@ export default defineComponent({
      * @param { TreeNodeKey | TreeNodeKey[] } key
      * @param { boolean } selected
      * @public
-     * @version 2.20.0
+     *
      */
     selectNode(key: TreeNodeKey | TreeNodeKey[], selected = true) {
       const { key2TreeNode } = this.treeContext;
@@ -1152,7 +1152,7 @@ export default defineComponent({
      * @en Set the expanded state of all nodes
      * @param { boolean } expanded
      * @public
-     * @version 2.20.0
+     *
      */
     expandAll(expanded = true) {
       const { key2TreeNode } = this.treeContext;
@@ -1171,7 +1171,7 @@ export default defineComponent({
      * @param { TreeNodeKey | TreeNodeKey[] } key
      * @param { boolean } expanded
      * @public
-     * @version 2.20.0
+     *
      */
     expandNode(key: TreeNodeKey | TreeNodeKey[], expanded = true) {
       const { key2TreeNode } = this.treeContext;

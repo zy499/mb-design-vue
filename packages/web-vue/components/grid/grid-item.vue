@@ -26,7 +26,7 @@ import { ResponsiveValue } from './interface';
 import { resolveItemData } from './utils';
 
 /**
- * @version 2.15.0
+ *
  * @zh 响应式配置从 `2.18.0` 开始支持，具体配置 [ResponsiveValue](#responsivevalue)
  * @en Responsive configuration has been supported since `2.18.0`, the specific configuration [ResponsiveValue](#responsivevalue)
  */

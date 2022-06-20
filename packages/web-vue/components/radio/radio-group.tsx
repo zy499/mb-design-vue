@@ -56,7 +56,7 @@ export default defineComponent({
     /**
      * @zh 选项
      * @en Options
-     * @version 2.27.0
+     *
      */
     options: {
       type: Array as PropType<Array<string | number | RadioOption>>,
@@ -93,7 +93,7 @@ export default defineComponent({
    * @en radio label content
    * @slot label
    * @binding {RadioOption} data
-   * @version 2.27.0
+   *
    */
   /**
    * @zh 自定义单选框
@@ -101,7 +101,7 @@ export default defineComponent({
    * @slot radio
    * @binding {boolean} checked
    * @binding {boolean} disabled
-   * @version 2.27.0
+   *
    */
   setup(props, { emit, slots }) {
     const prefixCls = getPrefixCls('radio-group');

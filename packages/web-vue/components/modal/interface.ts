@@ -80,19 +80,19 @@ export interface ModalConfig {
   /**
    * @zh 是否支持 ESC 键关闭对话框
    * @en Whether to support the ESC key to close the dialog
-   * @version 2.15.0
+   *
    */
   escToClose?: boolean;
   /**
    * @zh 是否支持拖动
    * @en Whether to support drag
-   * @version 2.19.0
+   *
    */
   draggable?: boolean;
   /**
    * @zh 是否开启全屏
    * @en Whether to enable full screen
-   * @version 2.19.0
+   *
    */
   fullscreen?: boolean;
   /**
@@ -108,13 +108,13 @@ export interface ModalConfig {
   /**
    * @zh 触发 ok 事件前的回调函数。如果返回 false 则不会触发后续事件，也可使用 done 进行异步关闭。
    * @en The callback function before the ok event is triggered. If false is returned, subsequent events will not be triggered, and done can also be used to close asynchronously.
-   * @version 2.7.0
+   *
    */
   onBeforeOk?: (done: (closed: boolean) => void) => void | boolean;
   /**
    * @zh 触发 cancel 事件前的回调函数。如果返回 false 则不会触发后续事件。
    * @en The callback function before the cancel event is triggered. If it returns false, no subsequent events will be triggered.
-   * @version 2.7.0
+   *
    */
   onBeforeCancel?: () => boolean;
   /**
@@ -130,31 +130,31 @@ export interface ModalConfig {
   /**
    * @zh 对话框打开前触发
    * @en Triggered before dialog is opened
-   * @version 2.16.0
+   *
    */
   onBeforeOpen?: () => void;
   /**
    * @zh 对话框关闭前触发
    * @en Triggered before dialog is closed
-   * @version 2.16.0
+   *
    */
   onBeforeClose?: () => void;
   /**
    * @zh 对话框的宽度，不设置的情况下会使用样式中的宽度值
    * @en The width of the dialog box, if not set, the width value in the style will be used
-   * @version 2.12.0
+   *
    */
   width?: number | string;
   /**
    * @zh 对话框的距离顶部的高度，居中显示开启的情况下不生效
    * @en The height from the top of the dialog box. It does not take effect when the center display is turned on.
-   * @version 2.12.0
+   *
    */
   top?: number | string;
   /**
    * @zh 标题的水平对齐方向
    * @en horizontal alignment of the title
-   * @version 2.17.0
+   *
    */
   titleAlign?: 'start' | 'center';
   /**
@@ -180,13 +180,13 @@ export interface ModalConfig {
   /**
    * @zh 遮罩层动画名字
    * @en Mask layer animation name
-   * @version 2.24.0
+   *
    */
   maskAnimationName?: string;
   /**
    * @zh 对话框动画名字
    * @en Modal animation name
-   * @version 2.24.0
+   *
    */
   modalAnimationName?: string;
 }

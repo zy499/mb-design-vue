@@ -87,7 +87,7 @@ export default defineComponent({
     /**
      * @zh 颜色
      * @en Color
-     * @version 2.18.0
+     *
      */
     color: {
       type: [String, Object] as PropType<string | Record<string, string>>,

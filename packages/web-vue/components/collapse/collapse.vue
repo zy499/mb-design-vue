@@ -69,7 +69,7 @@ export default defineComponent({
     /**
      * @zh 是否在隐藏时销毁内容
      * @en Whether to destroy content when hidden
-     * @version 2.27.0
+     *
      */
     destroyOnHide: {
       type: Boolean,

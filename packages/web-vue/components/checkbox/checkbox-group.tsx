@@ -39,7 +39,7 @@ export default defineComponent({
     /**
      * @zh 选项
      * @en Options
-     * @version 2.27.0
+     *
      */
     options: {
       type: Array as PropType<Array<string | number | CheckboxOption>>,
@@ -76,7 +76,7 @@ export default defineComponent({
    * @en checkbox label content
    * @slot label
    * @binding {CheckboxOption} data
-   * @version 2.27.0
+   *
    */
   /**
    * @zh 自定义复选框
@@ -84,7 +84,7 @@ export default defineComponent({
    * @slot checkbox
    * @binding {boolean} checked
    * @binding {boolean} disabled
-   * @version 2.27.0
+   *
    */
   setup(props, { emit, slots }) {
     const { disabled } = toRefs(props);

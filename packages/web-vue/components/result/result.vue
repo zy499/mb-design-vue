@@ -118,13 +118,13 @@ export default defineComponent({
    * @zh 操作区
    * @en Extra
    * @slot extra
-   * @version 2.8.0
+   *
    */
   /**
    * @zh 默认插槽
    * @en Default
    * @slot default
-   * @version 2.8.0
+   *
    */
   setup() {
     const prefixCls = getPrefixCls('result');

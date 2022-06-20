@@ -184,7 +184,7 @@ export default defineComponent({
     /**
      * @zh 默认展开选中的菜单
      * @en Expand the selected menus by default
-     * @version 2.8.0
+     *
      */
     autoOpenSelected: {
       type: Boolean,
@@ -192,7 +192,7 @@ export default defineComponent({
     /**
      * @zh 响应式的断点, 详见[响应式栅格](/vue/component/grid)
      * @en Responsive breakpoints, see [Responsive Grid](/vue/component/grid) for details
-     * @version 2.18.0
+     *
      */
     breakpoint: {
       type: String as PropType<'xxl' | 'xl' | 'lg' | 'md' | 'sm' | 'xs'>,
@@ -200,7 +200,7 @@ export default defineComponent({
     /**
      * @zh 弹出框的最大高度
      * @en The maximum height of popover
-     * @version 2.23.0
+     *
      */
     popupMaxHeight: {
       type: [Boolean, Number] as PropType<boolean | number>,

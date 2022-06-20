@@ -31,18 +31,18 @@ description: Mutually exclusive operation controls, users can turn on or turn of
 
 ### `<switch>` Props
 
-|Attribute|Description|Type|Default|version|
-|---|---|---|:---:|:---|
-|model-value **(v-model)**|Value|`string\|number\|boolean`|`-`||
-|default-checked|Default selected state (uncontrolled state)|`boolean`|`false`||
-|disabled|Whether to disable|`boolean`|`false`||
-|loading|Whether it is loading state|`boolean`|`false`||
-|type|Type of switch|`'circle' \| 'round' \| 'line'`|`'circle'`||
-|size|Size of switch|`'small' \| 'medium'`|`'medium'`||
-|checked-value|Value when checked|`string\|number\|boolean`|`true`|2.12.0|
-|unchecked-value|Value when unchecked|`string\|number\|boolean`|`false`|2.12.0|
-|checked-color|The color of the switch when checked|`string`|`-`|2.12.0|
-|unchecked-color|The color of the switch when unchecked|`string`|`-`|2.12.0|
+|Attribute|Description|Type|Default|
+|---|---|---|:---:|
+|model-value **(v-model)**|Value|`string\|number\|boolean`|`-`|
+|default-checked|Default selected state (uncontrolled state)|`boolean`|`false`|
+|disabled|Whether to disable|`boolean`|`false`|
+|loading|Whether it is loading state|`boolean`|`false`|
+|type|Type of switch|`'circle' \| 'round' \| 'line'`|`'circle'`|
+|size|Size of switch|`'small' \| 'medium'`|`'medium'`|
+|checked-value|Value when checked|`string\|number\|boolean`|`true`|
+|unchecked-value|Value when unchecked|`string\|number\|boolean`|`false`|
+|checked-color|The color of the switch when checked|`string`|`-`|
+|unchecked-color|The color of the switch when unchecked|`string`|`-`|
 ### `<switch>` Events
 
 |Event Name|Description|Parameters|

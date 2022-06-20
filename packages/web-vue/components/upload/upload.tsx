@@ -159,7 +159,7 @@ export default defineComponent({
     /**
      * @zh 是否显示删除按钮
      * @en Whether to display the remove button
-     * @version 2.11.0
+     *
      */
     showRemoveButton: {
       type: Boolean,
@@ -168,7 +168,7 @@ export default defineComponent({
     /**
      * @zh 是否显示重试按钮
      * @en Whether to display the retry button
-     * @version 2.11.0
+     *
      */
     showRetryButton: {
       type: Boolean,
@@ -177,7 +177,7 @@ export default defineComponent({
     /**
      * @zh 是否显示取消按钮
      * @en Whether to display the cancel button
-     * @version 2.11.0
+     *
      */
     showCancelButton: {
       type: Boolean,
@@ -186,7 +186,7 @@ export default defineComponent({
     /**
      * @zh 是否显示上传按钮。2.14.0 版本新增 `showOnExceedLimit` 支持
      * @en Whether to display the retry button. Added `showOnExceedLimit` support in version 2.14.0
-     * @version 2.11.0
+     *
      */
     showUploadButton: {
       type: [Boolean, Object] as PropType<
@@ -197,7 +197,7 @@ export default defineComponent({
     /**
      * @zh 是否在 `<a>` 链接上添加 download 属性
      * @en Whether to add download attribute to `<a>` link
-     * @version 2.11.0
+     *
      */
     download: {
       type: Boolean,
@@ -206,7 +206,7 @@ export default defineComponent({
     /**
      * @zh 在列表模式下，如果上传的文件存在 URL 则展示链接。如果关闭仅展示文字并且点击可以触发 `preview` 事件。
      * @en In the list mode, if the uploaded file has a URL, the link will be displayed. If you turn off only display text and click to trigger the `preview` event.
-     * @version 2.13.0
+     *
      */
     showLink: {
       type: Boolean,
@@ -215,7 +215,7 @@ export default defineComponent({
     /**
      * @zh `<img>` 的原生 HTML 属性，需要浏览器支持
      * @en Native HTML attributes of `<img>`, browser support is required
-     * @version 2.11.0
+     *
      */
     imageLoading: {
       type: String as PropType<'eager' | 'lazy'>,
@@ -247,7 +247,7 @@ export default defineComponent({
     },
     /**
      * @zh 是否使用 ImagePreview 组件进行预览
-     * @version 2.14.0
+     *
      */
     imagePreview: {
       type: Boolean,
@@ -333,62 +333,62 @@ export default defineComponent({
    * @zh 重试图标
    * @en Retry icon
    * @slot retry-icon
-   * @version 2.23.0
+   *
    */
   /**
    * @zh 成功图标
    * @en Success icon
    * @slot success-icon
-   * @version 2.23.0
+   *
    */
   /**
    * @zh 失败图标
    * @en Error icon
    * @slot error-icon
-   * @version 2.23.0
+   *
    */
   /**
    * @zh 开始图标
    * @en Start icon
    * @slot start-icon
-   * @version 2.23.0
+   *
    */
   /**
    * @zh 取消图标
    * @en Cancel icon
    * @slot cancel-icon
-   * @version 2.23.0
+   *
    */
   /**
    * @zh 预览图标
    * @en Preview icon
    * @slot preview-icon
-   * @version 2.23.0
+   *
    */
   /**
    * @zh 删除图标
    * @en Remove icon
    * @slot remove-icon
-   * @version 2.23.0
+   *
    */
   /**
    * @zh 文件图标
    * @en File icon
    * @slot file-icon
-   * @version 2.23.0
+   *
    */
   /**
    * @zh 文件名称
    * @en File name
    * @slot file-name
-   * @version 2.23.0
+   *
    */
   /**
    * @zh 自定义图片
    * @en Image
    * @slot image
    * @binding {FileItem} fileItem
-   * @version 2.23.0
+   *
    */
   setup(props, { emit, slots }) {
     const {

@@ -118,6 +118,13 @@ description: 用于数据收集展示、分析整理、操作处理。
 |方法名|描述|参数|返回值|版本|
 |---|---|---|---|:---|
 |selectAll|设置全选状态|checked: ` boolean `|-|2.22.0|
+|select|设置行选择器状态|rowKey: ` string \| string[] `<br>checked: ` boolean `|-|2.31.0|
+|expandAll|设置全部展开状态|checked: ` boolean `|-|2.31.0|
+|expand|设置展开状态|rowKey: ` string \| string[] `<br>checked: ` boolean `|-|2.31.0|
+|resetFilters|重置列的筛选器|dataIndex: ` string \| string[] `|-|2.31.0|
+|clearFilters|清空列的筛选器|dataIndex: ` string \| string[] `|-|2.31.0|
+|resetSorters|重置列的排序|-|-|2.31.0|
+|clearSorters|清空列的排序|-|-||
 ### `<table>` Slots
 
 |插槽名|描述|参数|版本|
@@ -142,30 +149,30 @@ description: 用于数据收集展示、分析整理、操作处理。
 
 ### `<table-column>` Props
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|data-index|列信息的标识，对应TableData中的数据|`string`|`-`||
-|title|列标题|`string`|`-`||
-|width|列宽度|`number`|`-`||
-|align|对齐方向|`TableColumnData['align']`|`-`||
-|fixed|固定位置|`TableColumnData['fixed']`|`-`||
-|ellipsis|是否显示为省略|`boolean`|`false`||
-|sortable|排序相关选项|`TableSortable`|`-`||
-|filterable|过滤相关选项|`TableFilterable`|`-`||
-|cell-style|自定义单元格样式|`CSSProperties`|`-`|2.11.0|
-|header-cell-style|自定义表头单元格样式|`CSSProperties`|`-`|2.29.0|
-|body-cell-style|自定义内容单元格样式|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|2.29.0|
-|summary-cell-style|自定义总结栏单元格样式|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|2.30.0|
-|index|用于手动指定选项的 index。2.26.0 版本后不再需要手动指定|`number`|`-`|2.20.2|
-|tooltip|在省略时是否显示文字提示|`boolean\|object`|`false`|2.26.0|
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|data-index|列信息的标识，对应TableData中的数据|`string`|`-`|
+|title|列标题|`string`|`-`|
+|width|列宽度|`number`|`-`|
+|align|对齐方向|`TableColumnData['align']`|`-`|
+|fixed|固定位置|`TableColumnData['fixed']`|`-`|
+|ellipsis|是否显示为省略|`boolean`|`false`|
+|sortable|排序相关选项|`TableSortable`|`-`|
+|filterable|过滤相关选项|`TableFilterable`|`-`|
+|cell-style|自定义单元格样式|`CSSProperties`|`-`|
+|header-cell-style|自定义表头单元格样式|`CSSProperties`|`-`|
+|body-cell-style|自定义内容单元格样式|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|
+|summary-cell-style|自定义总结栏单元格样式|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|
+|index|用于手动指定选项的 index。2.26.0 版本后不再需要手动指定|`number`|`-`|
+|tooltip|在省略时是否显示文字提示|`boolean\|object`|`false`|
 ### `<table-column>` Slots
 
-|插槽名|描述|参数|版本|
-|---|:---:|---|:---|
-|filter-icon|筛选按钮图标|-|2.23.0|
-|filter-content|自定义筛选弹出框内容|filterValue: `string[]`<br>setFilterValue: `(filterValue: string[]) => void`<br>handleFilterConfirm: `(event: Event) => void`<br>handleFilterReset: `(event: Event) => void`|2.23.0|
-|title|标题|-||
-|cell|单元格|record: `TableData`<br>column: `TableColumnData`<br>rowIndex: `number`||
+|插槽名|描述|参数|
+|---|:---:|---|
+|filter-icon|筛选按钮图标|-|
+|filter-content|自定义筛选弹出框内容|filterValue: `string[]`<br>setFilterValue: `(filterValue: string[]) => void`<br>handleFilterConfirm: `(event: Event) => void`<br>handleFilterReset: `(event: Event) => void`|
+|title|标题|-|
+|cell|单元格|record: `TableData`<br>column: `TableColumnData`<br>rowIndex: `number`|
 
 
 
@@ -180,13 +187,13 @@ type Sorter = { filed: string; direction: 'ascend' | 'descend' } | Record<string
 
 ### TableData
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|key|数据行的key|`string`|`-`||
-|expand|扩展行内容|`string \| RenderFunction`|`-`||
-|children|子数据|`TableData[]`|`-`||
-|disabled|是否禁用行选择器|`boolean`|`false`||
-|isLeaf|是否是叶子节点|`boolean`|`false`|2.13.0|
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|key|数据行的key|`string`|`-`|
+|expand|扩展行内容|`string \| RenderFunction`|`-`|
+|children|子数据|`TableData[]`|`-`|
+|disabled|是否禁用行选择器|`boolean`|`false`|
+|isLeaf|是否是叶子节点|`boolean`|`false`|
 
 
 
@@ -212,41 +219,41 @@ type Sorter = { filed: string; direction: 'ascend' | 'descend' } | Record<string
 
 ### TableFilterable
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|filters|筛选数据|`TableFilterData[]`|`-`||
-|filter|筛选函数|`(filteredValue: string[], record: TableData) => boolean`|`-`||
-|multiple|是否支持多选|`boolean`|`false`||
-|filteredValue|筛选项|`string[]`|`-`||
-|defaultFilteredValue|默认筛选项|`string[]`|`-`||
-|renderContent|筛选框的内容|`(data: {    filterValue: string[];    setFilterValue: (filterValue: string[]) => void;    handleFilterConfirm: (event: Event) => void;    handleFilterReset: (event: Event) => void;  }) => VNodeChild`|`-`||
-|icon|筛选按钮的图标|`RenderFunction`|`-`||
-|triggerProps|筛选框的弹出框配置|`TriggerProps`|`-`||
-|alignLeft|筛选图标是否左对齐|`boolean`|`false`|2.13.0|
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|filters|筛选数据|`TableFilterData[]`|`-`|
+|filter|筛选函数|`(filteredValue: string[], record: TableData) => boolean`|`-`|
+|multiple|是否支持多选|`boolean`|`false`|
+|filteredValue|筛选项|`string[]`|`-`|
+|defaultFilteredValue|默认筛选项|`string[]`|`-`|
+|renderContent|筛选框的内容|`(data: {    filterValue: string[];    setFilterValue: (filterValue: string[]) => void;    handleFilterConfirm: (event: Event) => void;    handleFilterReset: (event: Event) => void;  }) => VNodeChild`|`-`|
+|icon|筛选按钮的图标|`RenderFunction`|`-`|
+|triggerProps|筛选框的弹出框配置|`TriggerProps`|`-`|
+|alignLeft|筛选图标是否左对齐|`boolean`|`false`|
 
 
 
 ### TableColumnData
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|dataIndex|列信息的标识，对应 `TableData` 中的数据|`string`|`-`||
-|title|列标题|`string \| RenderFunction`|`-`||
-|width|列宽度|`number`|`-`||
-|align|对齐方向|`'left' \| 'center' \| 'right'`|`-`||
-|fixed|固定位置|`'left' \| 'right'`|`-`||
-|ellipsis|是否显示省略号|`boolean`|`false`||
-|tooltip|是否在显示省略号时显示文本提示。可填入 tooltip 组件属性|`boolean \| Record<string, any>`|`-`|2.26.0|
-|sortable|排序相关选项|`TableSortable`|`-`||
-|filterable|过滤相关选项|`TableFilterable`|`-`||
-|children|表头子数据，用于表头分组|`TableColumnData[]`|`-`||
-|cellStyle|自定义单元格样式|`CSSProperties`|`-`|2.11.0|
-|headerCellStyle|自定义表头单元格样式|`CSSProperties`|`-`|2.29.0|
-|bodyCellStyle|自定义内容单元格样式|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|2.29.0|
-|summaryCellStyle|自定义总结栏单元格样式|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|2.30.0|
-|render|自定义列单元格的渲染|`(data: {    record: TableData;    column: TableColumnData;    rowIndex: number;  }) => VNodeChild`|`-`||
-|slotName|设置当前列的渲染插槽的名字。插槽参数同 #cell|`string`|`-`|2.18.0|
-|titleSlotName|设置当前列的标题的渲染插槽的名字|`string`|`-`|2.23.0|
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|dataIndex|列信息的标识，对应 `TableData` 中的数据|`string`|`-`|
+|title|列标题|`string \| RenderFunction`|`-`|
+|width|列宽度|`number`|`-`|
+|align|对齐方向|`'left' \| 'center' \| 'right'`|`-`|
+|fixed|固定位置|`'left' \| 'right'`|`-`|
+|ellipsis|是否显示省略号|`boolean`|`false`|
+|tooltip|是否在显示省略号时显示文本提示。可填入 tooltip 组件属性|`boolean \| Record<string, any>`|`-`|
+|sortable|排序相关选项|`TableSortable`|`-`|
+|filterable|过滤相关选项|`TableFilterable`|`-`|
+|children|表头子数据，用于表头分组|`TableColumnData[]`|`-`|
+|cellStyle|自定义单元格样式|`CSSProperties`|`-`|
+|headerCellStyle|自定义表头单元格样式|`CSSProperties`|`-`|
+|bodyCellStyle|自定义内容单元格样式|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|
+|summaryCellStyle|自定义总结栏单元格样式|`CSSProperties \| ((record: TableData) => CSSProperties)`|`-`|
+|render|自定义列单元格的渲染|`(data: {    record: TableData;    column: TableColumnData;    rowIndex: number;  }) => VNodeChild`|`-`|
+|slotName|设置当前列的渲染插槽的名字。插槽参数同 #cell|`string`|`-`|
+|titleSlotName|设置当前列的标题的渲染插槽的名字|`string`|`-`|
 
 
 
@@ -263,16 +270,16 @@ type Sorter = { filed: string; direction: 'ascend' | 'descend' } | Record<string
 
 ### TableRowSelection
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|type|行选择器的类型|`'checkbox' \| 'radio'`|`-`||
-|selectedRowKeys|已选择的行（受控模式）|`string[]`|`-`||
-|defaultSelectedRowKeys|默认已选择的行（非受控模式）|`string[]`|`-`||
-|showCheckedAll|是否显示全选选择器|`boolean`|`false`||
-|title|列标题|`string`|`-`||
-|width|列宽度|`number`|`-`||
-|fixed|是否固定|`boolean`|`false`||
-|checkStrictly|是否开启严格选择模式 (default: true)|`boolean`|`false`|2.29.0|
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|type|行选择器的类型|`'checkbox' \| 'radio'`|`-`|
+|selectedRowKeys|已选择的行（受控模式）|`string[]`|`-`|
+|defaultSelectedRowKeys|默认已选择的行（非受控模式）|`string[]`|`-`|
+|showCheckedAll|是否显示全选选择器|`boolean`|`false`|
+|title|列标题|`string`|`-`|
+|width|列宽度|`number`|`-`|
+|fixed|是否固定|`boolean`|`false`|
+|checkStrictly|是否开启严格选择模式 (default: true)|`boolean`|`false`|
 
 
 

@@ -43,24 +43,24 @@ description: 在一组相关且互斥数据中，用户仅能选择一个选项�
 |change|值改变时触发|value: `union`<br>ev: `Event`|
 ### `<radio>` Slots
 
-|插槽名|描述|参数|版本|
-|---|:---:|---|:---|
-|radio|自定义单选框|checked: `boolean`<br>disabled: `boolean`|2.18.0|
+|插槽名|描述|参数|
+|---|:---:|---|
+|radio|自定义单选框|checked: `boolean`<br>disabled: `boolean`|
 
 
 
 
 ### `<radio-group>` Props
 
-|参数名|描述|类型|默认值|版本|
-|---|---|---|:---:|:---|
-|model-value **(v-model)**|绑定值|`string \| number \| boolean`|`-`||
-|default-value|默认值（非受控状态）|`string \| number \| boolean`|`''`||
-|type|单选框组的类型|`'radio' \| 'button'`|`'radio'`||
-|size|单选框组的尺寸|`'mini' \| 'small' \| 'medium' \| 'large'`|`-`||
-|options|选项|`Array<string \| number \| RadioOption>`|`-`|2.27.0|
-|direction|单选框组的方向|`'horizontal' \| 'vertical'`|`'horizontal'`||
-|disabled|是否禁用|`boolean`|`false`||
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|model-value **(v-model)**|绑定值|`string \| number \| boolean`|`-`|
+|default-value|默认值（非受控状态）|`string \| number \| boolean`|`''`|
+|type|单选框组的类型|`'radio' \| 'button'`|`'radio'`|
+|size|单选框组的尺寸|`'mini' \| 'small' \| 'medium' \| 'large'`|`-`|
+|options|选项|`Array<string \| number \| RadioOption>`|`-`|
+|direction|单选框组的方向|`'horizontal' \| 'vertical'`|`'horizontal'`|
+|disabled|是否禁用|`boolean`|`false`|
 ### `<radio-group>` Events
 
 |事件名|描述|参数|
@@ -68,10 +68,10 @@ description: 在一组相关且互斥数据中，用户仅能选择一个选项�
 |change|值改变时触发|value: `union`|
 ### `<radio-group>` Slots
 
-|插槽名|描述|参数|版本|
-|---|:---:|---|:---|
-|radio|自定义单选框|checked: `boolean`<br>disabled: `boolean`|2.27.0|
-|label|radio 文案内容|data: `RadioOption`|2.27.0|
+|插槽名|描述|参数|
+|---|:---:|---|
+|radio|自定义单选框|checked: `boolean`<br>disabled: `boolean`|
+|label|radio 文案内容|data: `RadioOption`|
 
 
 

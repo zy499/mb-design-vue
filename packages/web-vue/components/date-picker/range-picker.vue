@@ -167,7 +167,7 @@ export default defineComponent({
      * @zh 每周的第一天开始于周几，0 - 周日，1 - 周一，以此类推。
      * @en The first day of the week starts on the day of the week, 0-Sunday, 1-Monday, and so on.
      * @type 0 | 1 | 2 | 3 | 4 | 5 | 6
-     * @version 2-6 from 2.21.0
+     *
      */
     dayStartOfWeek: {
       type: Number as PropType<WeekStart>,
@@ -183,7 +183,7 @@ export default defineComponent({
     /**
      * @zh 值的格式，对 `value` `defaultValue` `pickerValue` `defaultPickerValue` 以及事件中的返回值生效，支持设置为时间戳，Date 和字符串（参考[字符串解析格式](#字符串解析格式)）。如果没有指定，将格式化为字符串，格式同 `format`。
      * @en The format of the value, valid for `value` `defaultValue` `pickerValue` `defaultPickerValue` and the return value in the event, supports setting as timestamp, Date and string (refer to [String parsing format](#string-parsing-format) ). If not specified, it will be formatted as a string, in the same format as `format`.
-     * @version 2.16.0
+     *
      */
     valueFormat: {
       type: String as PropType<'timestamp' | 'Date' | string>,
@@ -237,7 +237,7 @@ export default defineComponent({
     /**
      * @zh 时间是否会交换，默认情况下时间会影响和参与开始和结束值的排序，如果要固定时间顺序，可将其关闭。
      * @en Whether the time will be exchanged, by default time will affect and participate in the ordering of start and end values, if you want to fix the time order, you can turn it off.
-     * @version 2.25.0
+     *
      * */
     exchangeTime: {
       type: Boolean,

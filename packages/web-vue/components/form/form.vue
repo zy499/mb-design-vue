@@ -99,7 +99,7 @@ export default defineComponent({
     /**
      * @zh 是否开启自动标签宽度，仅在 `layout="horizontal"` 下生效。
      * @en Whether to enable automatic label width, it only takes effect under `layout="horizontal"`.
-     * @version 2.13.0
+     *
      */
     autoLabelWidth: {
       type: Boolean,
@@ -201,15 +201,21 @@ export default defineComponent({
       }
     };
 
-    const resetFields = () => {
+    const resetFields = (field?: string | string[]) => {
+      const _fields = field ? ([] as string[]).concat(field) : [];
       fields.forEach((field) => {
-        field.resetField();
+        if (_fields.length === 0 || _fields.includes(field.field)) {
+          field.resetField();
+        }
       });
     };
 
-    const clearValidate = () => {
+    const clearValidate = (field?: string | string[]) => {
+      const _fields = field ? ([] as string[]).concat(field) : [];
       fields.forEach((field) => {
-        field.clearValidate();
+        if (_fields.length === 0 || _fields.includes(field.field)) {
+          field.clearValidate();
+        }
       });
     };
 
@@ -374,6 +380,7 @@ export default defineComponent({
      * @zh 重置表单数据
      * @en Reset form data
      * @public
+     * @param {string | string[]} field
      */
     resetFields() {
       return this.innerResetFields();
@@ -382,9 +389,10 @@ export default defineComponent({
      * @zh 清除校验状态
      * @en Clear verification status
      * @public
+     * @param {string | string[]} field
      */
-    clearValidate() {
-      return this.innerClearValidate();
+    clearValidate(field?: string | string[]) {
+      return this.innerClearValidate(field);
     },
     /**
      * @zh 设置表单项的值和状态
