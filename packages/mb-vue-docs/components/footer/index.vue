@@ -47,7 +47,7 @@
           </a>
           <div class="mb-site-footer-copyright">
             <span>GIP UED & 架构前端 </span>
-            <span>ⓒ Copyright MaBang 2019-{{ latestYear }}</span>
+            <span>ⓒ Copyright MaBang 2021-{{ latestYear }}</span>
           </div>
         </div>
         <!-- <div class="mb-site-footer-bottom-right">
