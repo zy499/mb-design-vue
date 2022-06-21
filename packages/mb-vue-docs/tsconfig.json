@@ -3,7 +3,7 @@
     "target": "ES2020",
     "module": "ES2020",
     "moduleResolution": "node",
-    // "lib": ["es2020", "dom", "es2020.promise"],
+    "lib": ["es2020", "dom"],
     "allowJs": true,
     "strict": true,
     "isolatedModules": true,
@@ -15,6 +15,6 @@
       "@web-vue/*": [
         "../web-vue/*"
       ]
-    },
+    }
   }
 }

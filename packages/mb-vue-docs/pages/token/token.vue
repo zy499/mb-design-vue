@@ -52,8 +52,8 @@ export default defineComponent({
           description:
             '组件库的全局 Token，可以在此查看组件库内置的设计变量以及默认值',
           meta: {
-            type: '组件',
-            category: '通用',
+            type: '开发指南',
+            // category: '通用',
           },
         };
       }
@@ -63,7 +63,7 @@ export default defineComponent({
           'The global Token of the component library, you can view the built-in design variables and default values of the component library here',
         meta: {
           type: 'Component',
-          category: 'Common',
+          // category: 'Common',
         },
       };
     });

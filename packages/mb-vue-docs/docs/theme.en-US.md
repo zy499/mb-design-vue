@@ -71,8 +71,3 @@ module.exports = {
 }
 ```
 
-## Design System Lab theme package usage
-
-The theme package for the style configuration platform Vue is already available.
-
-For specific usage, please refer to [Style Configuration Platform Documentation](https://mb.design/docs/designlab/guideline)

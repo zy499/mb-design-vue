@@ -9,6 +9,7 @@
     "allowJs": true,
     "isolatedModules": true,
     "esModuleInterop": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "lib": ["es2020", "dom"],
   }
 }

@@ -68,9 +68,3 @@ module.exports = {
   ...
 }
 ```
-
-## 风格配置平台主题包使用
-
-风格配置平台 Vue 的主题包已经可以使用。
-
-具体使用方法可以参考[风格配置平台文档](https://mb.design/docs/designlab/guideline)
