@@ -83,19 +83,7 @@ app.mount('#app');
 
 | Project               | Description                                             |
 | --------------------- | ------------------------------------------------------- |
-| [React Component Library] | A comprehensive React UI components library based on the Mb Design system |
-| [Design Lab] | A platform to create and manage your themes with ease. |
-| [Material Market] | A platform that provides massive high-quality customized materials to greatly boost development efficiency. |
-| [Icon Box] | One-stop platform to manage your icons. |
 | [Mb Pro] | A solution to quickly building applications from scratch. |
-
-[React Component Library]: https://mb.design/react/docs/start
-
-[Design Lab]: https://mb.design/themes
-
-[Material Market]: https://mb.design/material
-
-[Icon Box]: https://mb.design/iconbox
 
 [Mb Pro]: https://mb.design/pro/
 

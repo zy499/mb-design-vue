@@ -67,8 +67,8 @@ Commit messages 请遵循[conventional-changelog 标准](https://www.conventiona
 1. `web-vue`: Vue组件库
 2. `vue-site`: Vue组件库文档站
 3. `mb-vue-scripts`: Vue组件库脚本
-4. `mb-vue-md-loader`: Vue组件库中markdown文档的webpack loader
-5. `mb-vue-site-nav`: Vue组件库文档站的顶部导航栏（使用React物料）
+4. `vite-plugin-mb-vue-docs`: Vue组件库中markdown文档的webpack loader
+5. `color`: 颜色动态计算
 
 ### Web-Vue 组件目录
 

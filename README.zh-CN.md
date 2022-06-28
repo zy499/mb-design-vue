@@ -33,7 +33,6 @@
 海量的样式 tokens, 支持全局以及组件级别的主题配置。有以下2种方式可以定制主题：
 
 * [Less-loader](https://mb.design/vue/docs/theme)
-* [风格配置平台](https://mb.design/themes) - 推荐!
 
 ## TypeScript 友好
 
@@ -85,26 +84,18 @@ app.mount('#app');
 
 | 项目               | 介绍                                             |
 | --------------------- | ------------------------------------------------------- |
-| [React 组件库] | 基于 [Mb Design](https://mb.design/) 的 React UI 组件库。 |
-| [风格配置平台] | 精确到组件级的主题视觉配置平台 |
-| [物料平台] | 丰富可共享的业务定制物料，让效率突破猛进 |
-| [图标平台] | 一站式图标管理平台 |
 | [Mb Pro] | 快速构建中后台的前端解决方案 |
 
-[React 组件库]: https://mb.design/react/docs/start
-[风格配置平台]: https://mb.design/themes
-[物料平台]: https://mb.design/material
-[图标平台]: https://mb.design/iconbox
 [Mb Pro]: https://mb.design/pro/
 
 # 参与贡献
 
 贡献之前请先阅读 [行为准则](./CODE_OF_CONDUCT.md) 和 [贡献指南](./CONTRIBUTING.zh-CN.md)。
 
-感谢所有为 MbDesign 做过贡献的人!
+<!-- 感谢所有为 MbDesign 做过贡献的人! -->
 
-<a href="https://github.com/mb-design/mb-design-vue/graphs/contributors"><img src="https://contrib.rocks/image?repo=mb-design/mb-design-vue" /></a>
+<!-- <a href="https://github.com/mb-design/mb-design-vue/graphs/contributors"><img src="https://contrib.rocks/image?repo=mb-design/mb-design-vue" /></a> -->
 
-# License
+<!-- # License
 
-[MIT 协议](./LICENSE)
+[MIT 协议](./LICENSE) -->
