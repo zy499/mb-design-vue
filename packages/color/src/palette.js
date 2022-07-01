@@ -53,11 +53,11 @@ function colorPalette(originColor, i, format) {
   const retColor = i === 6
     ? color
     : Color({
-        h: getNewHue(isLight, index),
-        s: getNewSaturation(isLight, index),
-        v: getNewValue(isLight, index),
-      });
-  
+      h: getNewHue(isLight, index),
+      s: getNewSaturation(isLight, index),
+      v: getNewValue(isLight, index),
+    });
+
   return getColorString(retColor, format);
 }
 

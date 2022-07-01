@@ -5,6 +5,34 @@ export const tokens = [
     type: 'color',
     tokens: [
       {
+        name: 'primary-10',
+        desc: '常规10',
+        descEN: 'Normal',
+        value: 'rgb(var(--mbblue-10))',
+        cssvar: true,
+      },
+      {
+        name: 'primary-9',
+        desc: '常规9',
+        descEN: 'Normal',
+        value: 'rgb(var(--mbblue-9))',
+        cssvar: true,
+      },
+      {
+        name: 'primary-8',
+        desc: '常规8',
+        descEN: 'Normal',
+        value: 'rgb(var(--mbblue-8))',
+        cssvar: true,
+      },
+      {
+        name: 'primary-7',
+        desc: '常规7',
+        descEN: 'Normal',
+        value: 'rgb(var(--mbblue-7))',
+        cssvar: true,
+      },
+      {
         name: 'primary-6',
         desc: '常规',
         descEN: 'Normal',
